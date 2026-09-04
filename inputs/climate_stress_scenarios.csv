@@ -1,0 +1,5 @@
+stress_case,scenario,energy_savings_factor_low,energy_savings_factor_high,equipment_performance_factor,maintenance_factor,terminal_value_factor,basis
+Baseline proxy,*,1.00,1.00,1.00,1.00,1.00,Illustrative external-performance interface; not historical observations
+Moderate stress proxy,*,0.95,0.95,0.95,1.10,0.98,Hypothetical input perturbation; no temperature or emissions pathway
+Severe stress proxy,*,0.85,0.85,0.85,1.25,0.90,Hypothetical input perturbation; no temperature or emissions pathway
+Energy-disruption proxy,*,0.80,1.10,0.90,1.15,0.95,Hypothetical uniform range for retained savings; no calibrated event probability

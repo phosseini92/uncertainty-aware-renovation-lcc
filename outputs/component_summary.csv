@@ -1,0 +1,14 @@
+scenario,component,mean_first_service_life_years,mean_replacement_count,probability_at_least_one_replacement,mean_pv_replacement_cost_eur
+Deep renovation + PV,Facade finish,22.334350478332194,1.0,1.0,144762.78673682013
+Deep renovation + PV,Heat pump,18.32881726519106,1.0375,1.0,286990.1502628705
+Deep renovation + PV,Insulation,39.95489471370358,0.0,0.0,0.0
+Deep renovation + PV,Inverter,12.343705498561473,2.0,1.0,97613.4751871587
+Deep renovation + PV,PV modules,26.65199694586302,0.833,0.833,111751.31749025724
+Deep renovation + PV,Windows,29.944552176853485,0.5028,0.5028,86324.8463519169
+Envelope + heat pump,Facade finish,22.334350478332194,1.0,1.0,43428.83602104604
+Envelope + heat pump,Heat pump,18.32881726519106,1.0375,1.0,255102.35578921819
+Envelope + heat pump,Insulation,39.95489471370358,0.0,0.0,0.0
+Envelope + heat pump,Windows,29.944552176853485,0.5028,0.5028,40284.92829756122
+Envelope retrofit,Facade finish,22.334350478332194,1.0,1.0,43428.83602104604
+Envelope retrofit,Insulation,39.95489471370358,0.0,0.0,0.0
+Envelope retrofit,Windows,29.944552176853485,0.5028,0.5028,40284.92829756122

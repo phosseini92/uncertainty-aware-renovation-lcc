@@ -1,0 +1,73 @@
+RENOVATION ECONOMICS UNDER UNCERTAINTY - VERSION 2.1
+
+Illustrative 24-dwelling building, 30-year horizon.
+Sample size: 10,000; seed: 20260726; keyed streams with nested sample-size prefixes.
+Owner share of energy-bill savings: 0%.
+All costs are incremental. Component renewal costs are charged to the owner and combined private account.
+The renewal-cost summary column describes the package in every perspective; it is not a tenant expense.
+Primary evidence consists of individual financial metrics and their trade-offs, not a composite winner.
+
+OWNER
+                             scenario  median_net_benefit_eur  probability_positive  worst_decile_mean_eur  p95_regret_eur  best_option_share  mean_pv_replacement_cost_eur  pareto_on_core_metrics
+                 Deep renovation + PV         -1,979,370.9062                0.0000        -2,676,474.7668  2,615,839.6641             0.0000                  727,442.5760                   False
+                 Envelope + heat pump           -830,733.9333                0.0000        -1,155,624.6474  1,124,959.8839             0.0000                  338,816.1201                   False
+                    Envelope retrofit           -341,501.3620                0.0000          -490,983.6060    480,428.5701             0.0000                   83,713.7643                   False
+Reference: no additional intervention                  0.0000                0.0000                 0.0000          0.0000             1.0000                        0.0000                    True
+
+TENANT
+                             scenario  median_net_benefit_eur  probability_positive  worst_decile_mean_eur  p95_regret_eur  best_option_share  mean_pv_replacement_cost_eur  pareto_on_core_metrics
+                 Deep renovation + PV          1,242,063.0178                1.0000           642,917.5383          0.0000             1.0000                  727,442.5760                    True
+                 Envelope + heat pump            700,421.1621                1.0000           353,953.5279    970,570.8396             0.0000                  338,816.1201                   False
+                    Envelope retrofit            350,254.6492                1.0000           182,454.3935  1,625,591.4236             0.0000                   83,713.7643                   False
+Reference: no additional intervention                  0.0000                0.0000                 0.0000  2,261,399.2186             0.0000                        0.0000                   False
+
+COMBINED_PRIVATE
+                             scenario  median_net_benefit_eur  probability_positive  worst_decile_mean_eur  p95_regret_eur  best_option_share  mean_pv_replacement_cost_eur  pareto_on_core_metrics
+                 Deep renovation + PV           -726,218.1454                0.1148        -1,625,829.5992  1,566,012.8628             0.0213                  727,442.5760                   False
+                 Envelope + heat pump           -127,113.1143                0.3365          -594,212.3561    563,129.4850             0.1905                  338,816.1201                   False
+                    Envelope retrofit             10,716.1433                0.5299          -213,787.9852    242,424.1066             0.3181                   83,713.7643                    True
+Reference: no additional intervention                  0.0000                0.0000                 0.0000    467,504.4961             0.4701                        0.0000                    True
+
+FIXED-ANCHOR PREFERENCE DIAGNOSTIC
+Weights and EUR anchors are explicit illustrative preferences, not calibrated stakeholder utilities.
+Only positive-frequency, median and lower-tail mean enter this optional score.
+Regret and best-option share are separate choice-set-relative metrics.
+Largest retained-option score change across diagnostic option sets: 0.
+Maximum pairwise preference-order reversals among retained options: 0.
+Ordinal ranks can shift when an option is removed or a better option is added; unchanged pairwise order is the check.
+
+MONTE CARLO DIAGNOSTICS
+Sample sizes: [1000, 2500, 5000, 10000, 25000]; seeds: [42, 104729, 271828, 20260726, 20260903].
+The largest sample is a finite comparison sample, not ground truth. Nested differences and cross-seed ranges are diagnostics.
+At N=10,000, 59/60 perspective/option/seed rows meet ALL declared numerical tolerances versus the largest N.
+  Maximum absolute mean_net_benefit_eur difference: 8,979.267373; tolerance: 10000.
+  Maximum absolute probability_positive difference: 0.007580; tolerance: 0.01.
+  Maximum absolute p10_net_benefit_eur difference: 10,509.711990; tolerance: 20000.
+  Maximum absolute worst_decile_mean_eur difference: 14,699.630334; tolerance: 30000.
+  Maximum absolute p95_regret_eur difference: 30,529.767498; tolerance: 30000.
+Positive-outcome Wilson intervals quantify Monte Carlo frequency uncertainty conditional on the assumed distributions.
+
+PERFORMANCE STRESS INTERFACE
+Delivered stress multipliers and thresholds are hypothetical. No historical climate data, temperature pathway or comfort simulation is used.
+Performance means retention of an assumed energy-savings target, not health, safety or indoor comfort.
+     perspective                              scenario  acceptable_case_count  required_acceptable_cases  robust_across_stress_cases
+combined_private                  Deep renovation + PV                      0                          3                       False
+combined_private                  Envelope + heat pump                      0                          3                       False
+combined_private                     Envelope retrofit                      0                          3                       False
+combined_private Reference: no additional intervention                      0                          3                       False
+           owner                  Deep renovation + PV                      0                          3                       False
+           owner                  Envelope + heat pump                      0                          3                       False
+           owner                     Envelope retrofit                      0                          3                       False
+           owner Reference: no additional intervention                      0                          3                       False
+          tenant                  Deep renovation + PV                      1                          3                       False
+          tenant                  Envelope + heat pump                      0                          3                       False
+          tenant                     Envelope retrofit                      0                          3                       False
+          tenant Reference: no additional intervention                      0                          3                       False
+No option needs to pass the screen: thresholds are not tuned to force a successful result.
+
+LIMITS
+Component lifetimes/costs are illustrative budget allocations; failure triggers immediate renewal with no downtime.
+No replacement at or beyond the horizon; no component-specific residual credit; terminal property premium remains separate and hypothetical.
+Routine maintenance reconciles to the scenario budget and is not charged again by the lifecycle module.
+No calibrated climate risk, building physics, environmental LCA or real-world validation is claimed.
+See ASSUMPTIONS.md and README.md for interpretation.

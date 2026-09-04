@@ -1,0 +1,27 @@
+{
+  "model_version": "2.1",
+  "simulations": 10000,
+  "seed": 20260726,
+  "sampling_scheme": "keyed economic and lifetime streams; stable nested prefixes",
+  "python": "3.12.13",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "convergence_enabled": true,
+  "charts_requested": true,
+  "input_sha256": {
+    "scenarios": "6344b02c94acba530d4eecc0a60e3534a2bc7014cbedac66b7d663ab59f8d58c",
+    "config": "90a293d3050f38d4b6244b074f8aeee987d89652d6320e867376d0c284e5c86b",
+    "components": "e5836c2708aa7a464d6997f40072b5c9059d9a6fb58a47b6e788f96c5d1fd2ff",
+    "stress_cases": "d4b0e1bda56994e89925aad689beaf49c4a66b2ba87a057c5e521148f86e0afb"
+  },
+  "source_sha256": {
+    "performance_stress.py": "87af0997e9d32521981262fa7c924bf68d980b5776a8017432c6d384a88fae71",
+    "robustness.py": "13bb02b9ab81d266a2bf714c4d8ee704f0b1d336f7b3fd4a654a95d89d16dafc",
+    "renovation_lcc.py": "4931ba5023f00797bc4285c994c12040605fdf52f73d51683618ee4b5333a65d",
+    "random_streams.py": "3519d8407f0f447dbf44d7b8a70ef125547d9796e37e249a70b421a46a127318",
+    "charts.py": "65fb84ae852e67ae444308a8ce51e051008aea3975f0dca3230b1561d4e6df42",
+    "convergence.py": "06b6ba3f1260f004b479a99256b4639046dfd750aa56fe1c7fa00c64e0fe1c51",
+    "component_lifecycle.py": "a6597171f8759a23faa41aa92ade37e3d6d78c723f2943493d855e21f7e7f571"
+  },
+  "matplotlib": "3.10.8"
+}

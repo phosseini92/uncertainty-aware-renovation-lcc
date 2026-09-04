@@ -1,0 +1,110 @@
+{
+  "analysis_years": 30,
+  "dwellings": 24,
+  "terminal_reference_building_value_eur": 6000000,
+  "maintenance_growth": 0.02,
+  "owner_energy_savings_share": 0.0,
+  "include_reference_in_decisions": true,
+  "uncertainties": {
+    "discount_rate": {
+      "distribution": "triangular",
+      "low": 0.02,
+      "mode": 0.035,
+      "high": 0.06
+    },
+    "energy_price_eur_kwh": {
+      "distribution": "lognormal",
+      "median": 0.28,
+      "log_sigma": 0.18
+    },
+    "energy_price_growth": {
+      "distribution": "triangular",
+      "low": -0.005,
+      "mode": 0.02,
+      "high": 0.06
+    },
+    "rent_growth": {
+      "distribution": "triangular",
+      "low": 0.0,
+      "mode": 0.015,
+      "high": 0.035
+    },
+    "grant_share": {
+      "distribution": "clipped_normal",
+      "mean": 0.2,
+      "sd": 0.08,
+      "low": 0.0,
+      "high": 0.4
+    },
+    "capex_factor": {
+      "distribution": "lognormal",
+      "median": 1.05,
+      "log_sigma": 0.12
+    },
+    "performance_factor": {
+      "distribution": "clipped_normal",
+      "mean": 0.95,
+      "sd": 0.1,
+      "low": 0.65,
+      "high": 1.15
+    },
+    "value_uplift_factor": {
+      "distribution": "clipped_normal",
+      "mean": 1.0,
+      "sd": 0.18,
+      "low": 0.55,
+      "high": 1.35
+    }
+  },
+  "score_weights": {
+    "probability_positive": 0.3,
+    "worst_decile_mean_eur": 0.35,
+    "median_net_benefit_eur": 0.35
+  },
+  "preference_anchors": {
+    "probability_positive": [
+      0,
+      1
+    ],
+    "worst_decile_mean_eur": [
+      -750000,
+      0
+    ],
+    "median_net_benefit_eur": [
+      -500000,
+      500000
+    ]
+  },
+  "replacement_cost_growth": 0.02,
+  "thresholds": {
+    "median_npv_min_eur": 0,
+    "probability_positive_min": 0.7,
+    "p95_regret_max_eur": 500000,
+    "retained_savings_fraction_min": 0.75,
+    "performance_pass_probability_min": 0.9,
+    "minimum_acceptable_stress_cases": 3
+  },
+  "convergence": {
+    "sample_sizes": [
+      1000,
+      2500,
+      5000,
+      10000,
+      25000
+    ],
+    "seeds": [
+      42,
+      104729,
+      271828,
+      20260726,
+      20260903
+    ],
+    "tolerances": {
+      "mean_net_benefit_eur": 10000,
+      "probability_positive": 0.01,
+      "p10_net_benefit_eur": 20000,
+      "worst_decile_mean_eur": 30000,
+      "p95_regret_eur": 30000
+    }
+  }
+}

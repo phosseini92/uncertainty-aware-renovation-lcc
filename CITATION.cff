@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "Uncertainty-Aware Life-Cycle Modelling for Building Renovation"
+message: "If you use this software, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: Hosseini
+    given-names: Parisa
+    orcid: "https://orcid.org/0009-0009-0168-8912"
+version: 2.1.0
+date-released: 2026-09-04
+license: MIT
+abstract: >-
+  A reproducible Python research demonstrator for uncertainty-aware life-cycle
+  costing and stakeholder-sensitive decision support for illustrative building
+  renovation packages.
+keywords:
+  - building renovation
+  - life-cycle costing
+  - uncertainty quantification
+  - Monte Carlo simulation
+  - robust decision support
+  - component lifetime

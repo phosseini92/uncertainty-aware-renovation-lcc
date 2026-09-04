@@ -1,0 +1,61 @@
+perspective,weight_profile,scenario,preference_based_score,conditional_preference_rank,weight_probability_positive,weight_worst_decile_mean_eur,weight_median_net_benefit_eur
+combined_private,configured,Deep renovation + PV,0.03444,4,0.3,0.35,0.35
+combined_private,configured,Envelope + heat pump,0.3041613104556828,3,0.3,0.35,0.35
+combined_private,configured,Envelope retrofit,0.5879529237608543,1,0.3,0.35,0.35
+combined_private,configured,Reference: no additional intervention,0.5249999999999999,2,0.3,0.35,0.35
+combined_private,equal,Deep renovation + PV,0.038266666666666664,4,0.3333333333333333,0.3333333333333333,0.3333333333333333
+combined_private,equal,Envelope + heat pump,0.3057012480530312,3,0.3333333333333333,0.3333333333333333,0.3333333333333333
+combined_private,equal,Envelope retrofit,0.5851884988198612,1,0.3333333333333333,0.3333333333333333,0.3333333333333333
+combined_private,equal,Reference: no additional intervention,0.5,2,0.3333333333333333,0.3333333333333333,0.3333333333333333
+combined_private,downside_emphasis,Deep renovation + PV,0.02296,4,0.2,0.6,0.2
+combined_private,downside_emphasis,Envelope + heat pump,0.2665074922196261,3,0.2,0.6,0.2
+combined_private,downside_emphasis,Envelope retrofit,0.637092840542766,2,0.2,0.6,0.2
+combined_private,downside_emphasis,Reference: no additional intervention,0.7,1,0.2,0.6,0.2
+combined_private,positive_frequency_emphasis,Deep renovation + PV,0.06888,4,0.6,0.2,0.2
+combined_private,positive_frequency_emphasis,Envelope + heat pump,0.31802074883181874,2,0.6,0.2,0.2
+combined_private,positive_frequency_emphasis,Envelope retrofit,0.5630730992919168,1,0.6,0.2,0.2
+combined_private,positive_frequency_emphasis,Reference: no additional intervention,0.30000000000000004,3,0.6,0.2,0.2
+combined_private,median_emphasis,Deep renovation + PV,0.02296,4,0.2,0.2,0.6
+combined_private,median_emphasis,Envelope + heat pump,0.33257550310764894,3,0.2,0.2,0.6
+combined_private,median_emphasis,Envelope retrofit,0.555399556624901,1,0.2,0.2,0.6
+combined_private,median_emphasis,Reference: no additional intervention,0.5,2,0.2,0.2,0.6
+owner,configured,Deep renovation + PV,0.0,3,0.3,0.35,0.35
+owner,configured,Envelope + heat pump,0.0,3,0.3,0.35,0.35
+owner,configured,Envelope retrofit,0.17634884051244348,2,0.3,0.35,0.35
+owner,configured,Reference: no additional intervention,0.5249999999999999,1,0.3,0.35,0.35
+owner,equal,Deep renovation + PV,0.0,3,0.3333333333333333,0.3333333333333333,0.3333333333333333
+owner,equal,Envelope + heat pump,0.0,3,0.3333333333333333,0.3333333333333333,0.3333333333333333
+owner,equal,Envelope retrofit,0.16795127667851759,2,0.3333333333333333,0.3333333333333333,0.3333333333333333
+owner,equal,Reference: no additional intervention,0.5,1,0.3333333333333333,0.3333333333333333,0.3333333333333333
+owner,downside_emphasis,Deep renovation + PV,0.0,3,0.2,0.6,0.2
+owner,downside_emphasis,Envelope + heat pump,0.0,3,0.2,0.6,0.2
+owner,downside_emphasis,Envelope retrofit,0.23891284280221747,2,0.2,0.6,0.2
+owner,downside_emphasis,Reference: no additional intervention,0.7,1,0.2,0.6,0.2
+owner,positive_frequency_emphasis,Deep renovation + PV,0.0,3,0.6,0.2,0.2
+owner,positive_frequency_emphasis,Envelope + heat pump,0.0,3,0.6,0.2,0.2
+owner,positive_frequency_emphasis,Envelope retrofit,0.10077076600711056,2,0.6,0.2,0.2
+owner,positive_frequency_emphasis,Reference: no additional intervention,0.30000000000000004,1,0.6,0.2,0.2
+owner,median_emphasis,Deep renovation + PV,0.0,3,0.2,0.2,0.6
+owner,median_emphasis,Envelope + heat pump,0.0,3,0.2,0.2,0.6
+owner,median_emphasis,Envelope retrofit,0.16417022122622477,2,0.2,0.2,0.6
+owner,median_emphasis,Reference: no additional intervention,0.5,1,0.2,0.2,0.6
+tenant,configured,Deep renovation + PV,0.9999999999999999,1,0.3,0.35,0.35
+tenant,configured,Envelope + heat pump,0.9999999999999999,1,0.3,0.35,0.35
+tenant,configured,Envelope retrofit,0.9475891272358334,3,0.3,0.35,0.35
+tenant,configured,Reference: no additional intervention,0.5249999999999999,4,0.3,0.35,0.35
+tenant,equal,Deep renovation + PV,1.0,1,0.3333333333333333,0.3333333333333333,0.3333333333333333
+tenant,equal,Envelope + heat pump,1.0,1,0.3333333333333333,0.3333333333333333,0.3333333333333333
+tenant,equal,Envelope retrofit,0.9500848830817462,3,0.3333333333333333,0.3333333333333333,0.3333333333333333
+tenant,equal,Reference: no additional intervention,0.5,4,0.3333333333333333,0.3333333333333333,0.3333333333333333
+tenant,downside_emphasis,Deep renovation + PV,1.0,1,0.2,0.6,0.2
+tenant,downside_emphasis,Envelope + heat pump,1.0,1,0.2,0.6,0.2
+tenant,downside_emphasis,Envelope retrofit,0.9700509298490478,3,0.2,0.6,0.2
+tenant,downside_emphasis,Reference: no additional intervention,0.7,4,0.2,0.6,0.2
+tenant,positive_frequency_emphasis,Deep renovation + PV,1.0,1,0.6,0.2,0.2
+tenant,positive_frequency_emphasis,Envelope + heat pump,1.0,1,0.6,0.2,0.2
+tenant,positive_frequency_emphasis,Envelope retrofit,0.9700509298490478,3,0.6,0.2,0.2
+tenant,positive_frequency_emphasis,Reference: no additional intervention,0.30000000000000004,4,0.6,0.2,0.2
+tenant,median_emphasis,Deep renovation + PV,1.0,1,0.2,0.2,0.6
+tenant,median_emphasis,Envelope + heat pump,1.0,1,0.2,0.2,0.6
+tenant,median_emphasis,Envelope retrofit,0.9101527895471433,3,0.2,0.2,0.6
+tenant,median_emphasis,Reference: no additional intervention,0.5,4,0.2,0.2,0.6

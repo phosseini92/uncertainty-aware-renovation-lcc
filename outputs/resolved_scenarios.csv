@@ -1,0 +1,5 @@
+scenario,is_reference,initial_capex_eur,annual_energy_savings_kwh,monthly_income_uplift_eur_per_dwelling,annual_maintenance_eur,terminal_value_uplift_pct
+Reference: no additional intervention,1,0,0,0,0,0.0
+Envelope retrofit,0,400000,70000,15,3500,0.03
+Envelope + heat pump,0,800000,145000,35,7500,0.06
+Deep renovation + PV,0,1800000,250000,55,12500,0.09

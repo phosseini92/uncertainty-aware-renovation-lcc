@@ -1,0 +1,73 @@
+perspective,scenario,parameter,spearman_rho
+owner,Deep renovation + PV,discount_rate,0.2067121611031216
+owner,Deep renovation + PV,energy_price_eur_kwh,-0.004992304645923046
+owner,Deep renovation + PV,energy_price_growth,-0.008738345523383454
+owner,Deep renovation + PV,rent_growth,0.09392111901921119
+owner,Deep renovation + PV,grant_share,0.43964758223772443
+owner,Deep renovation + PV,capex_factor,-0.7778799797307998
+owner,Deep renovation + PV,performance_factor,0.0005425179185849826
+owner,Deep renovation + PV,value_uplift_factor,0.08571455261588765
+tenant,Deep renovation + PV,discount_rate,-0.3060440280604403
+tenant,Deep renovation + PV,energy_price_eur_kwh,0.5955974749959747
+tenant,Deep renovation + PV,energy_price_growth,0.6021382814973828
+tenant,Deep renovation + PV,rent_growth,-0.07869261433892615
+tenant,Deep renovation + PV,grant_share,0.0002544429903434733
+tenant,Deep renovation + PV,capex_factor,-0.005063027438630274
+tenant,Deep renovation + PV,performance_factor,0.3268567605892326
+tenant,Deep renovation + PV,value_uplift_factor,-0.023127026745734528
+combined_private,Deep renovation + PV,discount_rate,-0.1321406207054062
+combined_private,Deep renovation + PV,energy_price_eur_kwh,0.48554663583146634
+combined_private,Deep renovation + PV,energy_price_growth,0.5010883405628834
+combined_private,Deep renovation + PV,rent_growth,-0.005807710378077103
+combined_private,Deep renovation + PV,grant_share,0.2659732341738694
+combined_private,Deep renovation + PV,capex_factor,-0.47043979407639797
+combined_private,Deep renovation + PV,performance_factor,0.27138776538839005
+combined_private,Deep renovation + PV,value_uplift_factor,0.0350749949183718
+owner,Envelope + heat pump,discount_rate,0.12307470143474701
+owner,Envelope + heat pump,energy_price_eur_kwh,-0.007933917691339177
+owner,Envelope + heat pump,energy_price_growth,-0.006904491837044919
+owner,Envelope + heat pump,rent_growth,0.12937490638574906
+owner,Envelope + heat pump,grant_share,0.43077001808298804
+owner,Envelope + heat pump,capex_factor,-0.7749194622811946
+owner,Envelope + heat pump,performance_factor,0.0008145809464451276
+owner,Envelope + heat pump,value_uplift_factor,0.12642483918572836
+tenant,Envelope + heat pump,discount_rate,-0.2984666679566667
+tenant,Envelope + heat pump,energy_price_eur_kwh,0.5969094183770941
+tenant,Envelope + heat pump,energy_price_growth,0.6034041180340413
+tenant,Envelope + heat pump,rent_growth,-0.08547501708275017
+tenant,Envelope + heat pump,grant_share,0.00028394390603554297
+tenant,Envelope + heat pump,capex_factor,-0.00496571595765716
+tenant,Envelope + heat pump,performance_factor,0.32737771251048703
+tenant,Envelope + heat pump,value_uplift_factor,-0.023042007236032724
+combined_private,Envelope + heat pump,discount_rate,-0.20022104675821048
+combined_private,Envelope + heat pump,energy_price_eur_kwh,0.5148757947487579
+combined_private,Envelope + heat pump,energy_price_growth,0.5321915694659157
+combined_private,Envelope + heat pump,rent_growth,-0.00809913497699135
+combined_private,Envelope + heat pump,grant_share,0.2194092743567811
+combined_private,Envelope + heat pump,capex_factor,-0.391486501310865
+combined_private,Envelope + heat pump,performance_factor,0.28822754480694873
+combined_private,Envelope + heat pump,value_uplift_factor,0.045059898250142005
+owner,Envelope retrofit,discount_rate,-0.0037273060092730603
+owner,Envelope retrofit,energy_price_eur_kwh,-0.0072239457242394564
+owner,Envelope retrofit,energy_price_growth,-0.010157355461573554
+owner,Envelope retrofit,rent_growth,0.10832784947127849
+owner,Envelope retrofit,grant_share,0.4298303100419686
+owner,Envelope retrofit,capex_factor,-0.6536442148644422
+owner,Envelope retrofit,performance_factor,0.0051620951241632025
+owner,Envelope retrofit,value_uplift_factor,0.13428814944456374
+tenant,Envelope retrofit,discount_rate,-0.3080572900525729
+tenant,Envelope retrofit,energy_price_eur_kwh,0.5952401624044017
+tenant,Envelope retrofit,energy_price_growth,0.6017822270938222
+tenant,Envelope retrofit,rent_growth,-0.07690845344508454
+tenant,Envelope retrofit,grant_share,0.00025070396936856086
+tenant,Envelope retrofit,capex_factor,-0.005096043974960439
+tenant,Envelope retrofit,performance_factor,0.3267124204037703
+tenant,Envelope retrofit,value_uplift_factor,-0.023159048038072037
+combined_private,Envelope retrofit,discount_rate,-0.2674140367661404
+combined_private,Envelope retrofit,energy_price_eur_kwh,0.507597197555972
+combined_private,Envelope retrofit,energy_price_growth,0.5193756139177561
+combined_private,Envelope retrofit,rent_growth,-0.009501339167013392
+combined_private,Envelope retrofit,grant_share,0.2173869064974688
+combined_private,Envelope retrofit,capex_factor,-0.3330251678342517
+combined_private,Envelope retrofit,performance_factor,0.2846137073874667
+combined_private,Envelope retrofit,value_uplift_factor,0.049073251164595655

@@ -1,0 +1,14 @@
+scenario,component,uncertainty_key,initial_cost_eur,lifetime_distribution,minimum_lifetime_years,most_likely_lifetime_years,maximum_lifetime_years,replacement_cost_factor,maintenance_cost_eur
+Envelope retrofit,Insulation,insulation,200000,triangular,30,40,50,0.7,1200
+Envelope retrofit,Windows,windows,140000,triangular,20,30,40,0.85,1600
+Envelope retrofit,Facade finish,facade,60000,triangular,15,22,30,1.0,700
+Envelope + heat pump,Insulation,insulation,200000,triangular,30,40,50,0.7,1000
+Envelope + heat pump,Windows,windows,140000,triangular,20,30,40,0.85,1500
+Envelope + heat pump,Facade finish,facade,60000,triangular,15,22,30,1.0,500
+Envelope + heat pump,Heat pump,heat_pump,400000,triangular,12,18,25,0.8,4500
+Deep renovation + PV,Insulation,insulation,500000,triangular,30,40,50,0.7,1500
+Deep renovation + PV,Windows,windows,300000,triangular,20,30,40,0.85,2200
+Deep renovation + PV,Facade finish,facade,200000,triangular,15,22,30,1.0,800
+Deep renovation + PV,Heat pump,heat_pump,450000,triangular,12,18,25,0.8,4500
+Deep renovation + PV,PV modules,pv_modules,280000,triangular,20,25,35,0.7,2500
+Deep renovation + PV,Inverter,inverter,70000,triangular,10,12,15,0.9,1000

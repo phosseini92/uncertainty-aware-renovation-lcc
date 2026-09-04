@@ -1,0 +1,13 @@
+perspective,scenario,stress_case_count,performance_threshold_applicable,acceptable_case_count,required_acceptable_cases,robust_across_stress_cases,interpretation
+combined_private,Deep renovation + PV,4,True,0,3,False,"Conditional proxy screen; cases are unweighted, not event probabilities"
+combined_private,Envelope + heat pump,4,True,0,3,False,"Conditional proxy screen; cases are unweighted, not event probabilities"
+combined_private,Envelope retrofit,4,True,0,3,False,"Conditional proxy screen; cases are unweighted, not event probabilities"
+combined_private,Reference: no additional intervention,4,False,0,3,False,"Conditional proxy screen; cases are unweighted, not event probabilities"
+owner,Deep renovation + PV,4,True,0,3,False,"Conditional proxy screen; cases are unweighted, not event probabilities"
+owner,Envelope + heat pump,4,True,0,3,False,"Conditional proxy screen; cases are unweighted, not event probabilities"
+owner,Envelope retrofit,4,True,0,3,False,"Conditional proxy screen; cases are unweighted, not event probabilities"
+owner,Reference: no additional intervention,4,False,0,3,False,"Conditional proxy screen; cases are unweighted, not event probabilities"
+tenant,Deep renovation + PV,4,True,1,3,False,"Conditional proxy screen; cases are unweighted, not event probabilities"
+tenant,Envelope + heat pump,4,True,0,3,False,"Conditional proxy screen; cases are unweighted, not event probabilities"
+tenant,Envelope retrofit,4,True,0,3,False,"Conditional proxy screen; cases are unweighted, not event probabilities"
+tenant,Reference: no additional intervention,4,False,0,3,False,"Conditional proxy screen; cases are unweighted, not event probabilities"

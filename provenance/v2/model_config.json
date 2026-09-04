@@ -1,0 +1,24 @@
+{
+  "analysis_years": 30,
+  "dwellings": 24,
+  "terminal_reference_building_value_eur": 6000000,
+  "maintenance_growth": 0.02,
+  "owner_energy_savings_share": 0.0,
+  "include_reference_in_decisions": true,
+  "uncertainties": {
+    "discount_rate": {"distribution": "triangular", "low": 0.02, "mode": 0.035, "high": 0.06},
+    "energy_price_eur_kwh": {"distribution": "lognormal", "median": 0.28, "log_sigma": 0.18},
+    "energy_price_growth": {"distribution": "triangular", "low": -0.005, "mode": 0.02, "high": 0.06},
+    "rent_growth": {"distribution": "triangular", "low": 0.0, "mode": 0.015, "high": 0.035},
+    "grant_share": {"distribution": "clipped_normal", "mean": 0.20, "sd": 0.08, "low": 0.0, "high": 0.40},
+    "capex_factor": {"distribution": "lognormal", "median": 1.05, "log_sigma": 0.12},
+    "performance_factor": {"distribution": "clipped_normal", "mean": 0.95, "sd": 0.10, "low": 0.65, "high": 1.15},
+    "value_uplift_factor": {"distribution": "clipped_normal", "mean": 1.0, "sd": 0.18, "low": 0.55, "high": 1.35}
+  },
+  "score_weights": {
+    "probability_nonnegative": 0.30,
+    "worst_decile_mean_eur": 0.25,
+    "median_net_benefit_eur": 0.25,
+    "p95_regret_eur": 0.20
+  }
+}
