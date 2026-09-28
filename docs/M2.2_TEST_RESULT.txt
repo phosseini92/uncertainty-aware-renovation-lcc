@@ -1,0 +1,45 @@
+M2.2 — INITIAL A4 TRANSPORT: FINAL VERIFICATION
+Date: 2026-09-28
+RESULT: PASS — implemented M2.2 scope is freeze-ready
+
+Baseline archive SHA256:
+639991f597d6514ff4597f4138d93cb0ebbfae48b13edb8bb772d3cbdb45ee12
+All extracted baseline files match archive bytes.
+Baseline tests: 109 / 109 PASS
+Final M2.2 tests: 142 / 142 PASS (33 added)
+Python compilation: PASS
+
+Independent parity: 10,000 futures; seed 20260726
+Production legacy_30: 46 / 46 common non-manifest files byte-identical
+Production levels_50: 46 / 46 common non-manifest files byte-identical
+Production rics_60:   46 / 46 common non-manifest files byte-identical
+Lifecycle events: 94,164 / 209,348 / 256,953, respectively
+Seven outputs added; run manifest intentionally changes.
+
+Populated synthetic case: PASS at all three horizons
+45 / 46 complete common non-manifest files byte-identical.
+Only the carbon ledger changes: A4 records appended.
+All original A1-A3/B4 CSV record bytes remain identical.
+A4 = 10 kgCO2e per future; 10,000 A4 rows; t=0; no replacement event ID.
+A4 rows identical across horizons.
+Distance-only perturbation test: A4 10 -> 20; product/economic/event outputs unchanged.
+
+CSV capture integrity: 39 baseline / 45 candidate CSVs checked per parity run.
+All 12 runs passed immediate row-count checks and final hash checks.
+All compared hashes rechecked after complete sequence: PASS.
+Full default 10,000-future run + convergence + 8 figures: PASS.
+Full default integrity: 47 CSVs checked.
+Final copied full-default outputs: byte-identical to verified run.
+
+Execution qualification:
+Earlier active-workspace runs showed post-export CSV truncation/changes in both
+versions. These were rejected; root cause remains undiagnosed. Final verification
+used a fresh isolated temporary directory and passed all checks. No CSV-writing
+or calculation changes were made to force parity. A pandas audit-reader dtype
+warning was resolved with low_memory=False and saved populated ledgers rechecked.
+
+Production status: NO_ASSESSMENT_BOQ_LINES
+Empty production carbon ledger = NOT ASSESSED, never zero carbon.
+No fabricated production quantity, distance, factor or reference inventory.
+Out of scope: replacement transport, A5/C/D/B6, carbon discounting, uncertainty
+sampling for factors, residual value, MAC, stakeholder-carbon allocation.

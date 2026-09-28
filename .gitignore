@@ -20,3 +20,4 @@ outputs/simulation_results.csv
 outputs/sampled_futures.csv
 outputs/component_lifecycle_draws.csv
 outputs/lifecycle_replacements.csv
+outputs/lifecycle_event_ledger.csv

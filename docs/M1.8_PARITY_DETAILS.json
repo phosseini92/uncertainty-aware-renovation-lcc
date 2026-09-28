@@ -1,0 +1,41 @@
+{
+  "legacy_30": {
+    "common_files": 37,
+    "compared_excluding_manifest": 36,
+    "mismatches": [],
+    "new_only": [
+      "boq_factor_compatibility.csv",
+      "boq_factor_coverage.csv",
+      "environmental_factor_set_summary.csv",
+      "environmental_registry_status.json",
+      "resolved_boq_environmental_factor_assignments.csv",
+      "resolved_environmental_factors.csv"
+    ]
+  },
+  "levels_50": {
+    "common_files": 37,
+    "compared_excluding_manifest": 36,
+    "mismatches": [],
+    "new_only": [
+      "boq_factor_compatibility.csv",
+      "boq_factor_coverage.csv",
+      "environmental_factor_set_summary.csv",
+      "environmental_registry_status.json",
+      "resolved_boq_environmental_factor_assignments.csv",
+      "resolved_environmental_factors.csv"
+    ]
+  },
+  "rics_60": {
+    "common_files": 37,
+    "compared_excluding_manifest": 36,
+    "mismatches": [],
+    "new_only": [
+      "boq_factor_compatibility.csv",
+      "boq_factor_coverage.csv",
+      "environmental_factor_set_summary.csv",
+      "environmental_registry_status.json",
+      "resolved_boq_environmental_factor_assignments.csv",
+      "resolved_environmental_factors.csv"
+    ]
+  }
+}

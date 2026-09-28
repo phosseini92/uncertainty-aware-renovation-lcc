@@ -1,0 +1,50 @@
+{
+  "30": {
+    "common_nonmanifest": 27,
+    "identical": 27,
+    "different": [],
+    "new_only": [
+      "lifecycle_event_boq_quantities.csv",
+      "physical_boq_status.json",
+      "physical_quantity_coverage.csv",
+      "reference_coverage_skeleton.csv",
+      "reference_lifecycle_event_boq_quantities.csv",
+      "reference_rsp_boundary_boq_state.csv",
+      "resolved_component_boq.csv",
+      "resolved_reference_component_presence.csv",
+      "rsp_boundary_boq_state.csv"
+    ]
+  },
+  "50": {
+    "common_nonmanifest": 27,
+    "identical": 27,
+    "different": [],
+    "new_only": [
+      "lifecycle_event_boq_quantities.csv",
+      "physical_boq_status.json",
+      "physical_quantity_coverage.csv",
+      "reference_coverage_skeleton.csv",
+      "reference_lifecycle_event_boq_quantities.csv",
+      "reference_rsp_boundary_boq_state.csv",
+      "resolved_component_boq.csv",
+      "resolved_reference_component_presence.csv",
+      "rsp_boundary_boq_state.csv"
+    ]
+  },
+  "60": {
+    "common_nonmanifest": 27,
+    "identical": 27,
+    "different": [],
+    "new_only": [
+      "lifecycle_event_boq_quantities.csv",
+      "physical_boq_status.json",
+      "physical_quantity_coverage.csv",
+      "reference_coverage_skeleton.csv",
+      "reference_lifecycle_event_boq_quantities.csv",
+      "reference_rsp_boundary_boq_state.csv",
+      "resolved_component_boq.csv",
+      "resolved_reference_component_presence.csv",
+      "rsp_boundary_boq_state.csv"
+    ]
+  }
+}

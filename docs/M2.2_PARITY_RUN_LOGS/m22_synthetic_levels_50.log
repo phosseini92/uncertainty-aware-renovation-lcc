@@ -1,0 +1,16 @@
+     perspective                              scenario  median_net_benefit_eur  probability_positive  worst_decile_mean_eur  pareto_on_core_metrics
+           owner                  Deep renovation + PV           -2.717712e+06                0.0000          -3.741766e+06                   False
+           owner                  Envelope + heat pump           -1.205418e+06                0.0000          -1.697351e+06                   False
+           owner                     Envelope retrofit           -5.064116e+05                0.0000          -6.981280e+05                   False
+           owner Reference: no additional intervention            0.000000e+00                0.0000           0.000000e+00                    True
+          tenant                  Deep renovation + PV            1.853189e+06                1.0000           8.174061e+05                    True
+          tenant                  Envelope + heat pump            1.047230e+06                1.0000           4.478141e+05                   False
+          tenant                     Envelope retrofit            5.224233e+05                1.0000           2.322433e+05                   False
+          tenant Reference: no additional intervention            0.000000e+00                0.0000           0.000000e+00                   False
+combined_private                  Deep renovation + PV           -8.332003e+05                0.2171          -2.185736e+06                   False
+combined_private                  Envelope + heat pump           -1.504796e+05                0.3917          -8.684543e+05                   False
+combined_private                     Envelope retrofit            1.678900e+04                0.5271          -3.080209e+05                    True
+combined_private Reference: no additional intervention            0.000000e+00                0.0000           0.000000e+00                    True
+
+Outputs written to /tmp/m22-verified-wbj55w86/audit/m22_synthetic_levels_50
+CSV_INTEGRITY_PASS: 45 files; all row counts and final hashes verified.

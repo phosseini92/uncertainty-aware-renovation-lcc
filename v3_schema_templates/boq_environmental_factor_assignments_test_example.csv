@@ -1,0 +1,2 @@
+assignment_id,boq_line_id,factor_set_id,mapping_basis,mapping_reference,notes
+fa_test_window,boq_test_window,fs_test_window,TEST_ONLY_SYNTHETIC,Synthetic fixture pairing for structural tests only,TEST ONLY

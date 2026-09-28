@@ -1,0 +1,92 @@
+{
+  "legacy_30": {
+    "common_file_count": 23,
+    "byte_identical": [
+      "allocation_sensitivity.csv",
+      "analysis_report.txt",
+      "climate_stress_summary.csv",
+      "component_lifecycle_draws.csv",
+      "component_summary.csv",
+      "lifecycle_event_ledger.csv",
+      "lifecycle_replacements.csv",
+      "option_set_sensitivity.csv",
+      "resolved_components.csv",
+      "resolved_config.json",
+      "resolved_horizon.json",
+      "resolved_scenarios.csv",
+      "resolved_stress_cases.csv",
+      "robust_across_stress_cases.csv",
+      "sampled_futures.csv",
+      "scenario_summary.csv",
+      "sensitivity_oat.csv",
+      "sensitivity_rank_correlations.csv",
+      "simulation_results.csv",
+      "stress_test_summary.csv",
+      "uncertainty_summary.csv",
+      "weight_sensitivity.csv"
+    ],
+    "different": [
+      "run_manifest.json"
+    ]
+  },
+  "levels_50": {
+    "common_file_count": 23,
+    "byte_identical": [
+      "allocation_sensitivity.csv",
+      "analysis_report.txt",
+      "climate_stress_summary.csv",
+      "component_lifecycle_draws.csv",
+      "component_summary.csv",
+      "lifecycle_event_ledger.csv",
+      "lifecycle_replacements.csv",
+      "option_set_sensitivity.csv",
+      "resolved_components.csv",
+      "resolved_config.json",
+      "resolved_horizon.json",
+      "resolved_scenarios.csv",
+      "resolved_stress_cases.csv",
+      "robust_across_stress_cases.csv",
+      "sampled_futures.csv",
+      "scenario_summary.csv",
+      "sensitivity_oat.csv",
+      "sensitivity_rank_correlations.csv",
+      "simulation_results.csv",
+      "stress_test_summary.csv",
+      "uncertainty_summary.csv",
+      "weight_sensitivity.csv"
+    ],
+    "different": [
+      "run_manifest.json"
+    ]
+  },
+  "rics_60": {
+    "common_file_count": 23,
+    "byte_identical": [
+      "allocation_sensitivity.csv",
+      "analysis_report.txt",
+      "climate_stress_summary.csv",
+      "component_lifecycle_draws.csv",
+      "component_summary.csv",
+      "lifecycle_event_ledger.csv",
+      "lifecycle_replacements.csv",
+      "option_set_sensitivity.csv",
+      "resolved_components.csv",
+      "resolved_config.json",
+      "resolved_horizon.json",
+      "resolved_scenarios.csv",
+      "resolved_stress_cases.csv",
+      "robust_across_stress_cases.csv",
+      "sampled_futures.csv",
+      "scenario_summary.csv",
+      "sensitivity_oat.csv",
+      "sensitivity_rank_correlations.csv",
+      "simulation_results.csv",
+      "stress_test_summary.csv",
+      "uncertainty_summary.csv",
+      "weight_sensitivity.csv"
+    ],
+    "different": [
+      "run_manifest.json"
+    ]
+  }
+}

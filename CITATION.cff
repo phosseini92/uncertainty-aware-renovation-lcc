@@ -6,13 +6,17 @@ authors:
   - family-names: Hosseini
     given-names: Parisa
     orcid: "https://orcid.org/0009-0009-0168-8912"
-version: 2.1.0
-date-released: 2026-09-04
+version: 3.2.0
+date-released: 2026-09-28
 license: MIT
 abstract: >-
-  A reproducible Python research demonstrator for uncertainty-aware life-cycle
-  costing and stakeholder-sensitive decision support for illustrative building
-  renovation packages.
+  A reproducible Python research demonstrator integrating uncertainty-aware
+  renovation life-cycle costing, component renewal, stakeholder-sensitive
+  decision support, traceable modular GWP consequences across A-stage, B4
+  replacement, B6 operational energy and explicit terminal C1-C4 accounting,
+  with D1/D2 reported separately beyond the system boundary. Module
+  applicability, provenance and missing-data gates prevent incomplete evidence
+  from being mislabeled as complete Whole-Life Carbon.
 keywords:
   - building renovation
   - life-cycle costing
@@ -20,3 +24,6 @@ keywords:
   - Monte Carlo simulation
   - robust decision support
   - component lifetime
+  - life-cycle carbon
+  - operational energy
+  - environmental data provenance

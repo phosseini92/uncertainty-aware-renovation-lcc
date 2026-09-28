@@ -1,0 +1,65 @@
+{
+  "checkpoint": "v3-M2.5",
+  "baseline": "v3-M2.4",
+  "simulations": 10000,
+  "seed": 20260726,
+  "charts": false,
+  "convergence_enabled": false,
+  "comparison_rule": "SHA-256 byte comparison of all common output files except run_manifest.json",
+  "results": {
+    "legacy_30": {
+      "old_file_count": 65,
+      "new_file_count": 72,
+      "common_non_manifest": 64,
+      "byte_identical_non_manifest": 64,
+      "diffs": [],
+      "new_only": [
+        "a5_1_preconstruction_removal_compatibility.csv",
+        "a5_1_preconstruction_removal_coverage.csv",
+        "a5_1_preconstruction_removal_engine_status.json",
+        "assessed_a5_1_preconstruction_removal_carbon_by_module.csv",
+        "resolved_preconstruction_removal_scenarios.csv",
+        "resolved_preconstruction_waste_routes.csv",
+        "resolved_removal_transport_scenarios.csv"
+      ]
+    },
+    "levels_50": {
+      "old_file_count": 65,
+      "new_file_count": 72,
+      "common_non_manifest": 64,
+      "byte_identical_non_manifest": 64,
+      "diffs": [],
+      "new_only": [
+        "a5_1_preconstruction_removal_compatibility.csv",
+        "a5_1_preconstruction_removal_coverage.csv",
+        "a5_1_preconstruction_removal_engine_status.json",
+        "assessed_a5_1_preconstruction_removal_carbon_by_module.csv",
+        "resolved_preconstruction_removal_scenarios.csv",
+        "resolved_preconstruction_waste_routes.csv",
+        "resolved_removal_transport_scenarios.csv"
+      ]
+    },
+    "rics_60": {
+      "old_file_count": 65,
+      "new_file_count": 72,
+      "common_non_manifest": 64,
+      "byte_identical_non_manifest": 64,
+      "diffs": [],
+      "new_only": [
+        "a5_1_preconstruction_removal_compatibility.csv",
+        "a5_1_preconstruction_removal_coverage.csv",
+        "a5_1_preconstruction_removal_engine_status.json",
+        "assessed_a5_1_preconstruction_removal_carbon_by_module.csv",
+        "resolved_preconstruction_removal_scenarios.csv",
+        "resolved_preconstruction_waste_routes.csv",
+        "resolved_removal_transport_scenarios.csv"
+      ]
+    }
+  },
+  "lifecycle_event_counts": {
+    "legacy_30": 94164,
+    "levels_50": 209348,
+    "rics_60": 256953
+  },
+  "conclusion": "All 64 common non-manifest outputs are byte-identical at every horizon; M2.5 outputs are additive only."
+}

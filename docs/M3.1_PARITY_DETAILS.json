@@ -1,0 +1,56 @@
+{
+  "legacy_30": {
+    "common_nonmanifest": 76,
+    "byte_identical": 76,
+    "mismatches": [],
+    "added": [
+      "assessed_operational_carbon_by_module.csv",
+      "b6_operational_energy_engine_status.json",
+      "operational_energy_coverage.csv",
+      "resolved_operational_energy_factor_schedule.csv",
+      "resolved_operational_energy_flows.csv"
+    ],
+    "simulations": 10000,
+    "seed": 20260726,
+    "analysis_years": 30,
+    "lifecycle_event_rows": 94164,
+    "production_b6_status": "NO_OPERATIONAL_ENERGY_FLOWS",
+    "production_b6_consequence_rows": 0
+  },
+  "levels_50": {
+    "common_nonmanifest": 76,
+    "byte_identical": 76,
+    "mismatches": [],
+    "added": [
+      "assessed_operational_carbon_by_module.csv",
+      "b6_operational_energy_engine_status.json",
+      "operational_energy_coverage.csv",
+      "resolved_operational_energy_factor_schedule.csv",
+      "resolved_operational_energy_flows.csv"
+    ],
+    "simulations": 10000,
+    "seed": 20260726,
+    "analysis_years": 50,
+    "lifecycle_event_rows": 209348,
+    "production_b6_status": "NO_OPERATIONAL_ENERGY_FLOWS",
+    "production_b6_consequence_rows": 0
+  },
+  "rics_60": {
+    "common_nonmanifest": 76,
+    "byte_identical": 76,
+    "mismatches": [],
+    "added": [
+      "assessed_operational_carbon_by_module.csv",
+      "b6_operational_energy_engine_status.json",
+      "operational_energy_coverage.csv",
+      "resolved_operational_energy_factor_schedule.csv",
+      "resolved_operational_energy_flows.csv"
+    ],
+    "simulations": 10000,
+    "seed": 20260726,
+    "analysis_years": 60,
+    "lifecycle_event_rows": 256953,
+    "production_b6_status": "NO_OPERATIONAL_ENERGY_FLOWS",
+    "production_b6_consequence_rows": 0
+  }
+}

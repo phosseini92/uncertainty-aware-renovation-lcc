@@ -1,0 +1,22 @@
+{
+  "baseline": "v3-M3.1-B6",
+  "candidate": "v3-M3.1.1-HARDENING",
+  "changed_top_level_python_files": [
+    {
+      "file": "b6_operational.py",
+      "status": "changed"
+    },
+    {
+      "file": "renovation_lcc.py",
+      "status": "changed"
+    }
+  ],
+  "change_scope": {
+    "renovation_lcc.py": "config validation, B6 policy pass-through, manifest/version metadata only",
+    "b6_operational.py": "runtime policy validation and status/reference-year metadata only"
+  },
+  "b6_arithmetic_changed": false,
+  "economic_equations_changed": false,
+  "lifecycle_event_generation_changed": false,
+  "random_streams_changed": false
+}

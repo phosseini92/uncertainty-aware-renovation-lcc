@@ -1,0 +1,22 @@
+M2.5 TEST RESULT
+================
+New A5.1 tests: 13/13 PASS
+Complete repository: 175/175 PASS, verified in module chunks
+Python byte-compilation: PASS
+
+Verified chunks:
+- M2.5 A5.1: 13/13 PASS
+- M2.4 A5.2/A5.3: 10/10 PASS
+- M2.3 B4 transport: 10/10 PASS
+- M2.2 A4 transport: 33/33 PASS
+- Product/environmental/physical/reference: 55/55 PASS
+- Boundary/lifecycle/horizon/model/remaining-life/robustness/convergence/performance: 54/54 PASS
+
+Golden synthetic A5.1 per future:
+- removal activity = 10 kgCO2e
+- outbound removed-material transport = 10 kgCO2e
+- waste processing = 200 kgCO2e
+- total A5.1 = 220 kgCO2e
+
+Production status: NO_PRECONSTRUCTION_REMOVAL_INVENTORY
+Missing removal data are not treated as zero.

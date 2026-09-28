@@ -1,0 +1,53 @@
+M1.6 TEST RESULT — Physical Reference Inventory Gate + RSP Boundary State
+=======================================================================
+
+Date: 2026-09-27
+Seed for parity runs: 20260726
+
+Unit / regression tests
+-----------------------
+Pre-M1.6 suite: 47/47 PASS
+New M1.6 boundary/reference tests: 15/15 PASS
+Total: 62/62 PASS
+Python byte-compilation: PASS
+
+10,000-future parity against M1.5
+---------------------------------
+legacy_30: 22/22 common non-manifest outputs byte-identical
+levels_50: 22/22 common non-manifest outputs byte-identical
+rics_60: 22/22 common non-manifest outputs byte-identical
+
+Additive M1.6 outputs
+---------------------
+rsp_boundary_state.csv
+reference_lifecycle_event_ledger.csv
+reference_rsp_boundary_state.csv
+resolved_physical_reference_inventory.csv
+reference_inventory_status.json
+
+Boundary-state audit
+--------------------
+30 years: 130,000 rows / 130,000 unique boundary IDs
+50 years: 130,000 rows / 130,000 unique boundary IDs
+60 years: 130,000 rows / 130,000 unique boundary IDs
+
+Cross-horizon reconciliation
+----------------------------
+30 -> 50: 106,613 boundary next-replacements occur before year 50; 0 missing; all times match.
+50 -> 60: 47,605 boundary next-replacements occur before year 60; 0 missing; all times match.
+
+Physical reference inventory
+----------------------------
+Production status: UNPOPULATED_SOURCE_DATA_ABSENT
+Reason: v2.1 does not provide source-backed existing-building component presence, quantities/units, ages or remaining-life evidence. No reference component is inferred or invented.
+Synthetic executable reference inventory is covered by tests only.
+
+Full default run
+----------------
+10,000 futures + convergence + charts: PASS
+
+Overall M1.6 status
+-------------------
+RSP boundary-state engine: PASS / FREEZE-READY
+Physical reference schema/gate: PASS / FREEZE-READY
+Production physical reference population: BLOCKED BY SOURCE DATA (not fabricated)

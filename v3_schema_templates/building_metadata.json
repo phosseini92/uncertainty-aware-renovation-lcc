@@ -1,0 +1,13 @@
+{
+  "building_id": "ILLUSTRATIVE_24_DWELLING",
+  "description": "Illustrative methodological benchmark; not a calibrated building",
+  "number_of_dwellings": 24,
+  "building_use": "RESIDENTIAL",
+  "base_calendar_year": 2026,
+  "floor_area_value_m2": null,
+  "floor_area_basis": "NOT_AVAILABLE",
+  "inventory_scope": "RENOVATION_DECISION_SCOPE",
+  "geography": "ILLUSTRATIVE_UNSPECIFIED",
+  "data_status": "ILLUSTRATIVE",
+  "source_citation": null
+}

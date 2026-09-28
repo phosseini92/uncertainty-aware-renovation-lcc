@@ -1,5 +1,8 @@
 {
   "analysis_years": 30,
+  "assessment_convention": "EN15978_2026_INFORMED",
+  "generated_energy_reporting_approach": "PHYSICAL_FLOWS_B6_IMPORT_ONLY_D2_DEFERRED",
+  "factor_extrapolation_policy": "ERROR_IF_MISSING",
   "dwellings": 24,
   "terminal_reference_building_value_eur": 6000000,
   "maintenance_growth": 0.02,

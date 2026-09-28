@@ -1,0 +1,2 @@
+assignment_id,boq_line_id,factor_set_id,mapping_basis,mapping_reference,notes
+pa_test,boq_a4_test,pfs_test,TEST_ONLY_SYNTHETIC,Synthetic audit fixture,

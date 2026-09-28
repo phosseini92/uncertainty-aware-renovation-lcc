@@ -1,0 +1,65 @@
+{
+  "30": {
+    "common_files": 82,
+    "non_manifest_compared": 81,
+    "byte_identical": 81,
+    "unexpected_differences": [],
+    "new_candidate_files": [
+      "assessed_end_of_life_and_module_d_carbon_by_module.csv",
+      "d2_export_coverage.csv",
+      "end_of_life_coverage.csv",
+      "end_of_life_module_d_engine_status.json",
+      "lifecycle_aggregation_status.json",
+      "lifecycle_carbon_aggregation.csv",
+      "lifecycle_module_coverage.csv",
+      "resolved_d2_export_assignments.csv",
+      "resolved_d2_export_factor_schedule.csv",
+      "resolved_end_of_life_assignments.csv",
+      "resolved_module_applicability.csv",
+      "separate_module_d_summary.csv"
+    ],
+    "lifecycle_event_rows": 94164
+  },
+  "50": {
+    "common_files": 82,
+    "non_manifest_compared": 81,
+    "byte_identical": 81,
+    "unexpected_differences": [],
+    "new_candidate_files": [
+      "assessed_end_of_life_and_module_d_carbon_by_module.csv",
+      "d2_export_coverage.csv",
+      "end_of_life_coverage.csv",
+      "end_of_life_module_d_engine_status.json",
+      "lifecycle_aggregation_status.json",
+      "lifecycle_carbon_aggregation.csv",
+      "lifecycle_module_coverage.csv",
+      "resolved_d2_export_assignments.csv",
+      "resolved_d2_export_factor_schedule.csv",
+      "resolved_end_of_life_assignments.csv",
+      "resolved_module_applicability.csv",
+      "separate_module_d_summary.csv"
+    ],
+    "lifecycle_event_rows": 209348
+  },
+  "60": {
+    "common_files": 82,
+    "non_manifest_compared": 81,
+    "byte_identical": 81,
+    "unexpected_differences": [],
+    "new_candidate_files": [
+      "assessed_end_of_life_and_module_d_carbon_by_module.csv",
+      "d2_export_coverage.csv",
+      "end_of_life_coverage.csv",
+      "end_of_life_module_d_engine_status.json",
+      "lifecycle_aggregation_status.json",
+      "lifecycle_carbon_aggregation.csv",
+      "lifecycle_module_coverage.csv",
+      "resolved_d2_export_assignments.csv",
+      "resolved_d2_export_factor_schedule.csv",
+      "resolved_end_of_life_assignments.csv",
+      "resolved_module_applicability.csv",
+      "separate_module_d_summary.csv"
+    ],
+    "lifecycle_event_rows": 256953
+  }
+}

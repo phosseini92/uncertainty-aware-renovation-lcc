@@ -1,0 +1,501 @@
+{
+  "seed": 20260726,
+  "simulations": 10000,
+  "parity": {
+    "legacy_30": {
+      "common_non_manifest_count": 22,
+      "identical_count": 22,
+      "different_files": [],
+      "new_only_files": [
+        "reference_inventory_status.json",
+        "reference_lifecycle_event_ledger.csv",
+        "reference_rsp_boundary_state.csv",
+        "resolved_physical_reference_inventory.csv",
+        "rsp_boundary_state.csv"
+      ],
+      "details": [
+        {
+          "file": "allocation_sensitivity.csv",
+          "identical": true,
+          "m15_sha256": "f655ed28c2eb749f6248991e810b758bef08dd4a4cd79dafe8a614eb16cfbd10",
+          "m16_sha256": "f655ed28c2eb749f6248991e810b758bef08dd4a4cd79dafe8a614eb16cfbd10"
+        },
+        {
+          "file": "analysis_report.txt",
+          "identical": true,
+          "m15_sha256": "b653757fc5d54d9475995d171e8d977bae9eb66e6e1c8368062fc4a4a4e6ab87",
+          "m16_sha256": "b653757fc5d54d9475995d171e8d977bae9eb66e6e1c8368062fc4a4a4e6ab87"
+        },
+        {
+          "file": "climate_stress_summary.csv",
+          "identical": true,
+          "m15_sha256": "304ad8f7097ece18ab0caa73bffb8952c5d2145fbf71c8896825491fe22d08b6",
+          "m16_sha256": "304ad8f7097ece18ab0caa73bffb8952c5d2145fbf71c8896825491fe22d08b6"
+        },
+        {
+          "file": "component_lifecycle_draws.csv",
+          "identical": true,
+          "m15_sha256": "6dcfd82e252f2f5f28b54206354261b0413ad225b2e8720eafede26f011b1108",
+          "m16_sha256": "6dcfd82e252f2f5f28b54206354261b0413ad225b2e8720eafede26f011b1108"
+        },
+        {
+          "file": "component_summary.csv",
+          "identical": true,
+          "m15_sha256": "fd06981a2bc97c2f6281e5592c20d2ba40fdce892a0183067295c66631272a34",
+          "m16_sha256": "fd06981a2bc97c2f6281e5592c20d2ba40fdce892a0183067295c66631272a34"
+        },
+        {
+          "file": "lifecycle_event_ledger.csv",
+          "identical": true,
+          "m15_sha256": "368fbddc858161f724846808f5e6de6b547ad92f77ceeed2249d97959c7a82ed",
+          "m16_sha256": "368fbddc858161f724846808f5e6de6b547ad92f77ceeed2249d97959c7a82ed"
+        },
+        {
+          "file": "lifecycle_replacements.csv",
+          "identical": true,
+          "m15_sha256": "14fae8c32037469a0e7d423e0789e653a5fec4b73f84cb4d825a3a3a36345f8f",
+          "m16_sha256": "14fae8c32037469a0e7d423e0789e653a5fec4b73f84cb4d825a3a3a36345f8f"
+        },
+        {
+          "file": "option_set_sensitivity.csv",
+          "identical": true,
+          "m15_sha256": "36b960e0eb520e75af5d71fee099c90a3b9ca3969f29e275a9c8640623c359db",
+          "m16_sha256": "36b960e0eb520e75af5d71fee099c90a3b9ca3969f29e275a9c8640623c359db"
+        },
+        {
+          "file": "resolved_components.csv",
+          "identical": true,
+          "m15_sha256": "bbdfd7257664fdb9f932bb7565d227dbe3cfa96040fb3508f7b19b03888b6169",
+          "m16_sha256": "bbdfd7257664fdb9f932bb7565d227dbe3cfa96040fb3508f7b19b03888b6169"
+        },
+        {
+          "file": "resolved_config.json",
+          "identical": true,
+          "m15_sha256": "90a293d3050f38d4b6244b074f8aeee987d89652d6320e867376d0c284e5c86b",
+          "m16_sha256": "90a293d3050f38d4b6244b074f8aeee987d89652d6320e867376d0c284e5c86b"
+        },
+        {
+          "file": "resolved_horizon.json",
+          "identical": true,
+          "m15_sha256": "96fa46104069462ec043a22a55b8cf305f678a33f95ddc8b46f2a1e1091d6dea",
+          "m16_sha256": "96fa46104069462ec043a22a55b8cf305f678a33f95ddc8b46f2a1e1091d6dea"
+        },
+        {
+          "file": "resolved_scenarios.csv",
+          "identical": true,
+          "m15_sha256": "85df534a346978b74c4c8ce9f79939dcb57bbaeb151c2aac39a5e927644df2f9",
+          "m16_sha256": "85df534a346978b74c4c8ce9f79939dcb57bbaeb151c2aac39a5e927644df2f9"
+        },
+        {
+          "file": "resolved_stress_cases.csv",
+          "identical": true,
+          "m15_sha256": "96e3fe19b0c09794cfea3d09c5c4171ad2b566b26cc8b5dd94ea1c45b4c77b84",
+          "m16_sha256": "96e3fe19b0c09794cfea3d09c5c4171ad2b566b26cc8b5dd94ea1c45b4c77b84"
+        },
+        {
+          "file": "robust_across_stress_cases.csv",
+          "identical": true,
+          "m15_sha256": "7841a8a146eb2a6ae72b592da65b30746573a5014ce93aad2297df6c5a77a00e",
+          "m16_sha256": "7841a8a146eb2a6ae72b592da65b30746573a5014ce93aad2297df6c5a77a00e"
+        },
+        {
+          "file": "sampled_futures.csv",
+          "identical": true,
+          "m15_sha256": "94466172d46179cd5e5d570e82716d561fb240a9bed632ae398a787bb686db89",
+          "m16_sha256": "94466172d46179cd5e5d570e82716d561fb240a9bed632ae398a787bb686db89"
+        },
+        {
+          "file": "scenario_summary.csv",
+          "identical": true,
+          "m15_sha256": "d5af44064e01655436259d69c789c21e7711069b7dcf3fbcd0822991d7ac5fba",
+          "m16_sha256": "d5af44064e01655436259d69c789c21e7711069b7dcf3fbcd0822991d7ac5fba"
+        },
+        {
+          "file": "sensitivity_oat.csv",
+          "identical": true,
+          "m15_sha256": "f674c01c6e00000b44330071c6e795de96be2bbf813b7492173a51e3ad750656",
+          "m16_sha256": "f674c01c6e00000b44330071c6e795de96be2bbf813b7492173a51e3ad750656"
+        },
+        {
+          "file": "sensitivity_rank_correlations.csv",
+          "identical": true,
+          "m15_sha256": "feef279a588fbb211e438290bab0ad7e4cc8c766d420fe97f21c375f0987624c",
+          "m16_sha256": "feef279a588fbb211e438290bab0ad7e4cc8c766d420fe97f21c375f0987624c"
+        },
+        {
+          "file": "simulation_results.csv",
+          "identical": true,
+          "m15_sha256": "53e958309d9ad745cb21b6d50ecd9d5a50b22ff58dceaece2e299f4f11cd4eaf",
+          "m16_sha256": "53e958309d9ad745cb21b6d50ecd9d5a50b22ff58dceaece2e299f4f11cd4eaf"
+        },
+        {
+          "file": "stress_test_summary.csv",
+          "identical": true,
+          "m15_sha256": "ae639c9d31586dd7aee272685b9288eb493cafea9bd22761019bea5c600e8342",
+          "m16_sha256": "ae639c9d31586dd7aee272685b9288eb493cafea9bd22761019bea5c600e8342"
+        },
+        {
+          "file": "uncertainty_summary.csv",
+          "identical": true,
+          "m15_sha256": "be7180254b1cf33676a0fb09a61e6e6cb5d0549a0dd629add18f547c4a60d8c8",
+          "m16_sha256": "be7180254b1cf33676a0fb09a61e6e6cb5d0549a0dd629add18f547c4a60d8c8"
+        },
+        {
+          "file": "weight_sensitivity.csv",
+          "identical": true,
+          "m15_sha256": "d18545a899c0bf9892c98e940c38eea245607b0043c9b638f111865e2606f56c",
+          "m16_sha256": "d18545a899c0bf9892c98e940c38eea245607b0043c9b638f111865e2606f56c"
+        }
+      ]
+    },
+    "levels_50": {
+      "common_non_manifest_count": 22,
+      "identical_count": 22,
+      "different_files": [],
+      "new_only_files": [
+        "reference_inventory_status.json",
+        "reference_lifecycle_event_ledger.csv",
+        "reference_rsp_boundary_state.csv",
+        "resolved_physical_reference_inventory.csv",
+        "rsp_boundary_state.csv"
+      ],
+      "details": [
+        {
+          "file": "allocation_sensitivity.csv",
+          "identical": true,
+          "m15_sha256": "c903967a0f5fa818bb0e2b1bb838b0d16000870ba20e9af2dd925dcb9581bc7d",
+          "m16_sha256": "c903967a0f5fa818bb0e2b1bb838b0d16000870ba20e9af2dd925dcb9581bc7d"
+        },
+        {
+          "file": "analysis_report.txt",
+          "identical": true,
+          "m15_sha256": "bbb7589fa3ab6177cecc0cb0141402c26ca5ba92a6affdcf8ce27974992d2911",
+          "m16_sha256": "bbb7589fa3ab6177cecc0cb0141402c26ca5ba92a6affdcf8ce27974992d2911"
+        },
+        {
+          "file": "climate_stress_summary.csv",
+          "identical": true,
+          "m15_sha256": "efe12dcac568015cc06132f729da571767d5c6589b4211460d88718c5ba78f25",
+          "m16_sha256": "efe12dcac568015cc06132f729da571767d5c6589b4211460d88718c5ba78f25"
+        },
+        {
+          "file": "component_lifecycle_draws.csv",
+          "identical": true,
+          "m15_sha256": "9355a4c2a2bb1c97b26e106ddcdccf3ebf84b70b2587e1f039a6968c17e38ec6",
+          "m16_sha256": "9355a4c2a2bb1c97b26e106ddcdccf3ebf84b70b2587e1f039a6968c17e38ec6"
+        },
+        {
+          "file": "component_summary.csv",
+          "identical": true,
+          "m15_sha256": "e78389b7766d0d8ec68c0bde3bed04f9dbd6db15e3e3a1ef850c14f0a51af098",
+          "m16_sha256": "e78389b7766d0d8ec68c0bde3bed04f9dbd6db15e3e3a1ef850c14f0a51af098"
+        },
+        {
+          "file": "lifecycle_event_ledger.csv",
+          "identical": true,
+          "m15_sha256": "b1d4e1db2fb31908bb51ec4b885149e8257ce53180a63cf6c2d91d1f8ac8d80a",
+          "m16_sha256": "b1d4e1db2fb31908bb51ec4b885149e8257ce53180a63cf6c2d91d1f8ac8d80a"
+        },
+        {
+          "file": "lifecycle_replacements.csv",
+          "identical": true,
+          "m15_sha256": "f4de737878273f111d84735b8007ad3de57723389771f8657922572eb12e1579",
+          "m16_sha256": "f4de737878273f111d84735b8007ad3de57723389771f8657922572eb12e1579"
+        },
+        {
+          "file": "option_set_sensitivity.csv",
+          "identical": true,
+          "m15_sha256": "5b2c91ff99f98d7c068208eddc24a1c4c9abc7fe58f80b07a2281ac73755935c",
+          "m16_sha256": "5b2c91ff99f98d7c068208eddc24a1c4c9abc7fe58f80b07a2281ac73755935c"
+        },
+        {
+          "file": "resolved_components.csv",
+          "identical": true,
+          "m15_sha256": "bbdfd7257664fdb9f932bb7565d227dbe3cfa96040fb3508f7b19b03888b6169",
+          "m16_sha256": "bbdfd7257664fdb9f932bb7565d227dbe3cfa96040fb3508f7b19b03888b6169"
+        },
+        {
+          "file": "resolved_config.json",
+          "identical": true,
+          "m15_sha256": "dc323b8c207438a5eb845f1bcbc7ec8046f763a93b403f989996e1bd6b24c179",
+          "m16_sha256": "dc323b8c207438a5eb845f1bcbc7ec8046f763a93b403f989996e1bd6b24c179"
+        },
+        {
+          "file": "resolved_horizon.json",
+          "identical": true,
+          "m15_sha256": "fa52582ca8c245b82971e36b7e9fea0d7517fbe46ba8b5a12e143f3ea7e71102",
+          "m16_sha256": "fa52582ca8c245b82971e36b7e9fea0d7517fbe46ba8b5a12e143f3ea7e71102"
+        },
+        {
+          "file": "resolved_scenarios.csv",
+          "identical": true,
+          "m15_sha256": "85df534a346978b74c4c8ce9f79939dcb57bbaeb151c2aac39a5e927644df2f9",
+          "m16_sha256": "85df534a346978b74c4c8ce9f79939dcb57bbaeb151c2aac39a5e927644df2f9"
+        },
+        {
+          "file": "resolved_stress_cases.csv",
+          "identical": true,
+          "m15_sha256": "96e3fe19b0c09794cfea3d09c5c4171ad2b566b26cc8b5dd94ea1c45b4c77b84",
+          "m16_sha256": "96e3fe19b0c09794cfea3d09c5c4171ad2b566b26cc8b5dd94ea1c45b4c77b84"
+        },
+        {
+          "file": "robust_across_stress_cases.csv",
+          "identical": true,
+          "m15_sha256": "7841a8a146eb2a6ae72b592da65b30746573a5014ce93aad2297df6c5a77a00e",
+          "m16_sha256": "7841a8a146eb2a6ae72b592da65b30746573a5014ce93aad2297df6c5a77a00e"
+        },
+        {
+          "file": "sampled_futures.csv",
+          "identical": true,
+          "m15_sha256": "94466172d46179cd5e5d570e82716d561fb240a9bed632ae398a787bb686db89",
+          "m16_sha256": "94466172d46179cd5e5d570e82716d561fb240a9bed632ae398a787bb686db89"
+        },
+        {
+          "file": "scenario_summary.csv",
+          "identical": true,
+          "m15_sha256": "9229f6b97c5bce24565f2dfbf1e91b9c9fcecba34734ef67b456dfbcfd860896",
+          "m16_sha256": "9229f6b97c5bce24565f2dfbf1e91b9c9fcecba34734ef67b456dfbcfd860896"
+        },
+        {
+          "file": "sensitivity_oat.csv",
+          "identical": true,
+          "m15_sha256": "f46803577ffff510eb0eabdd1abea35b21204da2eaf8315a3535b55de23d47fe",
+          "m16_sha256": "f46803577ffff510eb0eabdd1abea35b21204da2eaf8315a3535b55de23d47fe"
+        },
+        {
+          "file": "sensitivity_rank_correlations.csv",
+          "identical": true,
+          "m15_sha256": "394faba5c1bba652a976caeed948de1f8408546c83a7555b2af8db02b0e24342",
+          "m16_sha256": "394faba5c1bba652a976caeed948de1f8408546c83a7555b2af8db02b0e24342"
+        },
+        {
+          "file": "simulation_results.csv",
+          "identical": true,
+          "m15_sha256": "8ff4094f4d88616d90da113d4cf7924bbd5a14b11a3c4c7d0c1a3dc975bfc0e7",
+          "m16_sha256": "8ff4094f4d88616d90da113d4cf7924bbd5a14b11a3c4c7d0c1a3dc975bfc0e7"
+        },
+        {
+          "file": "stress_test_summary.csv",
+          "identical": true,
+          "m15_sha256": "8a177ab13cf0b695051c52daab0664e299bc79c8afd466ce4e3a699c37755b1d",
+          "m16_sha256": "8a177ab13cf0b695051c52daab0664e299bc79c8afd466ce4e3a699c37755b1d"
+        },
+        {
+          "file": "uncertainty_summary.csv",
+          "identical": true,
+          "m15_sha256": "be7180254b1cf33676a0fb09a61e6e6cb5d0549a0dd629add18f547c4a60d8c8",
+          "m16_sha256": "be7180254b1cf33676a0fb09a61e6e6cb5d0549a0dd629add18f547c4a60d8c8"
+        },
+        {
+          "file": "weight_sensitivity.csv",
+          "identical": true,
+          "m15_sha256": "9371c0479334cfcb1de3b9af8960047698ca609c5085be392d9be8bc19f56b08",
+          "m16_sha256": "9371c0479334cfcb1de3b9af8960047698ca609c5085be392d9be8bc19f56b08"
+        }
+      ]
+    },
+    "rics_60": {
+      "common_non_manifest_count": 22,
+      "identical_count": 22,
+      "different_files": [],
+      "new_only_files": [
+        "reference_inventory_status.json",
+        "reference_lifecycle_event_ledger.csv",
+        "reference_rsp_boundary_state.csv",
+        "resolved_physical_reference_inventory.csv",
+        "rsp_boundary_state.csv"
+      ],
+      "details": [
+        {
+          "file": "allocation_sensitivity.csv",
+          "identical": true,
+          "m15_sha256": "f084e055217478da1d19c3df4eac17e98efd68c8ea138554d7bc2a8e8d2a82ac",
+          "m16_sha256": "f084e055217478da1d19c3df4eac17e98efd68c8ea138554d7bc2a8e8d2a82ac"
+        },
+        {
+          "file": "analysis_report.txt",
+          "identical": true,
+          "m15_sha256": "3ad0aabfa41671c9f90852439b49fb6a578b289668200bcc87b24bb93eebea56",
+          "m16_sha256": "3ad0aabfa41671c9f90852439b49fb6a578b289668200bcc87b24bb93eebea56"
+        },
+        {
+          "file": "climate_stress_summary.csv",
+          "identical": true,
+          "m15_sha256": "f9ee11ff8ba3cdcf9018ecc13fece8434f98935a86e591eed05fc83a9b7fa188",
+          "m16_sha256": "f9ee11ff8ba3cdcf9018ecc13fece8434f98935a86e591eed05fc83a9b7fa188"
+        },
+        {
+          "file": "component_lifecycle_draws.csv",
+          "identical": true,
+          "m15_sha256": "347ddddc4c0212dca1c6f76a63e24b381763a3d13968e4c614ffcd543a69d038",
+          "m16_sha256": "347ddddc4c0212dca1c6f76a63e24b381763a3d13968e4c614ffcd543a69d038"
+        },
+        {
+          "file": "component_summary.csv",
+          "identical": true,
+          "m15_sha256": "5b9de1e7589c6d1997d55275b69350e09311d4cb0aa0776afa9a412ba6251686",
+          "m16_sha256": "5b9de1e7589c6d1997d55275b69350e09311d4cb0aa0776afa9a412ba6251686"
+        },
+        {
+          "file": "lifecycle_event_ledger.csv",
+          "identical": true,
+          "m15_sha256": "f83937af5a2ef940609772179fc3ce9c21e22321be8374911eec7197c3e61d2e",
+          "m16_sha256": "f83937af5a2ef940609772179fc3ce9c21e22321be8374911eec7197c3e61d2e"
+        },
+        {
+          "file": "lifecycle_replacements.csv",
+          "identical": true,
+          "m15_sha256": "2c862c92811b1193284d3e9b6bb2cfb5af856aecf12afec6ac192377fb0f4ea6",
+          "m16_sha256": "2c862c92811b1193284d3e9b6bb2cfb5af856aecf12afec6ac192377fb0f4ea6"
+        },
+        {
+          "file": "option_set_sensitivity.csv",
+          "identical": true,
+          "m15_sha256": "0466b18c8838f8c60c6f8fc1d70dc47effd7d81be0341921230e65f202d03cb5",
+          "m16_sha256": "0466b18c8838f8c60c6f8fc1d70dc47effd7d81be0341921230e65f202d03cb5"
+        },
+        {
+          "file": "resolved_components.csv",
+          "identical": true,
+          "m15_sha256": "bbdfd7257664fdb9f932bb7565d227dbe3cfa96040fb3508f7b19b03888b6169",
+          "m16_sha256": "bbdfd7257664fdb9f932bb7565d227dbe3cfa96040fb3508f7b19b03888b6169"
+        },
+        {
+          "file": "resolved_config.json",
+          "identical": true,
+          "m15_sha256": "6ded8e0e309243fc1e328416bf4c9f34e44d1b40c6cdefbe7cc21477f0d9a29c",
+          "m16_sha256": "6ded8e0e309243fc1e328416bf4c9f34e44d1b40c6cdefbe7cc21477f0d9a29c"
+        },
+        {
+          "file": "resolved_horizon.json",
+          "identical": true,
+          "m15_sha256": "7349ce67577a411f88680372d787cdc00f1822b7567121abe0f19b0b2b179b62",
+          "m16_sha256": "7349ce67577a411f88680372d787cdc00f1822b7567121abe0f19b0b2b179b62"
+        },
+        {
+          "file": "resolved_scenarios.csv",
+          "identical": true,
+          "m15_sha256": "85df534a346978b74c4c8ce9f79939dcb57bbaeb151c2aac39a5e927644df2f9",
+          "m16_sha256": "85df534a346978b74c4c8ce9f79939dcb57bbaeb151c2aac39a5e927644df2f9"
+        },
+        {
+          "file": "resolved_stress_cases.csv",
+          "identical": true,
+          "m15_sha256": "96e3fe19b0c09794cfea3d09c5c4171ad2b566b26cc8b5dd94ea1c45b4c77b84",
+          "m16_sha256": "96e3fe19b0c09794cfea3d09c5c4171ad2b566b26cc8b5dd94ea1c45b4c77b84"
+        },
+        {
+          "file": "robust_across_stress_cases.csv",
+          "identical": true,
+          "m15_sha256": "7841a8a146eb2a6ae72b592da65b30746573a5014ce93aad2297df6c5a77a00e",
+          "m16_sha256": "7841a8a146eb2a6ae72b592da65b30746573a5014ce93aad2297df6c5a77a00e"
+        },
+        {
+          "file": "sampled_futures.csv",
+          "identical": true,
+          "m15_sha256": "94466172d46179cd5e5d570e82716d561fb240a9bed632ae398a787bb686db89",
+          "m16_sha256": "94466172d46179cd5e5d570e82716d561fb240a9bed632ae398a787bb686db89"
+        },
+        {
+          "file": "scenario_summary.csv",
+          "identical": true,
+          "m15_sha256": "5ececcce366af0a9e5cc846bd0e29797b4c927d8f35b5f8431d90fd681217130",
+          "m16_sha256": "5ececcce366af0a9e5cc846bd0e29797b4c927d8f35b5f8431d90fd681217130"
+        },
+        {
+          "file": "sensitivity_oat.csv",
+          "identical": true,
+          "m15_sha256": "d48bc3d3f8938f649b836ad44138dce7e968fdb35e7aa99ec98ca5458c7a6ae5",
+          "m16_sha256": "d48bc3d3f8938f649b836ad44138dce7e968fdb35e7aa99ec98ca5458c7a6ae5"
+        },
+        {
+          "file": "sensitivity_rank_correlations.csv",
+          "identical": true,
+          "m15_sha256": "6ee6f14be3b983ecd47b95adc098fd273018be96a32985a4f1e5c57387802421",
+          "m16_sha256": "6ee6f14be3b983ecd47b95adc098fd273018be96a32985a4f1e5c57387802421"
+        },
+        {
+          "file": "simulation_results.csv",
+          "identical": true,
+          "m15_sha256": "593e5e75ca27ce63ab0b99f22d5c616508c8c20913894060022dd60dca21c860",
+          "m16_sha256": "593e5e75ca27ce63ab0b99f22d5c616508c8c20913894060022dd60dca21c860"
+        },
+        {
+          "file": "stress_test_summary.csv",
+          "identical": true,
+          "m15_sha256": "202a2adfe163cd030f98d7f1693076bcfa9513bbfae2e77d3dbd012476141f7f",
+          "m16_sha256": "202a2adfe163cd030f98d7f1693076bcfa9513bbfae2e77d3dbd012476141f7f"
+        },
+        {
+          "file": "uncertainty_summary.csv",
+          "identical": true,
+          "m15_sha256": "be7180254b1cf33676a0fb09a61e6e6cb5d0549a0dd629add18f547c4a60d8c8",
+          "m16_sha256": "be7180254b1cf33676a0fb09a61e6e6cb5d0549a0dd629add18f547c4a60d8c8"
+        },
+        {
+          "file": "weight_sensitivity.csv",
+          "identical": true,
+          "m15_sha256": "7439288fd6ca5d5bdd18fbd5615a75323840d1060f2800cae9679817943cfcf2",
+          "m16_sha256": "7439288fd6ca5d5bdd18fbd5615a75323840d1060f2800cae9679817943cfcf2"
+        }
+      ]
+    }
+  },
+  "boundary_state_audit": {
+    "legacy_30": {
+      "boundary_rows": 130000,
+      "unique_boundary_state_ids": 130000,
+      "unique_future_component_keys": 130000,
+      "event_rows": 94164,
+      "min_remaining_life_years": 0.0001052669058339,
+      "max_remaining_life_years": 39.14143105238581,
+      "generation_min": 0,
+      "generation_max": 2
+    },
+    "levels_50": {
+      "boundary_rows": 130000,
+      "unique_boundary_state_ids": 130000,
+      "unique_future_component_keys": 130000,
+      "event_rows": 209348,
+      "min_remaining_life_years": 0.0004928829769923,
+      "max_remaining_life_years": 48.5048433242608,
+      "generation_min": 1,
+      "generation_max": 4
+    },
+    "rics_60": {
+      "boundary_rows": 130000,
+      "unique_boundary_state_ids": 130000,
+      "unique_future_component_keys": 130000,
+      "event_rows": 256953,
+      "min_remaining_life_years": 0.0002299555055458,
+      "max_remaining_life_years": 39.22561776527624,
+      "generation_min": 1,
+      "generation_max": 5
+    }
+  },
+  "cross_horizon_reconciliation": {
+    "legacy_30_to_levels_50": {
+      "eligible_boundary_states": 106613,
+      "missing_matching_events": 0,
+      "event_times_exactly_match": true
+    },
+    "levels_50_to_rics_60": {
+      "eligible_boundary_states": 47605,
+      "missing_matching_events": 0,
+      "event_times_exactly_match": true
+    }
+  },
+  "full_default_run": {
+    "successful": true,
+    "charts": true,
+    "convergence": true,
+    "simulations": 10000,
+    "elapsed_seconds": 17.47
+  },
+  "test_suite": {
+    "pre_m16": 47,
+    "new_m16": 15,
+    "total": 62,
+    "all_passed": true
+  }
+}

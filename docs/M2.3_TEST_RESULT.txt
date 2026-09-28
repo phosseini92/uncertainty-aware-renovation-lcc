@@ -1,0 +1,18 @@
+M2.3 TEST RESULT — 2026-09-28
+
+Python byte-compilation: PASS
+M2.3 new tests: 10/10 PASS
+M2.2 A4 tests: 33/33 PASS
+Product + environmental-factor tests: 33/33 PASS
+Lifecycle + horizon + convergence tests: 28/28 PASS
+Model + physical quantity + reference + remaining-life + robustness tests: 48/48 PASS
+TOTAL: 152/152 PASS (executed in verified chunks)
+
+Full default run: 10,000 futures, seed 20260726, convergence enabled, charts enabled — PASS.
+
+M2.2 -> M2.3 production parity, 10,000 futures, seed 20260726:
+legacy_30: 46/46 frozen common non-manifest outputs byte-identical; 94,164 lifecycle events.
+levels_50: 46/46 frozen common non-manifest outputs byte-identical; 209,348 lifecycle events.
+rics_60: 46/46 frozen common non-manifest outputs byte-identical; 256,953 lifecycle events.
+
+Production replacement-transport assignments are empty by design. Missing data are not treated as zero.

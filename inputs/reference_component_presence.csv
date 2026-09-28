@@ -1,0 +1,7 @@
+comparison_lineage_id,component_type_id,reference_presence_status,evidence_status,evidence_source,notes
+lineage_facade_finish,ctype_facade_finish,UNKNOWN,SOURCE_NOT_AVAILABLE_IN_V2_1,Original v2.1 package,Presence of an equivalent façade-finish component in the continued-use reference is not established by the source package.
+lineage_heat_pump,ctype_heat_pump,UNKNOWN,SOURCE_NOT_AVAILABLE_IN_V2_1,Original v2.1 package,Presence of an equivalent heat-pump component in the continued-use reference is not established by the source package.
+lineage_insulation,ctype_insulation,UNKNOWN,SOURCE_NOT_AVAILABLE_IN_V2_1,Original v2.1 package,Presence of an equivalent insulation component in the continued-use reference is not established by the source package.
+lineage_inverter,ctype_inverter,UNKNOWN,SOURCE_NOT_AVAILABLE_IN_V2_1,Original v2.1 package,Presence of an equivalent inverter component in the continued-use reference is not established by the source package.
+lineage_pv_modules,ctype_pv_modules,UNKNOWN,SOURCE_NOT_AVAILABLE_IN_V2_1,Original v2.1 package,Presence of equivalent PV modules in the continued-use reference is not established by the source package.
+lineage_windows,ctype_windows,UNKNOWN,SOURCE_NOT_AVAILABLE_IN_V2_1,Original v2.1 package,Presence and physical definition of equivalent windows in the continued-use reference are not established by the source package.

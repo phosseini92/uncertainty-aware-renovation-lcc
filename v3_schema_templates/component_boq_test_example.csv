@@ -1,0 +1,3 @@
+boq_line_id,scenario_id,component_instance_id,comparison_lineage_id,component_type_id,item_label,material_or_product_id,assessment_role,quantity,quantity_unit,mass_kg,source_status,source_reference,derivation_method,notes
+boq_test_window_glazing,scn_test,ci_test_window,lineage_test_window,ctype_test_window,Synthetic glazing quantity,prod_test_glazing,ASSESSMENT_INVENTORY,25,m2,,TEST_ONLY_SYNTHETIC,tests only,,Synthetic example; not research data.
+boq_test_window_frame,scn_test,ci_test_window,lineage_test_window,ctype_test_window,Synthetic frame mass,prod_test_frame,ASSESSMENT_INVENTORY,120,kg,120,TEST_ONLY_SYNTHETIC,tests only,,Synthetic example; not research data.

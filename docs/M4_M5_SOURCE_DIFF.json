@@ -1,0 +1,17 @@
+{
+  "baseline_zip": "uncertainty-aware-renovation-lcc-v3-M3.1.1.zip",
+  "common_top_level_python_files": 21,
+  "changed_existing_top_level_python_files": [
+    "renovation_lcc.py"
+  ],
+  "new_top_level_python_files": [
+    "end_of_life.py",
+    "lifecycle_aggregation.py"
+  ],
+  "missing_baseline_top_level_python_files": [],
+  "expected_change_summary": {
+    "renovation_lcc.py": "M4/M5 integration + final release manifest metadata",
+    "end_of_life.py": "new explicit C1-C4/D1-D2 engine",
+    "lifecycle_aggregation.py": "new applicability/coverage/aggregation gate"
+  }
+}

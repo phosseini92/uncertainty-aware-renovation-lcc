@@ -1,0 +1,65 @@
+{
+  "legacy_30": {
+    "common_files": 82,
+    "byte_identical": 79,
+    "different": [
+      "b6_operational_energy_engine_status.json",
+      "resolved_config.json",
+      "run_manifest.json"
+    ],
+    "unexpected_differences": [],
+    "expected_metadata_differences": [
+      "b6_operational_energy_engine_status.json",
+      "resolved_config.json",
+      "run_manifest.json"
+    ],
+    "lifecycle_event_rows": 94164,
+    "migration_checkpoint": "v3-M3.1.1-HARDENING",
+    "assessment_convention": "EN15978_2026_INFORMED",
+    "generated_energy_reporting_approach": "PHYSICAL_FLOWS_B6_IMPORT_ONLY_D2_DEFERRED",
+    "factor_extrapolation_policy": "ERROR_IF_MISSING",
+    "whole_life_carbon_generated": false
+  },
+  "levels_50": {
+    "common_files": 82,
+    "byte_identical": 79,
+    "different": [
+      "b6_operational_energy_engine_status.json",
+      "resolved_config.json",
+      "run_manifest.json"
+    ],
+    "unexpected_differences": [],
+    "expected_metadata_differences": [
+      "b6_operational_energy_engine_status.json",
+      "resolved_config.json",
+      "run_manifest.json"
+    ],
+    "lifecycle_event_rows": 209348,
+    "migration_checkpoint": "v3-M3.1.1-HARDENING",
+    "assessment_convention": "EN15978_2026_INFORMED",
+    "generated_energy_reporting_approach": "PHYSICAL_FLOWS_B6_IMPORT_ONLY_D2_DEFERRED",
+    "factor_extrapolation_policy": "ERROR_IF_MISSING",
+    "whole_life_carbon_generated": false
+  },
+  "rics_60": {
+    "common_files": 82,
+    "byte_identical": 79,
+    "different": [
+      "b6_operational_energy_engine_status.json",
+      "resolved_config.json",
+      "run_manifest.json"
+    ],
+    "unexpected_differences": [],
+    "expected_metadata_differences": [
+      "b6_operational_energy_engine_status.json",
+      "resolved_config.json",
+      "run_manifest.json"
+    ],
+    "lifecycle_event_rows": 256953,
+    "migration_checkpoint": "v3-M3.1.1-HARDENING",
+    "assessment_convention": "EN15978_2026_INFORMED",
+    "generated_energy_reporting_approach": "PHYSICAL_FLOWS_B6_IMPORT_ONLY_D2_DEFERRED",
+    "factor_extrapolation_policy": "ERROR_IF_MISSING",
+    "whole_life_carbon_generated": false
+  }
+}

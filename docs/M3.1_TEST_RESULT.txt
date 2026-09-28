@@ -1,0 +1,31 @@
+M3.1 TEST RESULT
+Date: 2026-09-28
+Milestone: M3.1 — B6 Operational Energy Carbon Consequences
+
+Dedicated M3.1 tests: 19/19 PASS.
+Current repository test inventory: 211 tests (192 frozen M2.6 + 19 new M3.1).
+Targeted current-checkpoint regression run covering B6, product-carbon and environmental-registry suites: 52/52 PASS.
+
+The frozen M2.6 baseline carried 192 previously validated tests. M3.1 is additive and the M2.6 common-output regression was independently checked through 10,000-future parity at 30/50/60 years. A monolithic re-run of all historical tests was not used as the release gate because the historical integration suite exceeds the single-command execution window in this environment; no claim of a fresh 211/211 monolithic run is made.
+
+M3.1 validation includes:
+- exact B6 / GWP_TOTAL / kWh factor gate;
+- explicit annual flow and calendar-year schedule;
+- ERROR_IF_MISSING future factor policy;
+- generated/self-consumed/exported annual balance;
+- no negative operational flow or B6 credit;
+- exported energy tracked but not credited/netted;
+- explicit zero distinct from missing data;
+- factor uncertainty retained as metadata but not sampled;
+- closed-form 90 kgCO2e two-year fixture;
+- full-run populated B6 integration;
+- legacy annual_energy_savings_kwh isolation;
+- production empty inputs => NO_OPERATIONAL_ENERGY_FLOWS;
+- Python compilation and full default run checks.
+
+10,000-future parity against M2.6, seed 20260726:
+- legacy_30: 76/76 common non-manifest outputs byte-identical;
+- levels_50: 76/76 common non-manifest outputs byte-identical;
+- rics_60: 76/76 common non-manifest outputs byte-identical.
+
+Full default 10,000-future run with convergence diagnostics and charts: PASS. Final-source manifest hashes for `b6_operational.py` and `renovation_lcc.py` reconcile to the packaged source.

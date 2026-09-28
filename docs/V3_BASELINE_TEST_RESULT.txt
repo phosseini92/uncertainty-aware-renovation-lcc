@@ -1,0 +1,26 @@
+
+test_component_input_budget_and_lifetime_validation (test_component_lifetimes.ComponentTests.test_component_input_budget_and_lifetime_validation) ... ok
+test_lifetime_streams_are_nested_and_inventory_order_independent (test_component_lifetimes.ComponentTests.test_lifetime_streams_are_nested_and_inventory_order_independent) ... ok
+test_multiple_replacements_discounting_and_horizon_boundary (test_component_lifetimes.ComponentTests.test_multiple_replacements_discounting_and_horizon_boundary) ... ok
+test_replacements_preserve_private_accounting_identity (test_component_lifetimes.ComponentTests.test_replacements_preserve_private_accounting_identity) ... ok
+test_convergence_matches_direct_runs_and_has_bounded_intervals (test_convergence.ConvergenceTests.test_convergence_matches_direct_runs_and_has_bounded_intervals) ... ok
+test_economic_draws_have_exact_prefixes (test_convergence.ConvergenceTests.test_economic_draws_have_exact_prefixes) ... ok
+test_annuity_matches_closed_form_and_boundary_cases (test_model.ModelTests.test_annuity_matches_closed_form_and_boundary_cases) ... ok
+test_exact_tail_mass_and_ties (test_model.ModelTests.test_exact_tail_mass_and_ties) ... ok
+test_hand_calculated_accounting (test_model.ModelTests.test_hand_calculated_accounting) ... ok
+test_input_validation (test_model.ModelTests.test_input_validation) ... ok
+test_reference_exclusion_changes_choice_set_only (test_model.ModelTests.test_reference_exclusion_changes_choice_set_only) ... ok
+test_reference_is_zero_and_regret_includes_it (test_model.ModelTests.test_reference_is_zero_and_regret_includes_it) ... ok
+test_renamed_scenarios_generate_all_outputs_reproducibly (test_model.ModelTests.test_renamed_scenarios_generate_all_outputs_reproducibly) ... ok
+test_rent_cancels_and_energy_allocation_conserves_benefit (test_model.ModelTests.test_rent_cancels_and_energy_allocation_conserves_benefit) ... ok
+test_sensitivity_exposes_energy_direction (test_model.ModelTests.test_sensitivity_exposes_energy_direction) ... ok
+test_baseline_proxy_equals_unstressed_model_and_reference_is_not_comfort_pass (test_performance_stress.PerformanceStressTests.test_baseline_proxy_equals_unstressed_model_and_reference_is_not_comfort_pass) ... ok
+test_severe_savings_proxy_cannot_improve_performance_pass_rate (test_performance_stress.PerformanceStressTests.test_severe_savings_proxy_cannot_improve_performance_pass_rate) ... ok
+test_fixed_scores_survive_all_diagnostic_option_sets (test_robustness.RobustnessTests.test_fixed_scores_survive_all_diagnostic_option_sets) ... ok
+test_reference_has_no_positive_probability_bonus (test_robustness.RobustnessTests.test_reference_has_no_positive_probability_bonus) ... ok
+test_regret_can_change_while_scores_do_not (test_robustness.RobustnessTests.test_regret_can_change_while_scores_do_not) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 7.356s
+
+OK

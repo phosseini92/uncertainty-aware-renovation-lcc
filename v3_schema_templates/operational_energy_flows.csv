@@ -1,0 +1,1 @@
+energy_flow_id,scenario_id,carrier_id,flow_type,annual_quantity_kwh,first_analysis_year,last_analysis_year,b6_factor_schedule_id,source_status,source_reference,retrieval_date,notes

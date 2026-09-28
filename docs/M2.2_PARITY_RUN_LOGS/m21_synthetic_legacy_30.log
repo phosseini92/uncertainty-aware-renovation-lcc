@@ -1,0 +1,18 @@
+/tmp/m22-verified-wbj55w86/uncertainty-aware-renovation-lcc-v3-m2.1-product-carbon/renovation_lcc.py:573: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+  carbon_consequence_ledger = pd.concat(
+     perspective                              scenario  median_net_benefit_eur  probability_positive  worst_decile_mean_eur  pareto_on_core_metrics
+           owner                  Deep renovation + PV           -1.979371e+06                0.0000          -2.676475e+06                   False
+           owner                  Envelope + heat pump           -8.307339e+05                0.0000          -1.155625e+06                   False
+           owner                     Envelope retrofit           -3.415014e+05                0.0000          -4.909836e+05                   False
+           owner Reference: no additional intervention            0.000000e+00                0.0000           0.000000e+00                    True
+          tenant                  Deep renovation + PV            1.242063e+06                1.0000           6.429175e+05                    True
+          tenant                  Envelope + heat pump            7.004212e+05                1.0000           3.539535e+05                   False
+          tenant                     Envelope retrofit            3.502546e+05                1.0000           1.824544e+05                   False
+          tenant Reference: no additional intervention            0.000000e+00                0.0000           0.000000e+00                   False
+combined_private                  Deep renovation + PV           -7.262181e+05                0.1148          -1.625830e+06                   False
+combined_private                  Envelope + heat pump           -1.271131e+05                0.3365          -5.942124e+05                   False
+combined_private                     Envelope retrofit            1.071614e+04                0.5299          -2.137880e+05                    True
+combined_private Reference: no additional intervention            0.000000e+00                0.0000           0.000000e+00                    True
+
+Outputs written to /tmp/m22-verified-wbj55w86/audit/m21_synthetic_legacy_30
+CSV_INTEGRITY_PASS: 39 files; all row counts and final hashes verified.

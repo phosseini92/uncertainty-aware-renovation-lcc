@@ -1,0 +1,13 @@
+{
+  "simulations": 10000,
+  "seed": 20260726,
+  "baseline": "M2.2 stored SHA-256 audit hashes",
+  "candidate": "M2.3 independent runs",
+  "production": {
+    "legacy_30": {"common_frozen_nonmanifest": 46, "byte_identical": 46, "different": [], "lifecycle_events": 94164},
+    "levels_50": {"common_frozen_nonmanifest": 46, "byte_identical": 46, "different": [], "lifecycle_events": 209348},
+    "rics_60": {"common_frozen_nonmanifest": 46, "byte_identical": 46, "different": [], "lifecycle_events": 256953}
+  },
+  "full_default_run": {"simulations": 10000, "seed": 20260726, "convergence": true, "charts": true, "result": "PASS"},
+  "result": "PASS"
+}

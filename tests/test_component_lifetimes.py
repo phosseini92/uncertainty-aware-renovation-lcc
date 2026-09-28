@@ -46,6 +46,22 @@ class ComponentTests(unittest.TestCase):
         by_component=full.groupby(['scenario','component']).first_service_life_years.apply(list)
         self.assertEqual(by_component.loc[('Envelope retrofit','Windows')],by_component.loc[('Envelope + heat pump','Windows')])
 
+    def test_component_identity_and_lineage_validation(self):
+        with tempfile.TemporaryDirectory() as d:
+            path = Path(d) / "components.csv"
+            bad = self.components.copy()
+            bad.loc[bad.index[0], "scenario_id"] = "scn_wrong"
+            bad.to_csv(path, index=False)
+            with self.assertRaises(ValueError):
+                load_components(path, self.scenarios)
+
+            bad = self.components.copy()
+            windows = bad.index[bad.comparison_lineage_id.eq("lineage_windows")].tolist()
+            bad.loc[windows[0], "component_type_id"] = "ctype_not_windows"
+            bad.to_csv(path, index=False)
+            with self.assertRaises(ValueError):
+                load_components(path, self.scenarios)
+
     def test_replacements_preserve_private_accounting_identity(self):
         raw=m.simulate(self.scenarios,self.futures,self.config)
         totals,events=renewal_costs(self.components,self.futures,self.config,42,retain_events=True)

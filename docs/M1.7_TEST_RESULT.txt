@@ -1,0 +1,37 @@
+M1.7 verification result
+========================
+
+Python byte-compilation: PASS
+Unit/regression test suite: 76 / 76 PASS
+Warnings in final verbose test run: none
+
+Independent 10,000-future parity against M1.6
+seed: 20260726
+charts: disabled
+convergence: disabled
+
+legacy_30: 27 / 27 common non-manifest outputs byte-identical
+levels_50: 27 / 27 common non-manifest outputs byte-identical
+rics_60: 27 / 27 common non-manifest outputs byte-identical
+
+Nine additive M1.7 outputs:
+- lifecycle_event_boq_quantities.csv
+- physical_boq_status.json
+- physical_quantity_coverage.csv
+- reference_coverage_skeleton.csv
+- reference_lifecycle_event_boq_quantities.csv
+- reference_rsp_boundary_boq_state.csv
+- resolved_component_boq.csv
+- resolved_reference_component_presence.csv
+- rsp_boundary_boq_state.csv
+
+Full default 10,000-future run including convergence diagnostics and charts: PASS
+
+Production evidence state
+-------------------------
+component_boq.csv: header-only; no documented intervention BoQ in source package
+physical quantity coverage: 13 / 13 intervention component instances = BOQ_MISSING
+reference presence declarations: 6 / 6 known intervention lineages = UNKNOWN
+reference coverage: 6 / 6 known intervention lineages = REFERENCE_PRESENCE_UNRESOLVED
+coverage denominator scope: KNOWN_INTERVENTION_LINEAGES_ONLY
+No carbon factors or GWP calculations introduced.

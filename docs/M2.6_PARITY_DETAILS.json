@@ -1,0 +1,50 @@
+{
+  "legacy_30": {
+    "common_nonmanifest_count": 71,
+    "byte_identical_count": 71,
+    "different_common_nonmanifest": [],
+    "new_only": [
+      "assessed_b4_event_process_carbon_by_module.csv",
+      "b4_event_process_compatibility.csv",
+      "b4_event_process_coverage.csv",
+      "b4_event_process_engine_status.json",
+      "resolved_b4_event_process_assignments.csv"
+    ],
+    "old_only": [],
+    "lifecycle_event_rows": 94164,
+    "b4_event_process_rows": 0,
+    "production_b4_event_process_status": "NO_B4_EVENT_PROCESS_ASSIGNMENTS"
+  },
+  "levels_50": {
+    "common_nonmanifest_count": 71,
+    "byte_identical_count": 71,
+    "different_common_nonmanifest": [],
+    "new_only": [
+      "assessed_b4_event_process_carbon_by_module.csv",
+      "b4_event_process_compatibility.csv",
+      "b4_event_process_coverage.csv",
+      "b4_event_process_engine_status.json",
+      "resolved_b4_event_process_assignments.csv"
+    ],
+    "old_only": [],
+    "lifecycle_event_rows": 209348,
+    "b4_event_process_rows": 0,
+    "production_b4_event_process_status": "NO_B4_EVENT_PROCESS_ASSIGNMENTS"
+  },
+  "rics_60": {
+    "common_nonmanifest_count": 71,
+    "byte_identical_count": 71,
+    "different_common_nonmanifest": [],
+    "new_only": [
+      "assessed_b4_event_process_carbon_by_module.csv",
+      "b4_event_process_compatibility.csv",
+      "b4_event_process_coverage.csv",
+      "b4_event_process_engine_status.json",
+      "resolved_b4_event_process_assignments.csv"
+    ],
+    "old_only": [],
+    "lifecycle_event_rows": 256953,
+    "b4_event_process_rows": 0,
+    "production_b4_event_process_status": "NO_B4_EVENT_PROCESS_ASSIGNMENTS"
+  }
+}

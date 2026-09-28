@@ -1,0 +1,26 @@
+M2.6 TEST RESULT
+================
+Date: 2026-09-28
+Milestone: M2.6 — B4 Replacement Event Process Completion
+
+Result: PASS
+
+Repository test inventory: 192 tests.
+Execution was performed in verified chunks because the monolithic discovery run exceeds the interactive execution window.
+
+New M2.6 tests: 17/17 PASS.
+Affected product/environmental-registry tests: 49/49 PASS.
+A4 tests: 33/33 PASS.
+A5.1 tests: 13/13 PASS.
+A5.2/A5.3 tests: 10/10 PASS.
+B4 transport tests: all 10 verified PASS (8 in the long file run before timeout + the remaining 2 run individually).
+Physical quantity/reference tests: 22/22 PASS.
+Boundary/lifecycle/horizon/remaining-life/model/performance tests: all tests completed before the long combined chunk reached the final robustness group; no failures were observed.
+Robustness + convergence: 5/5 PASS in a separate run.
+
+Python byte-compilation: PASS.
+Full default 10,000-future run with convergence and charts: PASS.
+10,000-future parity against frozen M2.5 at 30/50/60 years: 71/71 common non-manifest outputs byte-identical for every horizon.
+
+Production b4_event_process_assignments.csv is header-only. Default status is NO_B4_EVENT_PROCESS_ASSIGNMENTS: not assessed, not zero.
+End-to-end populated synthetic runner check: PASS. The combined carbon ledger contained all seven B4 consequence types (product, inbound transport, installation, removal, outbound waste transport, processing, disposal) and the M2.6 engine status was EXECUTABLE_B4_EVENT_PROCESS_MAPPING_AVAILABLE.

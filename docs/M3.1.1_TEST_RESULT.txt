@@ -1,0 +1,25 @@
+M3.1.1 HARDENING TEST RESULT
+Date: 2026-09-28
+Milestone: M3.1.1 — Hardening / Release Consistency
+
+Static repository test inventory: 216 test methods.
+Fresh selected regression gate:
+- current-checkpoint B6/hardening/product-carbon/environmental-registry: 57/57 PASS;
+- lifecycle/economic/horizon/boundary: 42/42 PASS;
+- component/convergence/performance/robustness: 12/12 PASS;
+- total distinct fresh selected tests: 111/111 PASS.
+Warnings-as-errors were enabled for these test runs.
+
+No fresh monolithic 216/216 result is claimed. Historical long-running integration chunks exceed the single-command execution window in this environment. Release no-regression is additionally established through independent 10,000-future M3.1→M3.1.1 parity at 30/50/60 years.
+
+Parity result at each horizon:
+- 82 common files;
+- 79/79 non-metadata common outputs byte-identical;
+- only resolved_config.json, b6_operational_energy_engine_status.json and run_manifest.json differ as intended;
+- zero unexpected output differences;
+- lifecycle event counts unchanged at 94,164 / 209,348 / 256,953.
+
+Fresh full default 10,000-future run with convergence diagnostics and charts: PASS.
+Python compileall: PASS.
+Production B6 status: NO_OPERATIONAL_ENERGY_FLOWS (not assessed, not zero).
+Whole-Life Carbon/headline carbon: disabled.

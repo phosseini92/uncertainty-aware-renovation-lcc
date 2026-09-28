@@ -1,0 +1,24 @@
+V3 migration checkpoint M1.4 — test/validation result
+Date: 2026-09-27
+
+Python compilation: PASS
+Unit/integration tests: 37/37 PASS
+
+10,000-future parity vs M1.3 (seed 20260726, no charts/convergence):
+- 19/19 common CSV outputs byte-identical
+- resolved_config.json byte-identical
+- analysis_report.txt byte-identical
+
+10,000-future horizon runs (seed 20260726):
+- 30 years: 94,164 events; 94,164 unique event IDs; max event time 29.99905558894424
+- 50 years: 209,348 events; 209,348 unique event IDs; max event time 49.99953939260688
+- 60 years: 256,953 events; 256,953 unique event IDs; max event time 59.99982974381896
+- all events strictly before their resolved horizon
+- 30-year event set is a strict subset of 50-year event set
+- 50-year event set is a strict subset of 60-year event set
+- shared event physical/timing fields are exactly unchanged across horizons
+
+Full default 30-year run with convergence diagnostics and charts: PASS
+50-year chart-enabled run (1,000 futures, convergence skipped): PASS
+
+Gate: M1.4 PASS

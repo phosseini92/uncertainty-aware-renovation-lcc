@@ -1,0 +1,2 @@
+assignment_id,boq_line_id,scenario_id,transport_scenario_id,transport_flow_id,factor_set_id,active,initial_transport_basis,mapping_basis,mapping_reference,notes
+ta_test,boq_a4_test,scn_envelope_heat_pump,route_test,flow_test,tfs_test,True,NEW_INSTALLATION,TEST_ONLY_SYNTHETIC,Synthetic explicit mapping,

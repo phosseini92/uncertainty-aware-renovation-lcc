@@ -1,0 +1,20 @@
+{
+  "legacy_30": {
+    "simulations": 10000,
+    "seed": 20260726,
+    "common_nonmanifest": 58,
+    "diffs": []
+  },
+  "levels_50": {
+    "simulations": 10000,
+    "seed": 20260726,
+    "common_nonmanifest": 58,
+    "diffs": []
+  },
+  "rics_60": {
+    "simulations": 10000,
+    "seed": 20260726,
+    "common_nonmanifest": 58,
+    "diffs": []
+  }
+}

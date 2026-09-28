@@ -1,0 +1,16 @@
+M2.4 TEST RESULT — 2026-09-28
+
+M2.4 new tests: 10/10 PASS
+Complete repository: 162/162 PASS, verified in module chunks
+Python byte-compilation: PASS
+Full default run: 10,000 futures + convergence + charts PASS
+
+M2.3 -> M2.4 production parity, seed 20260726, 10,000 futures:
+- legacy_30: 58/58 common non-manifest outputs byte-identical
+- levels_50: 58/58 common non-manifest outputs byte-identical
+- rics_60: 58/58 common non-manifest outputs byte-identical
+
+Production A5 inputs: header-only / NOT ASSESSED
+Missing data treated as zero: NO
+Whole-life-carbon headline generated: NO
+Checkpoint: PASS / freeze-ready for implemented scope

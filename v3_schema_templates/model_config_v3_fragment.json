@@ -1,0 +1,18 @@
+{
+  "base_calendar_year": 2026,
+  "analysis_years": 50,
+  "assessment_convention": "EN15978_2026_INFORMED",
+  "inventory_scope": "RENOVATION_DECISION_SCOPE",
+  "generated_energy_reporting_approach": "PHYSICAL_FLOWS_B6_IMPORT_ONLY_D2_DEFERRED",
+  "factor_extrapolation_policy": "ERROR_IF_MISSING",
+  "future_product_factor_policy": "STATIC_DOCUMENTED_FACTORS",
+  "economic_mode": "INCREMENTAL_PRIVATE_COMPATIBILITY",
+  "currency": "EUR",
+  "price_base_year": 2026,
+  "price_basis": "NOMINAL",
+  "tax_status": "ILLUSTRATIVE_UNSPECIFIED",
+  "escalation_basis": "CONFIGURED_NOMINAL_GROWTH",
+  "component_residual_value_method": "DISABLED",
+  "terminal_property_uplift_enabled": true,
+  "deterministic_benchmark_enabled": true
+}

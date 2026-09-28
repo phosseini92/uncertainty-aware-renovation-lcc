@@ -1,0 +1,1252 @@
+{
+  "simulations": 10000,
+  "seed": 20260726,
+  "capture": "READ_ONLY_CSV_ROW_COUNT_AND_FINAL_HASH_CHECKS_ON_BOTH_VERSIONS",
+  "production": {
+    "legacy_30": {
+      "common_nonmanifest_count": 46,
+      "byte_identical_count": 46,
+      "different_common_nonmanifest": [],
+      "new_only": [
+        "a4_transport_compatibility.csv",
+        "a4_transport_coverage.csv",
+        "a4_transport_engine_status.json",
+        "assessed_a4_transport_carbon_by_module.csv",
+        "resolved_boq_transport_assignments.csv",
+        "resolved_transport_factors.csv",
+        "resolved_transport_scenarios.csv"
+      ],
+      "old_only": [],
+      "sha256": {
+        "allocation_sensitivity.csv": {
+          "m21": "f655ed28c2eb749f6248991e810b758bef08dd4a4cd79dafe8a614eb16cfbd10",
+          "m22": "f655ed28c2eb749f6248991e810b758bef08dd4a4cd79dafe8a614eb16cfbd10"
+        },
+        "analysis_report.txt": {
+          "m21": "b653757fc5d54d9475995d171e8d977bae9eb66e6e1c8368062fc4a4a4e6ab87",
+          "m22": "b653757fc5d54d9475995d171e8d977bae9eb66e6e1c8368062fc4a4a4e6ab87"
+        },
+        "assessed_product_carbon_by_module.csv": {
+          "m21": "913aa9ddf429f73b650c14779b8b35d9c406e7cd50c434099c797019ae4cde9f",
+          "m22": "913aa9ddf429f73b650c14779b8b35d9c406e7cd50c434099c797019ae4cde9f"
+        },
+        "boq_factor_compatibility.csv": {
+          "m21": "3258fc3a35ce8171ea0fc2ce12d8ab78725725af9bd2ddc16326e4406764b1e3",
+          "m22": "3258fc3a35ce8171ea0fc2ce12d8ab78725725af9bd2ddc16326e4406764b1e3"
+        },
+        "boq_factor_coverage.csv": {
+          "m21": "709130e582f2e9ae8bfbb186c1d668317f3406a01e73df40697f836cd98954cb",
+          "m22": "709130e582f2e9ae8bfbb186c1d668317f3406a01e73df40697f836cd98954cb"
+        },
+        "carbon_consequence_ledger.csv": {
+          "m21": "f4585d7203980a3a96fe39956a931714bf4a901360953ec6ca0b36ffb507a4c3",
+          "m22": "f4585d7203980a3a96fe39956a931714bf4a901360953ec6ca0b36ffb507a4c3"
+        },
+        "carbon_engine_status.json": {
+          "m21": "12aac8c14e186b2c80e2a3e588582dd1bb9c95c0949208398bdf8ff91534c850",
+          "m22": "12aac8c14e186b2c80e2a3e588582dd1bb9c95c0949208398bdf8ff91534c850"
+        },
+        "climate_stress_summary.csv": {
+          "m21": "304ad8f7097ece18ab0caa73bffb8952c5d2145fbf71c8896825491fe22d08b6",
+          "m22": "304ad8f7097ece18ab0caa73bffb8952c5d2145fbf71c8896825491fe22d08b6"
+        },
+        "component_lifecycle_draws.csv": {
+          "m21": "6dcfd82e252f2f5f28b54206354261b0413ad225b2e8720eafede26f011b1108",
+          "m22": "6dcfd82e252f2f5f28b54206354261b0413ad225b2e8720eafede26f011b1108"
+        },
+        "component_summary.csv": {
+          "m21": "fd06981a2bc97c2f6281e5592c20d2ba40fdce892a0183067295c66631272a34",
+          "m22": "fd06981a2bc97c2f6281e5592c20d2ba40fdce892a0183067295c66631272a34"
+        },
+        "environmental_factor_set_summary.csv": {
+          "m21": "60053491f24973f007e3bba727a1ae7ba54aa223406365ded8b2807aeac89da6",
+          "m22": "60053491f24973f007e3bba727a1ae7ba54aa223406365ded8b2807aeac89da6"
+        },
+        "environmental_registry_status.json": {
+          "m21": "852e7f8cdf93807a5fec8783185e7fb71c611ef89c28e2c62a233c3e9060cf7d",
+          "m22": "852e7f8cdf93807a5fec8783185e7fb71c611ef89c28e2c62a233c3e9060cf7d"
+        },
+        "lifecycle_event_boq_quantities.csv": {
+          "m21": "ed0ea16b371a360defee7633a528d7602b7afc82351bb2127daf75ed3fc2dcde",
+          "m22": "ed0ea16b371a360defee7633a528d7602b7afc82351bb2127daf75ed3fc2dcde"
+        },
+        "lifecycle_event_ledger.csv": {
+          "m21": "368fbddc858161f724846808f5e6de6b547ad92f77ceeed2249d97959c7a82ed",
+          "m22": "368fbddc858161f724846808f5e6de6b547ad92f77ceeed2249d97959c7a82ed"
+        },
+        "lifecycle_replacements.csv": {
+          "m21": "14fae8c32037469a0e7d423e0789e653a5fec4b73f84cb4d825a3a3a36345f8f",
+          "m22": "14fae8c32037469a0e7d423e0789e653a5fec4b73f84cb4d825a3a3a36345f8f"
+        },
+        "option_set_sensitivity.csv": {
+          "m21": "36b960e0eb520e75af5d71fee099c90a3b9ca3969f29e275a9c8640623c359db",
+          "m22": "36b960e0eb520e75af5d71fee099c90a3b9ca3969f29e275a9c8640623c359db"
+        },
+        "physical_boq_status.json": {
+          "m21": "4a9219729b651de8b2e82d453d6adba8ca4a521f6234d9cbaac2fcf713706c26",
+          "m22": "4a9219729b651de8b2e82d453d6adba8ca4a521f6234d9cbaac2fcf713706c26"
+        },
+        "physical_quantity_coverage.csv": {
+          "m21": "08abd419d3d95c20765bed380ea5cd2ead7de29ef14fa1dfb2931176edfa8b6a",
+          "m22": "08abd419d3d95c20765bed380ea5cd2ead7de29ef14fa1dfb2931176edfa8b6a"
+        },
+        "product_carbon_coverage.csv": {
+          "m21": "323dbe2463d7711ecf02d97be115fb018ec0f55045a8123ab82d37ab72cd1e08",
+          "m22": "323dbe2463d7711ecf02d97be115fb018ec0f55045a8123ab82d37ab72cd1e08"
+        },
+        "reference_coverage_skeleton.csv": {
+          "m21": "6ecc86be04b599e55b5a0093f3fed024586432fa00115d6650f8176037d23acf",
+          "m22": "6ecc86be04b599e55b5a0093f3fed024586432fa00115d6650f8176037d23acf"
+        },
+        "reference_inventory_status.json": {
+          "m21": "4f77e8e4c96f268932f684f9880ba3d273ba3dd1bc67e29eaabffa501cebb4a5",
+          "m22": "4f77e8e4c96f268932f684f9880ba3d273ba3dd1bc67e29eaabffa501cebb4a5"
+        },
+        "reference_lifecycle_event_boq_quantities.csv": {
+          "m21": "ed0ea16b371a360defee7633a528d7602b7afc82351bb2127daf75ed3fc2dcde",
+          "m22": "ed0ea16b371a360defee7633a528d7602b7afc82351bb2127daf75ed3fc2dcde"
+        },
+        "reference_lifecycle_event_ledger.csv": {
+          "m21": "c0958f995b1f0519cd8aefb72ec9f79a9ed16e6eae11566c33a0316096c8a1f2",
+          "m22": "c0958f995b1f0519cd8aefb72ec9f79a9ed16e6eae11566c33a0316096c8a1f2"
+        },
+        "reference_rsp_boundary_boq_state.csv": {
+          "m21": "310ca74de7202d7996a28149dbb5624c4e553146fc69fe2e0d093010dc8d269a",
+          "m22": "310ca74de7202d7996a28149dbb5624c4e553146fc69fe2e0d093010dc8d269a"
+        },
+        "reference_rsp_boundary_state.csv": {
+          "m21": "93fab8dbc01b33102a3110e63e438833fb56451baaf334573628142c97c6a488",
+          "m22": "93fab8dbc01b33102a3110e63e438833fb56451baaf334573628142c97c6a488"
+        },
+        "resolved_boq_environmental_factor_assignments.csv": {
+          "m21": "2063940dc14f1fa5ee6821652b13ba68d6297b2080691c5afef5cf1ab30a6993",
+          "m22": "2063940dc14f1fa5ee6821652b13ba68d6297b2080691c5afef5cf1ab30a6993"
+        },
+        "resolved_component_boq.csv": {
+          "m21": "e4ea56f717252d59bc22c4b1cf7db1ec14ff3aaa128d37b2780b02943255b943",
+          "m22": "e4ea56f717252d59bc22c4b1cf7db1ec14ff3aaa128d37b2780b02943255b943"
+        },
+        "resolved_components.csv": {
+          "m21": "bbdfd7257664fdb9f932bb7565d227dbe3cfa96040fb3508f7b19b03888b6169",
+          "m22": "bbdfd7257664fdb9f932bb7565d227dbe3cfa96040fb3508f7b19b03888b6169"
+        },
+        "resolved_config.json": {
+          "m21": "90a293d3050f38d4b6244b074f8aeee987d89652d6320e867376d0c284e5c86b",
+          "m22": "90a293d3050f38d4b6244b074f8aeee987d89652d6320e867376d0c284e5c86b"
+        },
+        "resolved_environmental_factors.csv": {
+          "m21": "8f5cdc0174b63693d96ead6c828b30a3f2544983221fcc80b38edf5812ee67bd",
+          "m22": "8f5cdc0174b63693d96ead6c828b30a3f2544983221fcc80b38edf5812ee67bd"
+        },
+        "resolved_horizon.json": {
+          "m21": "3dec748b41db016a42246bfc924d10d2b5db7bb9843c9cf28b6f1a94187017d7",
+          "m22": "3dec748b41db016a42246bfc924d10d2b5db7bb9843c9cf28b6f1a94187017d7"
+        },
+        "resolved_physical_reference_inventory.csv": {
+          "m21": "6a72527799450550a6c858204174594e24c4543897d1bb056bf7870ed3561666",
+          "m22": "6a72527799450550a6c858204174594e24c4543897d1bb056bf7870ed3561666"
+        },
+        "resolved_reference_component_presence.csv": {
+          "m21": "f7829956a0c33253eb75d9c1a9a95bbf50650ad62b15415b06e8a8d6064a7b2d",
+          "m22": "f7829956a0c33253eb75d9c1a9a95bbf50650ad62b15415b06e8a8d6064a7b2d"
+        },
+        "resolved_scenarios.csv": {
+          "m21": "85df534a346978b74c4c8ce9f79939dcb57bbaeb151c2aac39a5e927644df2f9",
+          "m22": "85df534a346978b74c4c8ce9f79939dcb57bbaeb151c2aac39a5e927644df2f9"
+        },
+        "resolved_stress_cases.csv": {
+          "m21": "96e3fe19b0c09794cfea3d09c5c4171ad2b566b26cc8b5dd94ea1c45b4c77b84",
+          "m22": "96e3fe19b0c09794cfea3d09c5c4171ad2b566b26cc8b5dd94ea1c45b4c77b84"
+        },
+        "robust_across_stress_cases.csv": {
+          "m21": "7841a8a146eb2a6ae72b592da65b30746573a5014ce93aad2297df6c5a77a00e",
+          "m22": "7841a8a146eb2a6ae72b592da65b30746573a5014ce93aad2297df6c5a77a00e"
+        },
+        "rsp_boundary_boq_state.csv": {
+          "m21": "310ca74de7202d7996a28149dbb5624c4e553146fc69fe2e0d093010dc8d269a",
+          "m22": "310ca74de7202d7996a28149dbb5624c4e553146fc69fe2e0d093010dc8d269a"
+        },
+        "rsp_boundary_state.csv": {
+          "m21": "5ce4d704e5b721feccfd80ae56a882f882d33e1e0800dec37a22d63187cd4c07",
+          "m22": "5ce4d704e5b721feccfd80ae56a882f882d33e1e0800dec37a22d63187cd4c07"
+        },
+        "sampled_futures.csv": {
+          "m21": "94466172d46179cd5e5d570e82716d561fb240a9bed632ae398a787bb686db89",
+          "m22": "94466172d46179cd5e5d570e82716d561fb240a9bed632ae398a787bb686db89"
+        },
+        "scenario_summary.csv": {
+          "m21": "d5af44064e01655436259d69c789c21e7711069b7dcf3fbcd0822991d7ac5fba",
+          "m22": "d5af44064e01655436259d69c789c21e7711069b7dcf3fbcd0822991d7ac5fba"
+        },
+        "sensitivity_oat.csv": {
+          "m21": "f674c01c6e00000b44330071c6e795de96be2bbf813b7492173a51e3ad750656",
+          "m22": "f674c01c6e00000b44330071c6e795de96be2bbf813b7492173a51e3ad750656"
+        },
+        "sensitivity_rank_correlations.csv": {
+          "m21": "feef279a588fbb211e438290bab0ad7e4cc8c766d420fe97f21c375f0987624c",
+          "m22": "feef279a588fbb211e438290bab0ad7e4cc8c766d420fe97f21c375f0987624c"
+        },
+        "simulation_results.csv": {
+          "m21": "53e958309d9ad745cb21b6d50ecd9d5a50b22ff58dceaece2e299f4f11cd4eaf",
+          "m22": "53e958309d9ad745cb21b6d50ecd9d5a50b22ff58dceaece2e299f4f11cd4eaf"
+        },
+        "stress_test_summary.csv": {
+          "m21": "ae639c9d31586dd7aee272685b9288eb493cafea9bd22761019bea5c600e8342",
+          "m22": "ae639c9d31586dd7aee272685b9288eb493cafea9bd22761019bea5c600e8342"
+        },
+        "uncertainty_summary.csv": {
+          "m21": "be7180254b1cf33676a0fb09a61e6e6cb5d0549a0dd629add18f547c4a60d8c8",
+          "m22": "be7180254b1cf33676a0fb09a61e6e6cb5d0549a0dd629add18f547c4a60d8c8"
+        },
+        "weight_sensitivity.csv": {
+          "m21": "d18545a899c0bf9892c98e940c38eea245607b0043c9b638f111865e2606f56c",
+          "m22": "d18545a899c0bf9892c98e940c38eea245607b0043c9b638f111865e2606f56c"
+        }
+      },
+      "lifecycle_event_count": 94164
+    },
+    "levels_50": {
+      "common_nonmanifest_count": 46,
+      "byte_identical_count": 46,
+      "different_common_nonmanifest": [],
+      "new_only": [
+        "a4_transport_compatibility.csv",
+        "a4_transport_coverage.csv",
+        "a4_transport_engine_status.json",
+        "assessed_a4_transport_carbon_by_module.csv",
+        "resolved_boq_transport_assignments.csv",
+        "resolved_transport_factors.csv",
+        "resolved_transport_scenarios.csv"
+      ],
+      "old_only": [],
+      "sha256": {
+        "allocation_sensitivity.csv": {
+          "m21": "c903967a0f5fa818bb0e2b1bb838b0d16000870ba20e9af2dd925dcb9581bc7d",
+          "m22": "c903967a0f5fa818bb0e2b1bb838b0d16000870ba20e9af2dd925dcb9581bc7d"
+        },
+        "analysis_report.txt": {
+          "m21": "bbb7589fa3ab6177cecc0cb0141402c26ca5ba92a6affdcf8ce27974992d2911",
+          "m22": "bbb7589fa3ab6177cecc0cb0141402c26ca5ba92a6affdcf8ce27974992d2911"
+        },
+        "assessed_product_carbon_by_module.csv": {
+          "m21": "913aa9ddf429f73b650c14779b8b35d9c406e7cd50c434099c797019ae4cde9f",
+          "m22": "913aa9ddf429f73b650c14779b8b35d9c406e7cd50c434099c797019ae4cde9f"
+        },
+        "boq_factor_compatibility.csv": {
+          "m21": "3258fc3a35ce8171ea0fc2ce12d8ab78725725af9bd2ddc16326e4406764b1e3",
+          "m22": "3258fc3a35ce8171ea0fc2ce12d8ab78725725af9bd2ddc16326e4406764b1e3"
+        },
+        "boq_factor_coverage.csv": {
+          "m21": "709130e582f2e9ae8bfbb186c1d668317f3406a01e73df40697f836cd98954cb",
+          "m22": "709130e582f2e9ae8bfbb186c1d668317f3406a01e73df40697f836cd98954cb"
+        },
+        "carbon_consequence_ledger.csv": {
+          "m21": "f4585d7203980a3a96fe39956a931714bf4a901360953ec6ca0b36ffb507a4c3",
+          "m22": "f4585d7203980a3a96fe39956a931714bf4a901360953ec6ca0b36ffb507a4c3"
+        },
+        "carbon_engine_status.json": {
+          "m21": "12aac8c14e186b2c80e2a3e588582dd1bb9c95c0949208398bdf8ff91534c850",
+          "m22": "12aac8c14e186b2c80e2a3e588582dd1bb9c95c0949208398bdf8ff91534c850"
+        },
+        "climate_stress_summary.csv": {
+          "m21": "efe12dcac568015cc06132f729da571767d5c6589b4211460d88718c5ba78f25",
+          "m22": "efe12dcac568015cc06132f729da571767d5c6589b4211460d88718c5ba78f25"
+        },
+        "component_lifecycle_draws.csv": {
+          "m21": "9355a4c2a2bb1c97b26e106ddcdccf3ebf84b70b2587e1f039a6968c17e38ec6",
+          "m22": "9355a4c2a2bb1c97b26e106ddcdccf3ebf84b70b2587e1f039a6968c17e38ec6"
+        },
+        "component_summary.csv": {
+          "m21": "e78389b7766d0d8ec68c0bde3bed04f9dbd6db15e3e3a1ef850c14f0a51af098",
+          "m22": "e78389b7766d0d8ec68c0bde3bed04f9dbd6db15e3e3a1ef850c14f0a51af098"
+        },
+        "environmental_factor_set_summary.csv": {
+          "m21": "60053491f24973f007e3bba727a1ae7ba54aa223406365ded8b2807aeac89da6",
+          "m22": "60053491f24973f007e3bba727a1ae7ba54aa223406365ded8b2807aeac89da6"
+        },
+        "environmental_registry_status.json": {
+          "m21": "852e7f8cdf93807a5fec8783185e7fb71c611ef89c28e2c62a233c3e9060cf7d",
+          "m22": "852e7f8cdf93807a5fec8783185e7fb71c611ef89c28e2c62a233c3e9060cf7d"
+        },
+        "lifecycle_event_boq_quantities.csv": {
+          "m21": "ed0ea16b371a360defee7633a528d7602b7afc82351bb2127daf75ed3fc2dcde",
+          "m22": "ed0ea16b371a360defee7633a528d7602b7afc82351bb2127daf75ed3fc2dcde"
+        },
+        "lifecycle_event_ledger.csv": {
+          "m21": "b1d4e1db2fb31908bb51ec4b885149e8257ce53180a63cf6c2d91d1f8ac8d80a",
+          "m22": "b1d4e1db2fb31908bb51ec4b885149e8257ce53180a63cf6c2d91d1f8ac8d80a"
+        },
+        "lifecycle_replacements.csv": {
+          "m21": "f4de737878273f111d84735b8007ad3de57723389771f8657922572eb12e1579",
+          "m22": "f4de737878273f111d84735b8007ad3de57723389771f8657922572eb12e1579"
+        },
+        "option_set_sensitivity.csv": {
+          "m21": "5b2c91ff99f98d7c068208eddc24a1c4c9abc7fe58f80b07a2281ac73755935c",
+          "m22": "5b2c91ff99f98d7c068208eddc24a1c4c9abc7fe58f80b07a2281ac73755935c"
+        },
+        "physical_boq_status.json": {
+          "m21": "4a9219729b651de8b2e82d453d6adba8ca4a521f6234d9cbaac2fcf713706c26",
+          "m22": "4a9219729b651de8b2e82d453d6adba8ca4a521f6234d9cbaac2fcf713706c26"
+        },
+        "physical_quantity_coverage.csv": {
+          "m21": "08abd419d3d95c20765bed380ea5cd2ead7de29ef14fa1dfb2931176edfa8b6a",
+          "m22": "08abd419d3d95c20765bed380ea5cd2ead7de29ef14fa1dfb2931176edfa8b6a"
+        },
+        "product_carbon_coverage.csv": {
+          "m21": "323dbe2463d7711ecf02d97be115fb018ec0f55045a8123ab82d37ab72cd1e08",
+          "m22": "323dbe2463d7711ecf02d97be115fb018ec0f55045a8123ab82d37ab72cd1e08"
+        },
+        "reference_coverage_skeleton.csv": {
+          "m21": "6ecc86be04b599e55b5a0093f3fed024586432fa00115d6650f8176037d23acf",
+          "m22": "6ecc86be04b599e55b5a0093f3fed024586432fa00115d6650f8176037d23acf"
+        },
+        "reference_inventory_status.json": {
+          "m21": "4f77e8e4c96f268932f684f9880ba3d273ba3dd1bc67e29eaabffa501cebb4a5",
+          "m22": "4f77e8e4c96f268932f684f9880ba3d273ba3dd1bc67e29eaabffa501cebb4a5"
+        },
+        "reference_lifecycle_event_boq_quantities.csv": {
+          "m21": "ed0ea16b371a360defee7633a528d7602b7afc82351bb2127daf75ed3fc2dcde",
+          "m22": "ed0ea16b371a360defee7633a528d7602b7afc82351bb2127daf75ed3fc2dcde"
+        },
+        "reference_lifecycle_event_ledger.csv": {
+          "m21": "c0958f995b1f0519cd8aefb72ec9f79a9ed16e6eae11566c33a0316096c8a1f2",
+          "m22": "c0958f995b1f0519cd8aefb72ec9f79a9ed16e6eae11566c33a0316096c8a1f2"
+        },
+        "reference_rsp_boundary_boq_state.csv": {
+          "m21": "310ca74de7202d7996a28149dbb5624c4e553146fc69fe2e0d093010dc8d269a",
+          "m22": "310ca74de7202d7996a28149dbb5624c4e553146fc69fe2e0d093010dc8d269a"
+        },
+        "reference_rsp_boundary_state.csv": {
+          "m21": "93fab8dbc01b33102a3110e63e438833fb56451baaf334573628142c97c6a488",
+          "m22": "93fab8dbc01b33102a3110e63e438833fb56451baaf334573628142c97c6a488"
+        },
+        "resolved_boq_environmental_factor_assignments.csv": {
+          "m21": "2063940dc14f1fa5ee6821652b13ba68d6297b2080691c5afef5cf1ab30a6993",
+          "m22": "2063940dc14f1fa5ee6821652b13ba68d6297b2080691c5afef5cf1ab30a6993"
+        },
+        "resolved_component_boq.csv": {
+          "m21": "e4ea56f717252d59bc22c4b1cf7db1ec14ff3aaa128d37b2780b02943255b943",
+          "m22": "e4ea56f717252d59bc22c4b1cf7db1ec14ff3aaa128d37b2780b02943255b943"
+        },
+        "resolved_components.csv": {
+          "m21": "bbdfd7257664fdb9f932bb7565d227dbe3cfa96040fb3508f7b19b03888b6169",
+          "m22": "bbdfd7257664fdb9f932bb7565d227dbe3cfa96040fb3508f7b19b03888b6169"
+        },
+        "resolved_config.json": {
+          "m21": "dc323b8c207438a5eb845f1bcbc7ec8046f763a93b403f989996e1bd6b24c179",
+          "m22": "dc323b8c207438a5eb845f1bcbc7ec8046f763a93b403f989996e1bd6b24c179"
+        },
+        "resolved_environmental_factors.csv": {
+          "m21": "8f5cdc0174b63693d96ead6c828b30a3f2544983221fcc80b38edf5812ee67bd",
+          "m22": "8f5cdc0174b63693d96ead6c828b30a3f2544983221fcc80b38edf5812ee67bd"
+        },
+        "resolved_horizon.json": {
+          "m21": "fa52582ca8c245b82971e36b7e9fea0d7517fbe46ba8b5a12e143f3ea7e71102",
+          "m22": "fa52582ca8c245b82971e36b7e9fea0d7517fbe46ba8b5a12e143f3ea7e71102"
+        },
+        "resolved_physical_reference_inventory.csv": {
+          "m21": "6a72527799450550a6c858204174594e24c4543897d1bb056bf7870ed3561666",
+          "m22": "6a72527799450550a6c858204174594e24c4543897d1bb056bf7870ed3561666"
+        },
+        "resolved_reference_component_presence.csv": {
+          "m21": "f7829956a0c33253eb75d9c1a9a95bbf50650ad62b15415b06e8a8d6064a7b2d",
+          "m22": "f7829956a0c33253eb75d9c1a9a95bbf50650ad62b15415b06e8a8d6064a7b2d"
+        },
+        "resolved_scenarios.csv": {
+          "m21": "85df534a346978b74c4c8ce9f79939dcb57bbaeb151c2aac39a5e927644df2f9",
+          "m22": "85df534a346978b74c4c8ce9f79939dcb57bbaeb151c2aac39a5e927644df2f9"
+        },
+        "resolved_stress_cases.csv": {
+          "m21": "96e3fe19b0c09794cfea3d09c5c4171ad2b566b26cc8b5dd94ea1c45b4c77b84",
+          "m22": "96e3fe19b0c09794cfea3d09c5c4171ad2b566b26cc8b5dd94ea1c45b4c77b84"
+        },
+        "robust_across_stress_cases.csv": {
+          "m21": "7841a8a146eb2a6ae72b592da65b30746573a5014ce93aad2297df6c5a77a00e",
+          "m22": "7841a8a146eb2a6ae72b592da65b30746573a5014ce93aad2297df6c5a77a00e"
+        },
+        "rsp_boundary_boq_state.csv": {
+          "m21": "310ca74de7202d7996a28149dbb5624c4e553146fc69fe2e0d093010dc8d269a",
+          "m22": "310ca74de7202d7996a28149dbb5624c4e553146fc69fe2e0d093010dc8d269a"
+        },
+        "rsp_boundary_state.csv": {
+          "m21": "fd0700cafd6bb86a3679204fa3e8bccc2e4f0eb1390209b4728f4eebcf37c9e1",
+          "m22": "fd0700cafd6bb86a3679204fa3e8bccc2e4f0eb1390209b4728f4eebcf37c9e1"
+        },
+        "sampled_futures.csv": {
+          "m21": "94466172d46179cd5e5d570e82716d561fb240a9bed632ae398a787bb686db89",
+          "m22": "94466172d46179cd5e5d570e82716d561fb240a9bed632ae398a787bb686db89"
+        },
+        "scenario_summary.csv": {
+          "m21": "9229f6b97c5bce24565f2dfbf1e91b9c9fcecba34734ef67b456dfbcfd860896",
+          "m22": "9229f6b97c5bce24565f2dfbf1e91b9c9fcecba34734ef67b456dfbcfd860896"
+        },
+        "sensitivity_oat.csv": {
+          "m21": "f46803577ffff510eb0eabdd1abea35b21204da2eaf8315a3535b55de23d47fe",
+          "m22": "f46803577ffff510eb0eabdd1abea35b21204da2eaf8315a3535b55de23d47fe"
+        },
+        "sensitivity_rank_correlations.csv": {
+          "m21": "394faba5c1bba652a976caeed948de1f8408546c83a7555b2af8db02b0e24342",
+          "m22": "394faba5c1bba652a976caeed948de1f8408546c83a7555b2af8db02b0e24342"
+        },
+        "simulation_results.csv": {
+          "m21": "8ff4094f4d88616d90da113d4cf7924bbd5a14b11a3c4c7d0c1a3dc975bfc0e7",
+          "m22": "8ff4094f4d88616d90da113d4cf7924bbd5a14b11a3c4c7d0c1a3dc975bfc0e7"
+        },
+        "stress_test_summary.csv": {
+          "m21": "8a177ab13cf0b695051c52daab0664e299bc79c8afd466ce4e3a699c37755b1d",
+          "m22": "8a177ab13cf0b695051c52daab0664e299bc79c8afd466ce4e3a699c37755b1d"
+        },
+        "uncertainty_summary.csv": {
+          "m21": "be7180254b1cf33676a0fb09a61e6e6cb5d0549a0dd629add18f547c4a60d8c8",
+          "m22": "be7180254b1cf33676a0fb09a61e6e6cb5d0549a0dd629add18f547c4a60d8c8"
+        },
+        "weight_sensitivity.csv": {
+          "m21": "9371c0479334cfcb1de3b9af8960047698ca609c5085be392d9be8bc19f56b08",
+          "m22": "9371c0479334cfcb1de3b9af8960047698ca609c5085be392d9be8bc19f56b08"
+        }
+      },
+      "lifecycle_event_count": 209348
+    },
+    "rics_60": {
+      "common_nonmanifest_count": 46,
+      "byte_identical_count": 46,
+      "different_common_nonmanifest": [],
+      "new_only": [
+        "a4_transport_compatibility.csv",
+        "a4_transport_coverage.csv",
+        "a4_transport_engine_status.json",
+        "assessed_a4_transport_carbon_by_module.csv",
+        "resolved_boq_transport_assignments.csv",
+        "resolved_transport_factors.csv",
+        "resolved_transport_scenarios.csv"
+      ],
+      "old_only": [],
+      "sha256": {
+        "allocation_sensitivity.csv": {
+          "m21": "f084e055217478da1d19c3df4eac17e98efd68c8ea138554d7bc2a8e8d2a82ac",
+          "m22": "f084e055217478da1d19c3df4eac17e98efd68c8ea138554d7bc2a8e8d2a82ac"
+        },
+        "analysis_report.txt": {
+          "m21": "3ad0aabfa41671c9f90852439b49fb6a578b289668200bcc87b24bb93eebea56",
+          "m22": "3ad0aabfa41671c9f90852439b49fb6a578b289668200bcc87b24bb93eebea56"
+        },
+        "assessed_product_carbon_by_module.csv": {
+          "m21": "913aa9ddf429f73b650c14779b8b35d9c406e7cd50c434099c797019ae4cde9f",
+          "m22": "913aa9ddf429f73b650c14779b8b35d9c406e7cd50c434099c797019ae4cde9f"
+        },
+        "boq_factor_compatibility.csv": {
+          "m21": "3258fc3a35ce8171ea0fc2ce12d8ab78725725af9bd2ddc16326e4406764b1e3",
+          "m22": "3258fc3a35ce8171ea0fc2ce12d8ab78725725af9bd2ddc16326e4406764b1e3"
+        },
+        "boq_factor_coverage.csv": {
+          "m21": "709130e582f2e9ae8bfbb186c1d668317f3406a01e73df40697f836cd98954cb",
+          "m22": "709130e582f2e9ae8bfbb186c1d668317f3406a01e73df40697f836cd98954cb"
+        },
+        "carbon_consequence_ledger.csv": {
+          "m21": "f4585d7203980a3a96fe39956a931714bf4a901360953ec6ca0b36ffb507a4c3",
+          "m22": "f4585d7203980a3a96fe39956a931714bf4a901360953ec6ca0b36ffb507a4c3"
+        },
+        "carbon_engine_status.json": {
+          "m21": "12aac8c14e186b2c80e2a3e588582dd1bb9c95c0949208398bdf8ff91534c850",
+          "m22": "12aac8c14e186b2c80e2a3e588582dd1bb9c95c0949208398bdf8ff91534c850"
+        },
+        "climate_stress_summary.csv": {
+          "m21": "f9ee11ff8ba3cdcf9018ecc13fece8434f98935a86e591eed05fc83a9b7fa188",
+          "m22": "f9ee11ff8ba3cdcf9018ecc13fece8434f98935a86e591eed05fc83a9b7fa188"
+        },
+        "component_lifecycle_draws.csv": {
+          "m21": "347ddddc4c0212dca1c6f76a63e24b381763a3d13968e4c614ffcd543a69d038",
+          "m22": "347ddddc4c0212dca1c6f76a63e24b381763a3d13968e4c614ffcd543a69d038"
+        },
+        "component_summary.csv": {
+          "m21": "5b9de1e7589c6d1997d55275b69350e09311d4cb0aa0776afa9a412ba6251686",
+          "m22": "5b9de1e7589c6d1997d55275b69350e09311d4cb0aa0776afa9a412ba6251686"
+        },
+        "environmental_factor_set_summary.csv": {
+          "m21": "60053491f24973f007e3bba727a1ae7ba54aa223406365ded8b2807aeac89da6",
+          "m22": "60053491f24973f007e3bba727a1ae7ba54aa223406365ded8b2807aeac89da6"
+        },
+        "environmental_registry_status.json": {
+          "m21": "852e7f8cdf93807a5fec8783185e7fb71c611ef89c28e2c62a233c3e9060cf7d",
+          "m22": "852e7f8cdf93807a5fec8783185e7fb71c611ef89c28e2c62a233c3e9060cf7d"
+        },
+        "lifecycle_event_boq_quantities.csv": {
+          "m21": "ed0ea16b371a360defee7633a528d7602b7afc82351bb2127daf75ed3fc2dcde",
+          "m22": "ed0ea16b371a360defee7633a528d7602b7afc82351bb2127daf75ed3fc2dcde"
+        },
+        "lifecycle_event_ledger.csv": {
+          "m21": "f83937af5a2ef940609772179fc3ce9c21e22321be8374911eec7197c3e61d2e",
+          "m22": "f83937af5a2ef940609772179fc3ce9c21e22321be8374911eec7197c3e61d2e"
+        },
+        "lifecycle_replacements.csv": {
+          "m21": "2c862c92811b1193284d3e9b6bb2cfb5af856aecf12afec6ac192377fb0f4ea6",
+          "m22": "2c862c92811b1193284d3e9b6bb2cfb5af856aecf12afec6ac192377fb0f4ea6"
+        },
+        "option_set_sensitivity.csv": {
+          "m21": "0466b18c8838f8c60c6f8fc1d70dc47effd7d81be0341921230e65f202d03cb5",
+          "m22": "0466b18c8838f8c60c6f8fc1d70dc47effd7d81be0341921230e65f202d03cb5"
+        },
+        "physical_boq_status.json": {
+          "m21": "4a9219729b651de8b2e82d453d6adba8ca4a521f6234d9cbaac2fcf713706c26",
+          "m22": "4a9219729b651de8b2e82d453d6adba8ca4a521f6234d9cbaac2fcf713706c26"
+        },
+        "physical_quantity_coverage.csv": {
+          "m21": "08abd419d3d95c20765bed380ea5cd2ead7de29ef14fa1dfb2931176edfa8b6a",
+          "m22": "08abd419d3d95c20765bed380ea5cd2ead7de29ef14fa1dfb2931176edfa8b6a"
+        },
+        "product_carbon_coverage.csv": {
+          "m21": "323dbe2463d7711ecf02d97be115fb018ec0f55045a8123ab82d37ab72cd1e08",
+          "m22": "323dbe2463d7711ecf02d97be115fb018ec0f55045a8123ab82d37ab72cd1e08"
+        },
+        "reference_coverage_skeleton.csv": {
+          "m21": "6ecc86be04b599e55b5a0093f3fed024586432fa00115d6650f8176037d23acf",
+          "m22": "6ecc86be04b599e55b5a0093f3fed024586432fa00115d6650f8176037d23acf"
+        },
+        "reference_inventory_status.json": {
+          "m21": "4f77e8e4c96f268932f684f9880ba3d273ba3dd1bc67e29eaabffa501cebb4a5",
+          "m22": "4f77e8e4c96f268932f684f9880ba3d273ba3dd1bc67e29eaabffa501cebb4a5"
+        },
+        "reference_lifecycle_event_boq_quantities.csv": {
+          "m21": "ed0ea16b371a360defee7633a528d7602b7afc82351bb2127daf75ed3fc2dcde",
+          "m22": "ed0ea16b371a360defee7633a528d7602b7afc82351bb2127daf75ed3fc2dcde"
+        },
+        "reference_lifecycle_event_ledger.csv": {
+          "m21": "c0958f995b1f0519cd8aefb72ec9f79a9ed16e6eae11566c33a0316096c8a1f2",
+          "m22": "c0958f995b1f0519cd8aefb72ec9f79a9ed16e6eae11566c33a0316096c8a1f2"
+        },
+        "reference_rsp_boundary_boq_state.csv": {
+          "m21": "310ca74de7202d7996a28149dbb5624c4e553146fc69fe2e0d093010dc8d269a",
+          "m22": "310ca74de7202d7996a28149dbb5624c4e553146fc69fe2e0d093010dc8d269a"
+        },
+        "reference_rsp_boundary_state.csv": {
+          "m21": "93fab8dbc01b33102a3110e63e438833fb56451baaf334573628142c97c6a488",
+          "m22": "93fab8dbc01b33102a3110e63e438833fb56451baaf334573628142c97c6a488"
+        },
+        "resolved_boq_environmental_factor_assignments.csv": {
+          "m21": "2063940dc14f1fa5ee6821652b13ba68d6297b2080691c5afef5cf1ab30a6993",
+          "m22": "2063940dc14f1fa5ee6821652b13ba68d6297b2080691c5afef5cf1ab30a6993"
+        },
+        "resolved_component_boq.csv": {
+          "m21": "e4ea56f717252d59bc22c4b1cf7db1ec14ff3aaa128d37b2780b02943255b943",
+          "m22": "e4ea56f717252d59bc22c4b1cf7db1ec14ff3aaa128d37b2780b02943255b943"
+        },
+        "resolved_components.csv": {
+          "m21": "bbdfd7257664fdb9f932bb7565d227dbe3cfa96040fb3508f7b19b03888b6169",
+          "m22": "bbdfd7257664fdb9f932bb7565d227dbe3cfa96040fb3508f7b19b03888b6169"
+        },
+        "resolved_config.json": {
+          "m21": "6ded8e0e309243fc1e328416bf4c9f34e44d1b40c6cdefbe7cc21477f0d9a29c",
+          "m22": "6ded8e0e309243fc1e328416bf4c9f34e44d1b40c6cdefbe7cc21477f0d9a29c"
+        },
+        "resolved_environmental_factors.csv": {
+          "m21": "8f5cdc0174b63693d96ead6c828b30a3f2544983221fcc80b38edf5812ee67bd",
+          "m22": "8f5cdc0174b63693d96ead6c828b30a3f2544983221fcc80b38edf5812ee67bd"
+        },
+        "resolved_horizon.json": {
+          "m21": "7349ce67577a411f88680372d787cdc00f1822b7567121abe0f19b0b2b179b62",
+          "m22": "7349ce67577a411f88680372d787cdc00f1822b7567121abe0f19b0b2b179b62"
+        },
+        "resolved_physical_reference_inventory.csv": {
+          "m21": "6a72527799450550a6c858204174594e24c4543897d1bb056bf7870ed3561666",
+          "m22": "6a72527799450550a6c858204174594e24c4543897d1bb056bf7870ed3561666"
+        },
+        "resolved_reference_component_presence.csv": {
+          "m21": "f7829956a0c33253eb75d9c1a9a95bbf50650ad62b15415b06e8a8d6064a7b2d",
+          "m22": "f7829956a0c33253eb75d9c1a9a95bbf50650ad62b15415b06e8a8d6064a7b2d"
+        },
+        "resolved_scenarios.csv": {
+          "m21": "85df534a346978b74c4c8ce9f79939dcb57bbaeb151c2aac39a5e927644df2f9",
+          "m22": "85df534a346978b74c4c8ce9f79939dcb57bbaeb151c2aac39a5e927644df2f9"
+        },
+        "resolved_stress_cases.csv": {
+          "m21": "96e3fe19b0c09794cfea3d09c5c4171ad2b566b26cc8b5dd94ea1c45b4c77b84",
+          "m22": "96e3fe19b0c09794cfea3d09c5c4171ad2b566b26cc8b5dd94ea1c45b4c77b84"
+        },
+        "robust_across_stress_cases.csv": {
+          "m21": "7841a8a146eb2a6ae72b592da65b30746573a5014ce93aad2297df6c5a77a00e",
+          "m22": "7841a8a146eb2a6ae72b592da65b30746573a5014ce93aad2297df6c5a77a00e"
+        },
+        "rsp_boundary_boq_state.csv": {
+          "m21": "310ca74de7202d7996a28149dbb5624c4e553146fc69fe2e0d093010dc8d269a",
+          "m22": "310ca74de7202d7996a28149dbb5624c4e553146fc69fe2e0d093010dc8d269a"
+        },
+        "rsp_boundary_state.csv": {
+          "m21": "8ffba45b7ffee410fbed4b83f4b6e86dbea13c93b07a9cd1b3b40f87e8d50d42",
+          "m22": "8ffba45b7ffee410fbed4b83f4b6e86dbea13c93b07a9cd1b3b40f87e8d50d42"
+        },
+        "sampled_futures.csv": {
+          "m21": "94466172d46179cd5e5d570e82716d561fb240a9bed632ae398a787bb686db89",
+          "m22": "94466172d46179cd5e5d570e82716d561fb240a9bed632ae398a787bb686db89"
+        },
+        "scenario_summary.csv": {
+          "m21": "5ececcce366af0a9e5cc846bd0e29797b4c927d8f35b5f8431d90fd681217130",
+          "m22": "5ececcce366af0a9e5cc846bd0e29797b4c927d8f35b5f8431d90fd681217130"
+        },
+        "sensitivity_oat.csv": {
+          "m21": "d48bc3d3f8938f649b836ad44138dce7e968fdb35e7aa99ec98ca5458c7a6ae5",
+          "m22": "d48bc3d3f8938f649b836ad44138dce7e968fdb35e7aa99ec98ca5458c7a6ae5"
+        },
+        "sensitivity_rank_correlations.csv": {
+          "m21": "6ee6f14be3b983ecd47b95adc098fd273018be96a32985a4f1e5c57387802421",
+          "m22": "6ee6f14be3b983ecd47b95adc098fd273018be96a32985a4f1e5c57387802421"
+        },
+        "simulation_results.csv": {
+          "m21": "593e5e75ca27ce63ab0b99f22d5c616508c8c20913894060022dd60dca21c860",
+          "m22": "593e5e75ca27ce63ab0b99f22d5c616508c8c20913894060022dd60dca21c860"
+        },
+        "stress_test_summary.csv": {
+          "m21": "202a2adfe163cd030f98d7f1693076bcfa9513bbfae2e77d3dbd012476141f7f",
+          "m22": "202a2adfe163cd030f98d7f1693076bcfa9513bbfae2e77d3dbd012476141f7f"
+        },
+        "uncertainty_summary.csv": {
+          "m21": "be7180254b1cf33676a0fb09a61e6e6cb5d0549a0dd629add18f547c4a60d8c8",
+          "m22": "be7180254b1cf33676a0fb09a61e6e6cb5d0549a0dd629add18f547c4a60d8c8"
+        },
+        "weight_sensitivity.csv": {
+          "m21": "7439288fd6ca5d5bdd18fbd5615a75323840d1060f2800cae9679817943cfcf2",
+          "m22": "7439288fd6ca5d5bdd18fbd5615a75323840d1060f2800cae9679817943cfcf2"
+        }
+      },
+      "lifecycle_event_count": 256953
+    }
+  },
+  "synthetic": {
+    "legacy_30": {
+      "common_nonmanifest_count": 46,
+      "byte_identical_count": 45,
+      "different_common_nonmanifest": [
+        "carbon_consequence_ledger.csv"
+      ],
+      "new_only": [
+        "a4_transport_compatibility.csv",
+        "a4_transport_coverage.csv",
+        "a4_transport_engine_status.json",
+        "assessed_a4_transport_carbon_by_module.csv",
+        "resolved_boq_transport_assignments.csv",
+        "resolved_transport_factors.csv",
+        "resolved_transport_scenarios.csv"
+      ],
+      "old_only": [],
+      "sha256": {
+        "allocation_sensitivity.csv": {
+          "m21": "f655ed28c2eb749f6248991e810b758bef08dd4a4cd79dafe8a614eb16cfbd10",
+          "m22": "f655ed28c2eb749f6248991e810b758bef08dd4a4cd79dafe8a614eb16cfbd10"
+        },
+        "analysis_report.txt": {
+          "m21": "b653757fc5d54d9475995d171e8d977bae9eb66e6e1c8368062fc4a4a4e6ab87",
+          "m22": "b653757fc5d54d9475995d171e8d977bae9eb66e6e1c8368062fc4a4a4e6ab87"
+        },
+        "assessed_product_carbon_by_module.csv": {
+          "m21": "f50e8fa6d6ca718c2d058ad46e376c5357db9fb1f04d3a2b889c87fb14a2a840",
+          "m22": "f50e8fa6d6ca718c2d058ad46e376c5357db9fb1f04d3a2b889c87fb14a2a840"
+        },
+        "boq_factor_compatibility.csv": {
+          "m21": "280ce744ad446313bd0c30845f07d60c13678ae4cdc22871bb5f577b84269655",
+          "m22": "280ce744ad446313bd0c30845f07d60c13678ae4cdc22871bb5f577b84269655"
+        },
+        "boq_factor_coverage.csv": {
+          "m21": "d45959723739a7cfb64368e4c25d1a8cf5903838fa0ae1807f6420ac51f9b602",
+          "m22": "d45959723739a7cfb64368e4c25d1a8cf5903838fa0ae1807f6420ac51f9b602"
+        },
+        "carbon_consequence_ledger.csv": {
+          "m21": "76a112aa6979568c526105812453d06091019e78ec35008fb195f8a5c6a664a3",
+          "m22": "c42df8a81fb9418d5339576b32d2157477e87c523808dc8a1e30aafbc9ebfd44"
+        },
+        "carbon_engine_status.json": {
+          "m21": "30f8777eb3ba0c4eb1195f36526aa25b5afe352cb4dd8059f85615d0a3f69a1c",
+          "m22": "30f8777eb3ba0c4eb1195f36526aa25b5afe352cb4dd8059f85615d0a3f69a1c"
+        },
+        "climate_stress_summary.csv": {
+          "m21": "304ad8f7097ece18ab0caa73bffb8952c5d2145fbf71c8896825491fe22d08b6",
+          "m22": "304ad8f7097ece18ab0caa73bffb8952c5d2145fbf71c8896825491fe22d08b6"
+        },
+        "component_lifecycle_draws.csv": {
+          "m21": "6dcfd82e252f2f5f28b54206354261b0413ad225b2e8720eafede26f011b1108",
+          "m22": "6dcfd82e252f2f5f28b54206354261b0413ad225b2e8720eafede26f011b1108"
+        },
+        "component_summary.csv": {
+          "m21": "fd06981a2bc97c2f6281e5592c20d2ba40fdce892a0183067295c66631272a34",
+          "m22": "fd06981a2bc97c2f6281e5592c20d2ba40fdce892a0183067295c66631272a34"
+        },
+        "environmental_factor_set_summary.csv": {
+          "m21": "0f90702ea772ab9bea98fa097ea847b08dcb86ae0df5a13740244937582b7318",
+          "m22": "0f90702ea772ab9bea98fa097ea847b08dcb86ae0df5a13740244937582b7318"
+        },
+        "environmental_registry_status.json": {
+          "m21": "7240f398b4ce84a66478e948ea614cf24a1d6372657dc919288f56cba45399d8",
+          "m22": "7240f398b4ce84a66478e948ea614cf24a1d6372657dc919288f56cba45399d8"
+        },
+        "lifecycle_event_boq_quantities.csv": {
+          "m21": "5b246f3f1ff80538e9c8d88497bf93fa3ddfcc5feb2278f793124ac760b6d7b4",
+          "m22": "5b246f3f1ff80538e9c8d88497bf93fa3ddfcc5feb2278f793124ac760b6d7b4"
+        },
+        "lifecycle_event_ledger.csv": {
+          "m21": "368fbddc858161f724846808f5e6de6b547ad92f77ceeed2249d97959c7a82ed",
+          "m22": "368fbddc858161f724846808f5e6de6b547ad92f77ceeed2249d97959c7a82ed"
+        },
+        "lifecycle_replacements.csv": {
+          "m21": "14fae8c32037469a0e7d423e0789e653a5fec4b73f84cb4d825a3a3a36345f8f",
+          "m22": "14fae8c32037469a0e7d423e0789e653a5fec4b73f84cb4d825a3a3a36345f8f"
+        },
+        "option_set_sensitivity.csv": {
+          "m21": "36b960e0eb520e75af5d71fee099c90a3b9ca3969f29e275a9c8640623c359db",
+          "m22": "36b960e0eb520e75af5d71fee099c90a3b9ca3969f29e275a9c8640623c359db"
+        },
+        "physical_boq_status.json": {
+          "m21": "3b08388fc361c052d92a8923a0dff2c810032891420de58071ba9bc216e9ce12",
+          "m22": "3b08388fc361c052d92a8923a0dff2c810032891420de58071ba9bc216e9ce12"
+        },
+        "physical_quantity_coverage.csv": {
+          "m21": "bfbae1a8f5a904ab9a8bf706a89a2502968e8e407f3c6a040a44ffb70e290f0f",
+          "m22": "bfbae1a8f5a904ab9a8bf706a89a2502968e8e407f3c6a040a44ffb70e290f0f"
+        },
+        "product_carbon_coverage.csv": {
+          "m21": "d9ca1009df2dea20f2e204e8fd09b5d55ed6c4277aafda7342fef27a7af8e32e",
+          "m22": "d9ca1009df2dea20f2e204e8fd09b5d55ed6c4277aafda7342fef27a7af8e32e"
+        },
+        "reference_coverage_skeleton.csv": {
+          "m21": "6ecc86be04b599e55b5a0093f3fed024586432fa00115d6650f8176037d23acf",
+          "m22": "6ecc86be04b599e55b5a0093f3fed024586432fa00115d6650f8176037d23acf"
+        },
+        "reference_inventory_status.json": {
+          "m21": "4f77e8e4c96f268932f684f9880ba3d273ba3dd1bc67e29eaabffa501cebb4a5",
+          "m22": "4f77e8e4c96f268932f684f9880ba3d273ba3dd1bc67e29eaabffa501cebb4a5"
+        },
+        "reference_lifecycle_event_boq_quantities.csv": {
+          "m21": "ed0ea16b371a360defee7633a528d7602b7afc82351bb2127daf75ed3fc2dcde",
+          "m22": "ed0ea16b371a360defee7633a528d7602b7afc82351bb2127daf75ed3fc2dcde"
+        },
+        "reference_lifecycle_event_ledger.csv": {
+          "m21": "c0958f995b1f0519cd8aefb72ec9f79a9ed16e6eae11566c33a0316096c8a1f2",
+          "m22": "c0958f995b1f0519cd8aefb72ec9f79a9ed16e6eae11566c33a0316096c8a1f2"
+        },
+        "reference_rsp_boundary_boq_state.csv": {
+          "m21": "310ca74de7202d7996a28149dbb5624c4e553146fc69fe2e0d093010dc8d269a",
+          "m22": "310ca74de7202d7996a28149dbb5624c4e553146fc69fe2e0d093010dc8d269a"
+        },
+        "reference_rsp_boundary_state.csv": {
+          "m21": "93fab8dbc01b33102a3110e63e438833fb56451baaf334573628142c97c6a488",
+          "m22": "93fab8dbc01b33102a3110e63e438833fb56451baaf334573628142c97c6a488"
+        },
+        "resolved_boq_environmental_factor_assignments.csv": {
+          "m21": "2186a11e37159dfd0529fee4ce82cd4b79d8ee088621c2aff4273ba7e9a1dd34",
+          "m22": "2186a11e37159dfd0529fee4ce82cd4b79d8ee088621c2aff4273ba7e9a1dd34"
+        },
+        "resolved_component_boq.csv": {
+          "m21": "30cdd3f8b50e8616be5b91253d255b25f00a97f72f304f275a708556300df1dc",
+          "m22": "30cdd3f8b50e8616be5b91253d255b25f00a97f72f304f275a708556300df1dc"
+        },
+        "resolved_components.csv": {
+          "m21": "bbdfd7257664fdb9f932bb7565d227dbe3cfa96040fb3508f7b19b03888b6169",
+          "m22": "bbdfd7257664fdb9f932bb7565d227dbe3cfa96040fb3508f7b19b03888b6169"
+        },
+        "resolved_config.json": {
+          "m21": "90a293d3050f38d4b6244b074f8aeee987d89652d6320e867376d0c284e5c86b",
+          "m22": "90a293d3050f38d4b6244b074f8aeee987d89652d6320e867376d0c284e5c86b"
+        },
+        "resolved_environmental_factors.csv": {
+          "m21": "6fd880f030426c8892983668a2c55405216b0c1544f1af58341af716c2c7965a",
+          "m22": "6fd880f030426c8892983668a2c55405216b0c1544f1af58341af716c2c7965a"
+        },
+        "resolved_horizon.json": {
+          "m21": "3dec748b41db016a42246bfc924d10d2b5db7bb9843c9cf28b6f1a94187017d7",
+          "m22": "3dec748b41db016a42246bfc924d10d2b5db7bb9843c9cf28b6f1a94187017d7"
+        },
+        "resolved_physical_reference_inventory.csv": {
+          "m21": "6a72527799450550a6c858204174594e24c4543897d1bb056bf7870ed3561666",
+          "m22": "6a72527799450550a6c858204174594e24c4543897d1bb056bf7870ed3561666"
+        },
+        "resolved_reference_component_presence.csv": {
+          "m21": "f7829956a0c33253eb75d9c1a9a95bbf50650ad62b15415b06e8a8d6064a7b2d",
+          "m22": "f7829956a0c33253eb75d9c1a9a95bbf50650ad62b15415b06e8a8d6064a7b2d"
+        },
+        "resolved_scenarios.csv": {
+          "m21": "85df534a346978b74c4c8ce9f79939dcb57bbaeb151c2aac39a5e927644df2f9",
+          "m22": "85df534a346978b74c4c8ce9f79939dcb57bbaeb151c2aac39a5e927644df2f9"
+        },
+        "resolved_stress_cases.csv": {
+          "m21": "96e3fe19b0c09794cfea3d09c5c4171ad2b566b26cc8b5dd94ea1c45b4c77b84",
+          "m22": "96e3fe19b0c09794cfea3d09c5c4171ad2b566b26cc8b5dd94ea1c45b4c77b84"
+        },
+        "robust_across_stress_cases.csv": {
+          "m21": "7841a8a146eb2a6ae72b592da65b30746573a5014ce93aad2297df6c5a77a00e",
+          "m22": "7841a8a146eb2a6ae72b592da65b30746573a5014ce93aad2297df6c5a77a00e"
+        },
+        "rsp_boundary_boq_state.csv": {
+          "m21": "88dd1b9db3bbfca05c5b3a11b56f81f373c149b0a1ee7f206f4b3422cd585952",
+          "m22": "88dd1b9db3bbfca05c5b3a11b56f81f373c149b0a1ee7f206f4b3422cd585952"
+        },
+        "rsp_boundary_state.csv": {
+          "m21": "5ce4d704e5b721feccfd80ae56a882f882d33e1e0800dec37a22d63187cd4c07",
+          "m22": "5ce4d704e5b721feccfd80ae56a882f882d33e1e0800dec37a22d63187cd4c07"
+        },
+        "sampled_futures.csv": {
+          "m21": "94466172d46179cd5e5d570e82716d561fb240a9bed632ae398a787bb686db89",
+          "m22": "94466172d46179cd5e5d570e82716d561fb240a9bed632ae398a787bb686db89"
+        },
+        "scenario_summary.csv": {
+          "m21": "d5af44064e01655436259d69c789c21e7711069b7dcf3fbcd0822991d7ac5fba",
+          "m22": "d5af44064e01655436259d69c789c21e7711069b7dcf3fbcd0822991d7ac5fba"
+        },
+        "sensitivity_oat.csv": {
+          "m21": "f674c01c6e00000b44330071c6e795de96be2bbf813b7492173a51e3ad750656",
+          "m22": "f674c01c6e00000b44330071c6e795de96be2bbf813b7492173a51e3ad750656"
+        },
+        "sensitivity_rank_correlations.csv": {
+          "m21": "feef279a588fbb211e438290bab0ad7e4cc8c766d420fe97f21c375f0987624c",
+          "m22": "feef279a588fbb211e438290bab0ad7e4cc8c766d420fe97f21c375f0987624c"
+        },
+        "simulation_results.csv": {
+          "m21": "53e958309d9ad745cb21b6d50ecd9d5a50b22ff58dceaece2e299f4f11cd4eaf",
+          "m22": "53e958309d9ad745cb21b6d50ecd9d5a50b22ff58dceaece2e299f4f11cd4eaf"
+        },
+        "stress_test_summary.csv": {
+          "m21": "ae639c9d31586dd7aee272685b9288eb493cafea9bd22761019bea5c600e8342",
+          "m22": "ae639c9d31586dd7aee272685b9288eb493cafea9bd22761019bea5c600e8342"
+        },
+        "uncertainty_summary.csv": {
+          "m21": "be7180254b1cf33676a0fb09a61e6e6cb5d0549a0dd629add18f547c4a60d8c8",
+          "m22": "be7180254b1cf33676a0fb09a61e6e6cb5d0549a0dd629add18f547c4a60d8c8"
+        },
+        "weight_sensitivity.csv": {
+          "m21": "d18545a899c0bf9892c98e940c38eea245607b0043c9b638f111865e2606f56c",
+          "m22": "d18545a899c0bf9892c98e940c38eea245607b0043c9b638f111865e2606f56c"
+        }
+      },
+      "product_rows_byte_identical": true,
+      "product_row_count": 20375,
+      "product_rows_by_module": {
+        "B4": 10375,
+        "A1-A3": 10000
+      },
+      "a4_row_count": 10000,
+      "a4_gwp_per_future_kgco2e": 10.0,
+      "a4_horizon_invariance": true
+    },
+    "levels_50": {
+      "common_nonmanifest_count": 46,
+      "byte_identical_count": 45,
+      "different_common_nonmanifest": [
+        "carbon_consequence_ledger.csv"
+      ],
+      "new_only": [
+        "a4_transport_compatibility.csv",
+        "a4_transport_coverage.csv",
+        "a4_transport_engine_status.json",
+        "assessed_a4_transport_carbon_by_module.csv",
+        "resolved_boq_transport_assignments.csv",
+        "resolved_transport_factors.csv",
+        "resolved_transport_scenarios.csv"
+      ],
+      "old_only": [],
+      "sha256": {
+        "allocation_sensitivity.csv": {
+          "m21": "c903967a0f5fa818bb0e2b1bb838b0d16000870ba20e9af2dd925dcb9581bc7d",
+          "m22": "c903967a0f5fa818bb0e2b1bb838b0d16000870ba20e9af2dd925dcb9581bc7d"
+        },
+        "analysis_report.txt": {
+          "m21": "bbb7589fa3ab6177cecc0cb0141402c26ca5ba92a6affdcf8ce27974992d2911",
+          "m22": "bbb7589fa3ab6177cecc0cb0141402c26ca5ba92a6affdcf8ce27974992d2911"
+        },
+        "assessed_product_carbon_by_module.csv": {
+          "m21": "04430fdd5070fa22454804ccb299dade02472f53607d6b18d787bf800a3f6674",
+          "m22": "04430fdd5070fa22454804ccb299dade02472f53607d6b18d787bf800a3f6674"
+        },
+        "boq_factor_compatibility.csv": {
+          "m21": "280ce744ad446313bd0c30845f07d60c13678ae4cdc22871bb5f577b84269655",
+          "m22": "280ce744ad446313bd0c30845f07d60c13678ae4cdc22871bb5f577b84269655"
+        },
+        "boq_factor_coverage.csv": {
+          "m21": "d45959723739a7cfb64368e4c25d1a8cf5903838fa0ae1807f6420ac51f9b602",
+          "m22": "d45959723739a7cfb64368e4c25d1a8cf5903838fa0ae1807f6420ac51f9b602"
+        },
+        "carbon_consequence_ledger.csv": {
+          "m21": "11209f143e0beb76d21be09c80e5a881f3e49c8b3c4a885d3a6f810cc0525116",
+          "m22": "9234b44e2dd042a56b676ac44fe2d14cb7e5a99144f24a4cb4193484c6bb4652"
+        },
+        "carbon_engine_status.json": {
+          "m21": "2bcb61b66c0954eeeb3cf9d87d62ab900cd93ccd9415e05f9f78169d0d67a6e7",
+          "m22": "2bcb61b66c0954eeeb3cf9d87d62ab900cd93ccd9415e05f9f78169d0d67a6e7"
+        },
+        "climate_stress_summary.csv": {
+          "m21": "efe12dcac568015cc06132f729da571767d5c6589b4211460d88718c5ba78f25",
+          "m22": "efe12dcac568015cc06132f729da571767d5c6589b4211460d88718c5ba78f25"
+        },
+        "component_lifecycle_draws.csv": {
+          "m21": "9355a4c2a2bb1c97b26e106ddcdccf3ebf84b70b2587e1f039a6968c17e38ec6",
+          "m22": "9355a4c2a2bb1c97b26e106ddcdccf3ebf84b70b2587e1f039a6968c17e38ec6"
+        },
+        "component_summary.csv": {
+          "m21": "e78389b7766d0d8ec68c0bde3bed04f9dbd6db15e3e3a1ef850c14f0a51af098",
+          "m22": "e78389b7766d0d8ec68c0bde3bed04f9dbd6db15e3e3a1ef850c14f0a51af098"
+        },
+        "environmental_factor_set_summary.csv": {
+          "m21": "0f90702ea772ab9bea98fa097ea847b08dcb86ae0df5a13740244937582b7318",
+          "m22": "0f90702ea772ab9bea98fa097ea847b08dcb86ae0df5a13740244937582b7318"
+        },
+        "environmental_registry_status.json": {
+          "m21": "7240f398b4ce84a66478e948ea614cf24a1d6372657dc919288f56cba45399d8",
+          "m22": "7240f398b4ce84a66478e948ea614cf24a1d6372657dc919288f56cba45399d8"
+        },
+        "lifecycle_event_boq_quantities.csv": {
+          "m21": "8f5154762251d083003e05e0c7ea90340c75d980f680dccdc10c471b13685020",
+          "m22": "8f5154762251d083003e05e0c7ea90340c75d980f680dccdc10c471b13685020"
+        },
+        "lifecycle_event_ledger.csv": {
+          "m21": "b1d4e1db2fb31908bb51ec4b885149e8257ce53180a63cf6c2d91d1f8ac8d80a",
+          "m22": "b1d4e1db2fb31908bb51ec4b885149e8257ce53180a63cf6c2d91d1f8ac8d80a"
+        },
+        "lifecycle_replacements.csv": {
+          "m21": "f4de737878273f111d84735b8007ad3de57723389771f8657922572eb12e1579",
+          "m22": "f4de737878273f111d84735b8007ad3de57723389771f8657922572eb12e1579"
+        },
+        "option_set_sensitivity.csv": {
+          "m21": "5b2c91ff99f98d7c068208eddc24a1c4c9abc7fe58f80b07a2281ac73755935c",
+          "m22": "5b2c91ff99f98d7c068208eddc24a1c4c9abc7fe58f80b07a2281ac73755935c"
+        },
+        "physical_boq_status.json": {
+          "m21": "3b08388fc361c052d92a8923a0dff2c810032891420de58071ba9bc216e9ce12",
+          "m22": "3b08388fc361c052d92a8923a0dff2c810032891420de58071ba9bc216e9ce12"
+        },
+        "physical_quantity_coverage.csv": {
+          "m21": "bfbae1a8f5a904ab9a8bf706a89a2502968e8e407f3c6a040a44ffb70e290f0f",
+          "m22": "bfbae1a8f5a904ab9a8bf706a89a2502968e8e407f3c6a040a44ffb70e290f0f"
+        },
+        "product_carbon_coverage.csv": {
+          "m21": "d9ca1009df2dea20f2e204e8fd09b5d55ed6c4277aafda7342fef27a7af8e32e",
+          "m22": "d9ca1009df2dea20f2e204e8fd09b5d55ed6c4277aafda7342fef27a7af8e32e"
+        },
+        "reference_coverage_skeleton.csv": {
+          "m21": "6ecc86be04b599e55b5a0093f3fed024586432fa00115d6650f8176037d23acf",
+          "m22": "6ecc86be04b599e55b5a0093f3fed024586432fa00115d6650f8176037d23acf"
+        },
+        "reference_inventory_status.json": {
+          "m21": "4f77e8e4c96f268932f684f9880ba3d273ba3dd1bc67e29eaabffa501cebb4a5",
+          "m22": "4f77e8e4c96f268932f684f9880ba3d273ba3dd1bc67e29eaabffa501cebb4a5"
+        },
+        "reference_lifecycle_event_boq_quantities.csv": {
+          "m21": "ed0ea16b371a360defee7633a528d7602b7afc82351bb2127daf75ed3fc2dcde",
+          "m22": "ed0ea16b371a360defee7633a528d7602b7afc82351bb2127daf75ed3fc2dcde"
+        },
+        "reference_lifecycle_event_ledger.csv": {
+          "m21": "c0958f995b1f0519cd8aefb72ec9f79a9ed16e6eae11566c33a0316096c8a1f2",
+          "m22": "c0958f995b1f0519cd8aefb72ec9f79a9ed16e6eae11566c33a0316096c8a1f2"
+        },
+        "reference_rsp_boundary_boq_state.csv": {
+          "m21": "310ca74de7202d7996a28149dbb5624c4e553146fc69fe2e0d093010dc8d269a",
+          "m22": "310ca74de7202d7996a28149dbb5624c4e553146fc69fe2e0d093010dc8d269a"
+        },
+        "reference_rsp_boundary_state.csv": {
+          "m21": "93fab8dbc01b33102a3110e63e438833fb56451baaf334573628142c97c6a488",
+          "m22": "93fab8dbc01b33102a3110e63e438833fb56451baaf334573628142c97c6a488"
+        },
+        "resolved_boq_environmental_factor_assignments.csv": {
+          "m21": "2186a11e37159dfd0529fee4ce82cd4b79d8ee088621c2aff4273ba7e9a1dd34",
+          "m22": "2186a11e37159dfd0529fee4ce82cd4b79d8ee088621c2aff4273ba7e9a1dd34"
+        },
+        "resolved_component_boq.csv": {
+          "m21": "30cdd3f8b50e8616be5b91253d255b25f00a97f72f304f275a708556300df1dc",
+          "m22": "30cdd3f8b50e8616be5b91253d255b25f00a97f72f304f275a708556300df1dc"
+        },
+        "resolved_components.csv": {
+          "m21": "bbdfd7257664fdb9f932bb7565d227dbe3cfa96040fb3508f7b19b03888b6169",
+          "m22": "bbdfd7257664fdb9f932bb7565d227dbe3cfa96040fb3508f7b19b03888b6169"
+        },
+        "resolved_config.json": {
+          "m21": "dc323b8c207438a5eb845f1bcbc7ec8046f763a93b403f989996e1bd6b24c179",
+          "m22": "dc323b8c207438a5eb845f1bcbc7ec8046f763a93b403f989996e1bd6b24c179"
+        },
+        "resolved_environmental_factors.csv": {
+          "m21": "6fd880f030426c8892983668a2c55405216b0c1544f1af58341af716c2c7965a",
+          "m22": "6fd880f030426c8892983668a2c55405216b0c1544f1af58341af716c2c7965a"
+        },
+        "resolved_horizon.json": {
+          "m21": "fa52582ca8c245b82971e36b7e9fea0d7517fbe46ba8b5a12e143f3ea7e71102",
+          "m22": "fa52582ca8c245b82971e36b7e9fea0d7517fbe46ba8b5a12e143f3ea7e71102"
+        },
+        "resolved_physical_reference_inventory.csv": {
+          "m21": "6a72527799450550a6c858204174594e24c4543897d1bb056bf7870ed3561666",
+          "m22": "6a72527799450550a6c858204174594e24c4543897d1bb056bf7870ed3561666"
+        },
+        "resolved_reference_component_presence.csv": {
+          "m21": "f7829956a0c33253eb75d9c1a9a95bbf50650ad62b15415b06e8a8d6064a7b2d",
+          "m22": "f7829956a0c33253eb75d9c1a9a95bbf50650ad62b15415b06e8a8d6064a7b2d"
+        },
+        "resolved_scenarios.csv": {
+          "m21": "85df534a346978b74c4c8ce9f79939dcb57bbaeb151c2aac39a5e927644df2f9",
+          "m22": "85df534a346978b74c4c8ce9f79939dcb57bbaeb151c2aac39a5e927644df2f9"
+        },
+        "resolved_stress_cases.csv": {
+          "m21": "96e3fe19b0c09794cfea3d09c5c4171ad2b566b26cc8b5dd94ea1c45b4c77b84",
+          "m22": "96e3fe19b0c09794cfea3d09c5c4171ad2b566b26cc8b5dd94ea1c45b4c77b84"
+        },
+        "robust_across_stress_cases.csv": {
+          "m21": "7841a8a146eb2a6ae72b592da65b30746573a5014ce93aad2297df6c5a77a00e",
+          "m22": "7841a8a146eb2a6ae72b592da65b30746573a5014ce93aad2297df6c5a77a00e"
+        },
+        "rsp_boundary_boq_state.csv": {
+          "m21": "2c99fd1011ad8e856d930646e51fdef9bef09b2f2cf6f1ccdec8096993f20bb2",
+          "m22": "2c99fd1011ad8e856d930646e51fdef9bef09b2f2cf6f1ccdec8096993f20bb2"
+        },
+        "rsp_boundary_state.csv": {
+          "m21": "fd0700cafd6bb86a3679204fa3e8bccc2e4f0eb1390209b4728f4eebcf37c9e1",
+          "m22": "fd0700cafd6bb86a3679204fa3e8bccc2e4f0eb1390209b4728f4eebcf37c9e1"
+        },
+        "sampled_futures.csv": {
+          "m21": "94466172d46179cd5e5d570e82716d561fb240a9bed632ae398a787bb686db89",
+          "m22": "94466172d46179cd5e5d570e82716d561fb240a9bed632ae398a787bb686db89"
+        },
+        "scenario_summary.csv": {
+          "m21": "9229f6b97c5bce24565f2dfbf1e91b9c9fcecba34734ef67b456dfbcfd860896",
+          "m22": "9229f6b97c5bce24565f2dfbf1e91b9c9fcecba34734ef67b456dfbcfd860896"
+        },
+        "sensitivity_oat.csv": {
+          "m21": "f46803577ffff510eb0eabdd1abea35b21204da2eaf8315a3535b55de23d47fe",
+          "m22": "f46803577ffff510eb0eabdd1abea35b21204da2eaf8315a3535b55de23d47fe"
+        },
+        "sensitivity_rank_correlations.csv": {
+          "m21": "394faba5c1bba652a976caeed948de1f8408546c83a7555b2af8db02b0e24342",
+          "m22": "394faba5c1bba652a976caeed948de1f8408546c83a7555b2af8db02b0e24342"
+        },
+        "simulation_results.csv": {
+          "m21": "8ff4094f4d88616d90da113d4cf7924bbd5a14b11a3c4c7d0c1a3dc975bfc0e7",
+          "m22": "8ff4094f4d88616d90da113d4cf7924bbd5a14b11a3c4c7d0c1a3dc975bfc0e7"
+        },
+        "stress_test_summary.csv": {
+          "m21": "8a177ab13cf0b695051c52daab0664e299bc79c8afd466ce4e3a699c37755b1d",
+          "m22": "8a177ab13cf0b695051c52daab0664e299bc79c8afd466ce4e3a699c37755b1d"
+        },
+        "uncertainty_summary.csv": {
+          "m21": "be7180254b1cf33676a0fb09a61e6e6cb5d0549a0dd629add18f547c4a60d8c8",
+          "m22": "be7180254b1cf33676a0fb09a61e6e6cb5d0549a0dd629add18f547c4a60d8c8"
+        },
+        "weight_sensitivity.csv": {
+          "m21": "9371c0479334cfcb1de3b9af8960047698ca609c5085be392d9be8bc19f56b08",
+          "m22": "9371c0479334cfcb1de3b9af8960047698ca609c5085be392d9be8bc19f56b08"
+        }
+      },
+      "product_rows_byte_identical": true,
+      "product_row_count": 31447,
+      "product_rows_by_module": {
+        "B4": 21447,
+        "A1-A3": 10000
+      },
+      "a4_row_count": 10000,
+      "a4_gwp_per_future_kgco2e": 10.0,
+      "a4_horizon_invariance": true
+    },
+    "rics_60": {
+      "common_nonmanifest_count": 46,
+      "byte_identical_count": 45,
+      "different_common_nonmanifest": [
+        "carbon_consequence_ledger.csv"
+      ],
+      "new_only": [
+        "a4_transport_compatibility.csv",
+        "a4_transport_coverage.csv",
+        "a4_transport_engine_status.json",
+        "assessed_a4_transport_carbon_by_module.csv",
+        "resolved_boq_transport_assignments.csv",
+        "resolved_transport_factors.csv",
+        "resolved_transport_scenarios.csv"
+      ],
+      "old_only": [],
+      "sha256": {
+        "allocation_sensitivity.csv": {
+          "m21": "f084e055217478da1d19c3df4eac17e98efd68c8ea138554d7bc2a8e8d2a82ac",
+          "m22": "f084e055217478da1d19c3df4eac17e98efd68c8ea138554d7bc2a8e8d2a82ac"
+        },
+        "analysis_report.txt": {
+          "m21": "3ad0aabfa41671c9f90852439b49fb6a578b289668200bcc87b24bb93eebea56",
+          "m22": "3ad0aabfa41671c9f90852439b49fb6a578b289668200bcc87b24bb93eebea56"
+        },
+        "assessed_product_carbon_by_module.csv": {
+          "m21": "b26ac9a0dc28b1ac1798c5a942440001a5e285f47045537407cdcc21fd7b571f",
+          "m22": "b26ac9a0dc28b1ac1798c5a942440001a5e285f47045537407cdcc21fd7b571f"
+        },
+        "boq_factor_compatibility.csv": {
+          "m21": "280ce744ad446313bd0c30845f07d60c13678ae4cdc22871bb5f577b84269655",
+          "m22": "280ce744ad446313bd0c30845f07d60c13678ae4cdc22871bb5f577b84269655"
+        },
+        "boq_factor_coverage.csv": {
+          "m21": "d45959723739a7cfb64368e4c25d1a8cf5903838fa0ae1807f6420ac51f9b602",
+          "m22": "d45959723739a7cfb64368e4c25d1a8cf5903838fa0ae1807f6420ac51f9b602"
+        },
+        "carbon_consequence_ledger.csv": {
+          "m21": "27d33279f3bba3137b4a89e7885207978110dda374a78927bdeaf9b8b305916c",
+          "m22": "bcfde680e4d4018a94811bdda128da95ff8e4d2e96e7bb90baee45187c43a772"
+        },
+        "carbon_engine_status.json": {
+          "m21": "7481bec0488058206f109a144bc97a8b04ef0a03edfa4e382b4f08c5e4ff0cdd",
+          "m22": "7481bec0488058206f109a144bc97a8b04ef0a03edfa4e382b4f08c5e4ff0cdd"
+        },
+        "climate_stress_summary.csv": {
+          "m21": "f9ee11ff8ba3cdcf9018ecc13fece8434f98935a86e591eed05fc83a9b7fa188",
+          "m22": "f9ee11ff8ba3cdcf9018ecc13fece8434f98935a86e591eed05fc83a9b7fa188"
+        },
+        "component_lifecycle_draws.csv": {
+          "m21": "347ddddc4c0212dca1c6f76a63e24b381763a3d13968e4c614ffcd543a69d038",
+          "m22": "347ddddc4c0212dca1c6f76a63e24b381763a3d13968e4c614ffcd543a69d038"
+        },
+        "component_summary.csv": {
+          "m21": "5b9de1e7589c6d1997d55275b69350e09311d4cb0aa0776afa9a412ba6251686",
+          "m22": "5b9de1e7589c6d1997d55275b69350e09311d4cb0aa0776afa9a412ba6251686"
+        },
+        "environmental_factor_set_summary.csv": {
+          "m21": "0f90702ea772ab9bea98fa097ea847b08dcb86ae0df5a13740244937582b7318",
+          "m22": "0f90702ea772ab9bea98fa097ea847b08dcb86ae0df5a13740244937582b7318"
+        },
+        "environmental_registry_status.json": {
+          "m21": "7240f398b4ce84a66478e948ea614cf24a1d6372657dc919288f56cba45399d8",
+          "m22": "7240f398b4ce84a66478e948ea614cf24a1d6372657dc919288f56cba45399d8"
+        },
+        "lifecycle_event_boq_quantities.csv": {
+          "m21": "74b35f7cc624dbdadf48630ad6a34f918138acb4b5875eb1c216fc7b5f5c6988",
+          "m22": "74b35f7cc624dbdadf48630ad6a34f918138acb4b5875eb1c216fc7b5f5c6988"
+        },
+        "lifecycle_event_ledger.csv": {
+          "m21": "f83937af5a2ef940609772179fc3ce9c21e22321be8374911eec7197c3e61d2e",
+          "m22": "f83937af5a2ef940609772179fc3ce9c21e22321be8374911eec7197c3e61d2e"
+        },
+        "lifecycle_replacements.csv": {
+          "m21": "2c862c92811b1193284d3e9b6bb2cfb5af856aecf12afec6ac192377fb0f4ea6",
+          "m22": "2c862c92811b1193284d3e9b6bb2cfb5af856aecf12afec6ac192377fb0f4ea6"
+        },
+        "option_set_sensitivity.csv": {
+          "m21": "0466b18c8838f8c60c6f8fc1d70dc47effd7d81be0341921230e65f202d03cb5",
+          "m22": "0466b18c8838f8c60c6f8fc1d70dc47effd7d81be0341921230e65f202d03cb5"
+        },
+        "physical_boq_status.json": {
+          "m21": "3b08388fc361c052d92a8923a0dff2c810032891420de58071ba9bc216e9ce12",
+          "m22": "3b08388fc361c052d92a8923a0dff2c810032891420de58071ba9bc216e9ce12"
+        },
+        "physical_quantity_coverage.csv": {
+          "m21": "bfbae1a8f5a904ab9a8bf706a89a2502968e8e407f3c6a040a44ffb70e290f0f",
+          "m22": "bfbae1a8f5a904ab9a8bf706a89a2502968e8e407f3c6a040a44ffb70e290f0f"
+        },
+        "product_carbon_coverage.csv": {
+          "m21": "d9ca1009df2dea20f2e204e8fd09b5d55ed6c4277aafda7342fef27a7af8e32e",
+          "m22": "d9ca1009df2dea20f2e204e8fd09b5d55ed6c4277aafda7342fef27a7af8e32e"
+        },
+        "reference_coverage_skeleton.csv": {
+          "m21": "6ecc86be04b599e55b5a0093f3fed024586432fa00115d6650f8176037d23acf",
+          "m22": "6ecc86be04b599e55b5a0093f3fed024586432fa00115d6650f8176037d23acf"
+        },
+        "reference_inventory_status.json": {
+          "m21": "4f77e8e4c96f268932f684f9880ba3d273ba3dd1bc67e29eaabffa501cebb4a5",
+          "m22": "4f77e8e4c96f268932f684f9880ba3d273ba3dd1bc67e29eaabffa501cebb4a5"
+        },
+        "reference_lifecycle_event_boq_quantities.csv": {
+          "m21": "ed0ea16b371a360defee7633a528d7602b7afc82351bb2127daf75ed3fc2dcde",
+          "m22": "ed0ea16b371a360defee7633a528d7602b7afc82351bb2127daf75ed3fc2dcde"
+        },
+        "reference_lifecycle_event_ledger.csv": {
+          "m21": "c0958f995b1f0519cd8aefb72ec9f79a9ed16e6eae11566c33a0316096c8a1f2",
+          "m22": "c0958f995b1f0519cd8aefb72ec9f79a9ed16e6eae11566c33a0316096c8a1f2"
+        },
+        "reference_rsp_boundary_boq_state.csv": {
+          "m21": "310ca74de7202d7996a28149dbb5624c4e553146fc69fe2e0d093010dc8d269a",
+          "m22": "310ca74de7202d7996a28149dbb5624c4e553146fc69fe2e0d093010dc8d269a"
+        },
+        "reference_rsp_boundary_state.csv": {
+          "m21": "93fab8dbc01b33102a3110e63e438833fb56451baaf334573628142c97c6a488",
+          "m22": "93fab8dbc01b33102a3110e63e438833fb56451baaf334573628142c97c6a488"
+        },
+        "resolved_boq_environmental_factor_assignments.csv": {
+          "m21": "2186a11e37159dfd0529fee4ce82cd4b79d8ee088621c2aff4273ba7e9a1dd34",
+          "m22": "2186a11e37159dfd0529fee4ce82cd4b79d8ee088621c2aff4273ba7e9a1dd34"
+        },
+        "resolved_component_boq.csv": {
+          "m21": "30cdd3f8b50e8616be5b91253d255b25f00a97f72f304f275a708556300df1dc",
+          "m22": "30cdd3f8b50e8616be5b91253d255b25f00a97f72f304f275a708556300df1dc"
+        },
+        "resolved_components.csv": {
+          "m21": "bbdfd7257664fdb9f932bb7565d227dbe3cfa96040fb3508f7b19b03888b6169",
+          "m22": "bbdfd7257664fdb9f932bb7565d227dbe3cfa96040fb3508f7b19b03888b6169"
+        },
+        "resolved_config.json": {
+          "m21": "6ded8e0e309243fc1e328416bf4c9f34e44d1b40c6cdefbe7cc21477f0d9a29c",
+          "m22": "6ded8e0e309243fc1e328416bf4c9f34e44d1b40c6cdefbe7cc21477f0d9a29c"
+        },
+        "resolved_environmental_factors.csv": {
+          "m21": "6fd880f030426c8892983668a2c55405216b0c1544f1af58341af716c2c7965a",
+          "m22": "6fd880f030426c8892983668a2c55405216b0c1544f1af58341af716c2c7965a"
+        },
+        "resolved_horizon.json": {
+          "m21": "7349ce67577a411f88680372d787cdc00f1822b7567121abe0f19b0b2b179b62",
+          "m22": "7349ce67577a411f88680372d787cdc00f1822b7567121abe0f19b0b2b179b62"
+        },
+        "resolved_physical_reference_inventory.csv": {
+          "m21": "6a72527799450550a6c858204174594e24c4543897d1bb056bf7870ed3561666",
+          "m22": "6a72527799450550a6c858204174594e24c4543897d1bb056bf7870ed3561666"
+        },
+        "resolved_reference_component_presence.csv": {
+          "m21": "f7829956a0c33253eb75d9c1a9a95bbf50650ad62b15415b06e8a8d6064a7b2d",
+          "m22": "f7829956a0c33253eb75d9c1a9a95bbf50650ad62b15415b06e8a8d6064a7b2d"
+        },
+        "resolved_scenarios.csv": {
+          "m21": "85df534a346978b74c4c8ce9f79939dcb57bbaeb151c2aac39a5e927644df2f9",
+          "m22": "85df534a346978b74c4c8ce9f79939dcb57bbaeb151c2aac39a5e927644df2f9"
+        },
+        "resolved_stress_cases.csv": {
+          "m21": "96e3fe19b0c09794cfea3d09c5c4171ad2b566b26cc8b5dd94ea1c45b4c77b84",
+          "m22": "96e3fe19b0c09794cfea3d09c5c4171ad2b566b26cc8b5dd94ea1c45b4c77b84"
+        },
+        "robust_across_stress_cases.csv": {
+          "m21": "7841a8a146eb2a6ae72b592da65b30746573a5014ce93aad2297df6c5a77a00e",
+          "m22": "7841a8a146eb2a6ae72b592da65b30746573a5014ce93aad2297df6c5a77a00e"
+        },
+        "rsp_boundary_boq_state.csv": {
+          "m21": "9895acbccb87b124f42a3fd41af2f1720ce1f8ba385ec23d899e322165a47f99",
+          "m22": "9895acbccb87b124f42a3fd41af2f1720ce1f8ba385ec23d899e322165a47f99"
+        },
+        "rsp_boundary_state.csv": {
+          "m21": "8ffba45b7ffee410fbed4b83f4b6e86dbea13c93b07a9cd1b3b40f87e8d50d42",
+          "m22": "8ffba45b7ffee410fbed4b83f4b6e86dbea13c93b07a9cd1b3b40f87e8d50d42"
+        },
+        "sampled_futures.csv": {
+          "m21": "94466172d46179cd5e5d570e82716d561fb240a9bed632ae398a787bb686db89",
+          "m22": "94466172d46179cd5e5d570e82716d561fb240a9bed632ae398a787bb686db89"
+        },
+        "scenario_summary.csv": {
+          "m21": "5ececcce366af0a9e5cc846bd0e29797b4c927d8f35b5f8431d90fd681217130",
+          "m22": "5ececcce366af0a9e5cc846bd0e29797b4c927d8f35b5f8431d90fd681217130"
+        },
+        "sensitivity_oat.csv": {
+          "m21": "d48bc3d3f8938f649b836ad44138dce7e968fdb35e7aa99ec98ca5458c7a6ae5",
+          "m22": "d48bc3d3f8938f649b836ad44138dce7e968fdb35e7aa99ec98ca5458c7a6ae5"
+        },
+        "sensitivity_rank_correlations.csv": {
+          "m21": "6ee6f14be3b983ecd47b95adc098fd273018be96a32985a4f1e5c57387802421",
+          "m22": "6ee6f14be3b983ecd47b95adc098fd273018be96a32985a4f1e5c57387802421"
+        },
+        "simulation_results.csv": {
+          "m21": "593e5e75ca27ce63ab0b99f22d5c616508c8c20913894060022dd60dca21c860",
+          "m22": "593e5e75ca27ce63ab0b99f22d5c616508c8c20913894060022dd60dca21c860"
+        },
+        "stress_test_summary.csv": {
+          "m21": "202a2adfe163cd030f98d7f1693076bcfa9513bbfae2e77d3dbd012476141f7f",
+          "m22": "202a2adfe163cd030f98d7f1693076bcfa9513bbfae2e77d3dbd012476141f7f"
+        },
+        "uncertainty_summary.csv": {
+          "m21": "be7180254b1cf33676a0fb09a61e6e6cb5d0549a0dd629add18f547c4a60d8c8",
+          "m22": "be7180254b1cf33676a0fb09a61e6e6cb5d0549a0dd629add18f547c4a60d8c8"
+        },
+        "weight_sensitivity.csv": {
+          "m21": "7439288fd6ca5d5bdd18fbd5615a75323840d1060f2800cae9679817943cfcf2",
+          "m22": "7439288fd6ca5d5bdd18fbd5615a75323840d1060f2800cae9679817943cfcf2"
+        }
+      },
+      "product_rows_byte_identical": true,
+      "product_row_count": 38605,
+      "product_rows_by_module": {
+        "B4": 28605,
+        "A1-A3": 10000
+      },
+      "a4_row_count": 10000,
+      "a4_gwp_per_future_kgco2e": 10.0,
+      "a4_horizon_invariance": true
+    }
+  },
+  "result": "PASS"
+}

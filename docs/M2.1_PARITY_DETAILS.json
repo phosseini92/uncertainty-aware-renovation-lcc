@@ -1,0 +1,38 @@
+{
+  "legacy_30": {
+    "common_nonmanifest_count": 42,
+    "byte_identical_count": 42,
+    "different_common_nonmanifest": [],
+    "new_only": [
+      "assessed_product_carbon_by_module.csv",
+      "carbon_consequence_ledger.csv",
+      "carbon_engine_status.json",
+      "product_carbon_coverage.csv"
+    ],
+    "old_only": []
+  },
+  "levels_50": {
+    "common_nonmanifest_count": 42,
+    "byte_identical_count": 42,
+    "different_common_nonmanifest": [],
+    "new_only": [
+      "assessed_product_carbon_by_module.csv",
+      "carbon_consequence_ledger.csv",
+      "carbon_engine_status.json",
+      "product_carbon_coverage.csv"
+    ],
+    "old_only": []
+  },
+  "rics_60": {
+    "common_nonmanifest_count": 42,
+    "byte_identical_count": 42,
+    "different_common_nonmanifest": [],
+    "new_only": [
+      "assessed_product_carbon_by_module.csv",
+      "carbon_consequence_ledger.csv",
+      "carbon_engine_status.json",
+      "product_carbon_coverage.csv"
+    ],
+    "old_only": []
+  }
+}

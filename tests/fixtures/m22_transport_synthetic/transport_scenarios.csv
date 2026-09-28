@@ -1,0 +1,2 @@
+transport_scenario_id,origin_scope,destination_scope,distance_km,transport_mode,vehicle_class,load_factor_basis,source_status,source_reference,retrieval_date,notes
+route_test,FACTORY_GATE,PROJECT_SITE,100.0,ROAD,test_truck,SOURCE_FACTOR_INCLUDES_LOAD_AND_RETURN,TEST_ONLY_SYNTHETIC,Synthetic distance fixture,2026-09-27,

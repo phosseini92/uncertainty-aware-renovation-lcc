@@ -104,6 +104,29 @@ class ModelTests(unittest.TestCase):
         bad["score_weights"]["probability_positive"] = -1
         with self.assertRaises(ValueError): model.validate_config(bad)
 
+    def test_legacy_scenario_file_without_ids_remains_supported(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "legacy_scenarios.csv"
+            legacy = self.scenarios.drop(columns=["scenario_id"])
+            legacy.to_csv(path, index=False)
+            loaded = model.load_scenarios(path)
+            self.assertTrue(loaded.scenario_id.str.startswith("legacy_").all())
+            self.assertEqual(loaded.scenario.tolist(), legacy.scenario.tolist())
+
+    def test_explicit_scenario_ids_must_be_unique_and_valid(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "bad_ids.csv"
+            bad = self.scenarios.copy()
+            bad.loc[bad.index[1], "scenario_id"] = bad.loc[bad.index[0], "scenario_id"]
+            bad.to_csv(path, index=False)
+            with self.assertRaises(ValueError):
+                model.load_scenarios(path)
+            bad = self.scenarios.copy()
+            bad.loc[bad.index[1], "scenario_id"] = "Invalid ID With Spaces"
+            bad.to_csv(path, index=False)
+            with self.assertRaises(ValueError):
+                model.load_scenarios(path)
+
     def test_sensitivity_exposes_energy_direction(self):
         r = model.simulate(self.scenarios,self.futures,self.config)
         oat, rho = model.sensitivity_analysis(self.scenarios,self.futures,r,self.config)

@@ -1,0 +1,2 @@
+boq_line_id,scenario_id,component_instance_id,comparison_lineage_id,component_type_id,item_label,material_or_product_id,assessment_role,quantity,quantity_unit,mass_kg,source_status,source_reference,derivation_method,notes
+boq_a4_test,scn_envelope_heat_pump,ci_envelope_heat_pump_heat_pump,lineage_heat_pump,ctype_heat_pump,Synthetic transport item,product_a4_test,ASSESSMENT_INVENTORY,1000.0,kg,1000.0,TEST_ONLY_SYNTHETIC,Synthetic mass fixture,,
