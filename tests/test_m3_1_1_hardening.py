@@ -63,7 +63,9 @@ class M311HardeningTests(unittest.TestCase):
         readme = (m.PROJECT_DIR / "README.md").read_text(encoding="utf-8")
         self.assertNotIn("](outputs/", readme)
         self.assertNotIn("](outputs/", readme)
-        self.assertIn("Historical checkpoint — M3.1 / M3.1.1 B6", readme)
+        self.assertIn("Release history and provenance", readme)
+        self.assertIn("bounded research release closing the current lifecycle-carbon architecture.", readme)
+        self.assertIn("Generated `outputs/` files are **not committed** to the public source repository.", readme)
 
 
 if __name__ == "__main__":
