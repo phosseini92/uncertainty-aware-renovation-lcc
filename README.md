@@ -6,6 +6,17 @@ A reproducible research framework for comparing illustrative building-renovation
 
 The purpose is to demonstrate **modelling readiness, traceability, and transparent reasoning**. The supplied building budgets, lifetime ranges, multipliers, thresholds, and environmental inventories are illustrative or intentionally unpopulated where source-backed case data are unavailable. This is **not** a calibrated building model, an empirical climate-resilience study, or a certified standards-compliance assessment.
 
+
+## Public release status and development boundary
+
+This repository contains the public **v3.2.0 bounded research release** of the Uncertainty-Aware Renovation LCC framework.
+
+It is maintained as a reproducible research demonstrator for **academic evaluation, methodological transparency, verification, and research communication**. The public repository documents the implementation included within the defined scope of v3.2.0; it is not presented as a production-grade building-assessment service, a certified compliance tool, or a calibrated project-specific assessment system.
+
+Subsequent experimental, data-integrated, deployment-oriented, or product-oriented development is outside the scope of this public release and may be maintained separately under different access and licensing arrangements.
+
+This project-status statement is descriptive only and **does not modify, restrict, or supersede the MIT License applicable to the software released in this public repository**.
+
 ## v3.2.0 research release
 
 The v3.2.0 release closes the bounded lifecycle-carbon architecture of the demonstrator. It integrates:
@@ -341,9 +352,9 @@ The current architecture is designed so that source-backed inventories, factors 
 
 Detailed milestone history is retained in [`CHANGELOG.md`](CHANGELOG.md), `docs/`, and `provenance/historical_checksums/` rather than repeated in this README.
 
-## Author and citation
+## Authorship, citation and licensing
 
-Developed by **Parisa Hosseini**.
+Developed and maintained by **Parisa Hosseini**.
 
 Research profiles:
 
@@ -351,8 +362,11 @@ Research profiles:
 - [Google Scholar](https://scholar.google.com/citations?user=L2dOgkkAAAAJ&hl=en)
 - [LinkedIn](https://www.linkedin.com/in/parisa-hosseini-216886310)
 
-Citation metadata are provided in [`CITATION.cff`](CITATION.cff).
+**Public research release:** v3.2.0  
+**Release date:** 28 September 2026  
+**Copyright:** © 2026 Parisa Hosseini
 
-The code is released under the [MIT License](LICENSE).
+For academic and research use, please cite this software using the metadata provided in [`CITATION.cff`](CITATION.cff) or GitHub's **Cite this repository** function.
 
-The project was iteratively developed and reviewed with AI-assisted debugging and documentation support; the author is responsible for the modelling choices, verification and interpretation.
+The software contained in this public repository is released under the [MIT License](LICENSE). The licensing of this public release does not imply that subsequent research, experimental, deployment-oriented, or product-oriented developments will be made publicly available or released under the same licensing terms.
+
