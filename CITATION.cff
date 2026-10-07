@@ -8,6 +8,8 @@ authors:
     orcid: "https://orcid.org/0009-0009-0168-8912"
 version: 3.2.0
 date-released: 2026-09-28
+repository-code: "https://github.com/phosseini92/uncertainty-aware-renovation-lcc"
+url: "https://github.com/phosseini92/uncertainty-aware-renovation-lcc"
 license: MIT
 abstract: >-
   A reproducible Python research demonstrator integrating uncertainty-aware
